@@ -2,7 +2,6 @@
 title: "Secure short-packet transmission with aerial relaying: Blocklength and trajectory co-design"
 collection: publications
 category: conferences
-label: "[C2]"
 permalink: /publication/globecom-spc-aerial
 excerpt: "Joint blocklength and UAV trajectory optimization for secure short-packet relaying with finite blocklength codes."
 date: 2023-12-01

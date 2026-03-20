@@ -2,7 +2,6 @@
 title: "Aerial intelligent reflecting surface-enabled terahertz covert communications in beyond-5G Internet of Things"
 collection: publications
 category: manuscripts
-label: "[J5]"
 permalink: /publication/aerial-irs-thz-covert
 excerpt: "Joint optimization of UAV-mounted IRS deployment, beamforming, and power allocation for covert THz communications in beyond-5G IoT networks."
 date: 2022-03-01

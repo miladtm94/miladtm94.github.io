@@ -2,7 +2,6 @@
 title: "Intelligent trajectory design for secure full-duplex MIMO-UAV relaying against active eavesdroppers: A model-free reinforcement learning approach"
 collection: publications
 category: manuscripts
-label: "[J8]"
 permalink: /publication/rl-mimo-uav-relay
 excerpt: "Model-free deep reinforcement learning framework for online UAV trajectory optimization to counter active eavesdroppers in full-duplex MIMO-UAV relay networks."
 date: 2020-12-01

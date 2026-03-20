@@ -2,7 +2,6 @@
 title: "On the performance of low-altitude UAV-enabled secure AF relaying with cooperative jamming and SWIPT"
 collection: publications
 category: manuscripts
-label: "[J11]"
 permalink: /publication/uav-af-relay-swipt
 excerpt: "Closed-form secrecy outage and throughput analysis for low-altitude UAV-enabled secure amplify-and-forward relaying with cooperative jamming and SWIPT."
 date: 2019-10-01

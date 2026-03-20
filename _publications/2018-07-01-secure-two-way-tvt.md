@@ -2,7 +2,6 @@
 title: "Secure two-way transmission via wireless-powered untrusted relay and external jammer"
 collection: publications
 category: manuscripts
-label: "[J13]"
 permalink: /publication/secure-two-way-tvt
 excerpt: "Physical-layer security analysis and optimization for two-way communications through an untrusted energy-harvesting relay assisted by an external cooperative jammer."
 date: 2018-07-01

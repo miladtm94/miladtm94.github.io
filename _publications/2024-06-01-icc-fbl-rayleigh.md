@@ -2,7 +2,6 @@
 title: "On the average information leakage of finite blocklength transmissions over Rayleigh fading channels"
 collection: publications
 category: conferences
-label: "[C1]"
 permalink: /publication/icc-fbl-rayleigh
 excerpt: "Analysis of average information leakage for finite blocklength transmissions over Rayleigh fading wiretap channels."
 date: 2024-06-01

@@ -2,7 +2,6 @@
 title: "Safeguarding Beyond-5G Wireless Communications with Unmanned Aerial Vehicles: Design and Optimization"
 collection: publications
 category: theses
-label: "[T1]"
 permalink: /publication/phd-thesis
 excerpt: "Comprehensive study on UAV-aided physical-layer security for beyond-5G networks, covering trajectory design, resource allocation, reinforcement learning, and THz communications."
 date: 2022-12-01

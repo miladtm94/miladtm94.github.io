@@ -2,7 +2,6 @@
 title: "Improving PHY-security of UAV-enabled transmission with wireless energy harvesting: Robust trajectory design and communications resource allocation"
 collection: publications
 category: manuscripts
-label: "[J10]"
 permalink: /publication/uav-phy-security-weh
 excerpt: "Robust joint optimization of UAV trajectory and resource allocation for physical-layer security with simultaneous wireless information and power transfer (SWIPT)."
 date: 2020-05-01
