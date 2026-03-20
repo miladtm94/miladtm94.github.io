@@ -37,6 +37,8 @@ Most recently, he served as a **Postdoctoral Research Fellow (Level B)** at [The
 - **Doctoral Researcher & Teaching Associate** &mdash; [Monash University](https://www.monash.edu/), Melbourne, Jan. 2019 – Dec. 2022
 - **Research Assistant** &mdash; [Amirkabir University of Technology](http://aut.ac.ir/), Tehran, Jan. 2016 – Nov. 2018
 
+<a href="/files/CV.pdf" class="btn btn--primary" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp; Download CV (PDF)</a>
+
 ---
 
 ## Selected Awards  & Recognition
