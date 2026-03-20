@@ -30,11 +30,11 @@
     {% endif %}
 
     <p style="margin:0.4em 0 0;">
-      {% if post.doiurl %}<a href="{{ post.doiurl }}" target="_blank"><i class="fas fa-fw fa-link" aria-hidden="true"></i>&thinsp;DOI</a>{% endif %}
-      {% if post.paperurl %}{% if post.doiurl %}&ensp;&middot;&ensp;{% endif %}<a href="{{ post.paperurl }}" target="_blank"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>&thinsp;PDF</a>{% endif %}
-      {% if post.arxivurl %}{% if post.doiurl or post.paperurl %}&ensp;&middot;&ensp;{% endif %}<a href="{{ post.arxivurl }}" target="_blank"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i>&thinsp;arXiv</a>{% endif %}
-      {% if post.slidesurl %}{% if post.doiurl or post.paperurl or post.arxivurl %}&ensp;&middot;&ensp;{% endif %}<a href="{{ post.slidesurl }}" target="_blank"><i class="fas fa-fw fa-chalkboard-teacher" aria-hidden="true"></i>&thinsp;Slides</a>{% endif %}
-      {% if post.posterurl %}{% if post.doiurl or post.paperurl or post.arxivurl or post.slidesurl %}&ensp;&middot;&ensp;{% endif %}<a href="{{ post.posterurl }}" target="_blank"><i class="fas fa-fw fa-image" aria-hidden="true"></i>&thinsp;Poster</a>{% endif %}
+      {% if post.doiurl %}<a href="{{ post.doiurl }}" target="_blank" class="btn btn--inverse btn--small"><i class="fas fa-fw fa-link" aria-hidden="true"></i>&nbsp;DOI</a>{% endif %}
+      {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" class="btn btn--inverse btn--small"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>&nbsp;PDF</a>{% endif %}
+      {% if post.arxivurl %}<a href="{{ post.arxivurl }}" target="_blank" class="btn btn--inverse btn--small"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i>&nbsp;arXiv</a>{% endif %}
+      {% if post.slidesurl %}<a href="{{ post.slidesurl }}" target="_blank" class="btn btn--primary btn--small"><i class="fas fa-fw fa-chalkboard-teacher" aria-hidden="true"></i>&nbsp;Slides</a>{% endif %}
+      {% if post.posterurl %}<a href="{{ post.posterurl }}" target="_blank" class="btn btn--primary btn--small"><i class="fas fa-fw fa-image" aria-hidden="true"></i>&nbsp;Poster</a>{% endif %}
     </p>
 
   </article>

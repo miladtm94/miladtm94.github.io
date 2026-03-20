@@ -9,6 +9,7 @@ location: "Kuala Lumpur, Malaysia"
 doiurl: "https://doi.org/10.1109/GLOBECOM54140.2023.10437972"
 paperurl: "https://ieeexplore.ieee.org/document/10437972/"
 arxivurl: "https://arxiv.org/abs/2310.05142"
+slidesurl: "https://drive.google.com/file/d/1_bOlSVNrVIhNhuK3tuSpN9rORODovBFD/view?usp=drive_link"
 note: "Also served as Session Chair, Physical Layer Security Symposium"
 ---
 

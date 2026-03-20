@@ -9,6 +9,7 @@ location: "Denver, CO, USA"
 doiurl: "https://doi.org/10.1109/ICC51166.2024.10622223"
 paperurl: "https://ieeexplore.ieee.org/document/10622223/"
 arxivurl: "https://arxiv.org/abs/2401.11219"
+slidesurl: "https://drive.google.com/file/d/1bx8Gw5m6zjODqGbd3Df_a_n-6t-vkqd7/view?usp=drive_link"
 award: "Best Paper Award — IEEE ICC 2024, Communication Theory Symposium"
 ---
 
