@@ -1,0 +1,9 @@
+services:
+  jekyll-site:
+    build: .
+    image: jekyll-site
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/usr/src/app
+    restart: unless-stopped
