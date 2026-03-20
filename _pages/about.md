@@ -47,17 +47,17 @@ Most recently, he served as a **Postdoctoral Research Fellow (Level B)** at [The
 
 ## Selected Awards  & Recognitions
 
-2024 &mdash; **IEEE ICC Best Paper Award** — top 0.6% of 2,364 contributions
-2024 &mdash; **IEEE ComSoc SPCC-TC Best Paper Award** — only one paper selected each year
-2024 &mdash; **Australian Global Talent** — national recognition for innovation
-2023 &mdash; ECR International Travel Gran (AUD $3,000), ANU 
-2022 &mdash; Exceptional Ph.D. Thesis Evaluation, Monash University
-2022 &mdash; Postgraduate Publications Award (AUD $5,000), Monash University 
+- 2024 &mdash; **IEEE ICC Best Paper Award** — top 0.6% of 2,364 contributions
+- 2024 &mdash; **IEEE ComSoc SPCC-TC Best Paper Award** — only one paper selected each year
+- 2024 &mdash; **Australian Global Talent** — national recognition for innovation
+- 2023 &mdash; ECR International Travel Gran (AUD $3,000), ANU 
+- 2022 &mdash; Exceptional Ph.D. Thesis Evaluation, Monash University
+- 2022 &mdash; Postgraduate Publications Award (AUD $5,000), Monash University 
 
-2019 &mdash; Recipient of the **Vice Chancellor's Congratulatory Letter** for teaching and learning excellence, Monash University
+- 2019 &mdash; Recipient of the **Vice Chancellor's Congratulatory Letter** for teaching and learning excellence, Monash University
 
-2019–2022 &mdash; Monash Graduate Scholarships (AUD $120,000+)
-2019–2022 &mdash; Monash International Tuition Scholarships (AUD $200,000+)
+- 2019–2022 &mdash; Monash Graduate Scholarships (AUD $120,000+) 
+- 2019–2022 &mdash; Monash International Tuition Scholarships (AUD $200,000+)
 <!-- - **2012** &mdash; Ranked **Top 0.2%**, Iran's Nationwide University Entrance Exam -->
 
 
