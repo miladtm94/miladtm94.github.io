@@ -1,5 +1,5 @@
 ---
-title: "Physical-Layer Security via Untrusted Relaying"
+title: "Physical-Layer Security via Wireless-Powered Untrusted Relaying"
 excerpt: "Early-career research programme on physical-layer security for two-way untrusted relay networks with wireless energy harvesting and cooperative jamming. 3 journal papers + 1 conference paper spanning IEEE TVT, IET Communications, and Wireless Networks."
 collection: portfolio
 category: research

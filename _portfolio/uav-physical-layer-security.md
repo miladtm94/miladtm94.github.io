@@ -1,5 +1,5 @@
 ---
-title: "UAV-Aided Physical-Layer Security for Beyond-5G Networks"
+title: "Safeguarding UAV-Aided Wireless Communications for Beyond-5G Networks"
 excerpt: "PhD research programme: designing and optimizing secure aerial communication systems via UAV trajectory planning, resource allocation, energy harvesting, and reinforcement learning across 8 journal papers."
 collection: portfolio
 category: research
