@@ -1,8 +1,8 @@
 # Auto-updated weekly by .github/workflows/update_metrics.yml
 # Source: Semantic Scholar API (https://api.semanticscholar.org)
-citations: 609
-h_index: 14
-i10_index: 16
-papers: 18
+citations: 638
+h_index: 11
+i10_index: 12
+papers: 17
 reviews: 142
 last_updated: "2026-03-20"

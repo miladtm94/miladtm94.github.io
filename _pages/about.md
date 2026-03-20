@@ -7,50 +7,58 @@ redirect_from:
   - /about.html
 ---
 
+# About me
 Milad Tatar Mamaghani is an award-winning Research Scientist and Engineer specializing in wireless communications, physical-layer cybersecurity, and AI-driven communication systems. He holds a **Ph.D. in Electrical Engineering** (Wireless Communications) from [Monash University](https://www.monash.edu/), Melbourne, Australia (2022), and a double **B.Sc. with Honours** in Telecommunications Engineering and Control Engineering from [Amirkabir University of Technology (Tehran Polytechnic)](http://aut.ac.ir/) (2018).
 
 Most recently, he served as a **Postdoctoral Research Fellow (Level B)** at [The Australian National University (ANU)](https://www.anu.edu.au/), Canberra, Australia (2023–2025), contributing to ARC Discovery Project-funded research on physical-layer security for machine-type communications and publishing five high-impact IEEE papers and earning two IEEE Best Paper Awards. 
 
 
----
-
-## Research Interests
-
-- **Wireless Communications & Networks** — Beyond-5G/6G, machine-type communications (MTC), non-terrestrial networks (NTN/UAV)
-- **Physical-Layer Cybersecurity & Privacy** — Secrecy theory, covert & anonymous communications, finite blocklength security
-- **Integrated Sensing and Communications (ISAC)** — Joint waveform design, Stackelberg game-theoretic frameworks
-- **AI & Optimization for Communications** — Deep reinforcement learning, convex optimization, statistical signal processing
 
 ---
 
 ## Education
 
-- **Ph.D.** in Electrical Engineering (Wireless Communications) &mdash; [Monash University](https://www.monash.edu/), Melbourne, Australia, 2019–2022
-- **B.Sc. (Double)** in Telecommunications & Control Engineering &mdash; [Amirkabir University of Technology](http://aut.ac.ir/), Tehran, Iran, 2012–2018
+- **Ph.D. in Electrical Engineering** (Wireless Communications) &mdash; [Monash University](https://www.monash.edu/), Melbourne, Australia, 2019–2022
+- **B.Sc. (Hons) in Telecommunications & Control Engineering** &mdash; [Amirkabir University of Technology](http://aut.ac.ir/), Tehran, Iran, 2012–2018
+
+---
+
+## Research Interests
+
+- **5G-and-beyond Wireless Communications** 
+- **Non-terrestrial Networks**
+- **Physical-Layer Cybersecurity & Privacy** 
+- **Integrated Sensing and Communications (ISAC)** 
+- **AI for Communications** 
+
+
 
 ---
 
 ## Work Experience
 
-- **STEM Consultant** &mdash; [Mercor Intelligence](https://mercor.com/) / Scale AI, Remote, Jan. 2025 – Present
-- **Postdoctoral Research Fellow (Level B)** &mdash; [Australian National University](https://www.anu.edu.au/), Canberra, Jan. 2023 – Jan. 2025
+- **STEM Consultant** &mdash; Mercor/Scale AI, Remote, Jan. 2025 – Present
+- **ARC Postdoctoral Research Fellow (Level B)** &mdash; [Australian National University](https://www.anu.edu.au/), Canberra, Jan. 2023 – Jan. 2025
 - **Doctoral Researcher & Teaching Associate** &mdash; [Monash University](https://www.monash.edu/), Melbourne, Jan. 2019 – Dec. 2022
 - **Research Assistant** &mdash; [Amirkabir University of Technology](http://aut.ac.ir/), Tehran, Jan. 2016 – Nov. 2018
 
-<a href="/files/CV.pdf" class="btn btn--primary" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp; Download CV (PDF)</a>
 
 ---
 
-## Selected Awards  & Recognition
+## Selected Awards  & Recognitions
 
 - **2024** &mdash; **IEEE ICC Best Paper Award** — top 0.6% of 2,364 contributions
-- **2024** &mdash; **IEEE ComSoc SPCC-TC Best Paper Award** — one paper selected per year
+- **2024** &mdash; **IEEE ComSoc SPCC-TC Best Paper Award** — only one paper selected each year
 - **2024** &mdash; **Australian Global Talent** — national recognition for innovation
 - **2023** &mdash; ECR International Travel Grant, ANU (AUD 3,000)
 - **2022** &mdash; Exceptional Ph.D. Thesis Evaluation, Monash University
 - **2022** &mdash; Postgraduate Publications Award, Monash University (AUD 5,000)
-- **2019–2022** &mdash; Monash Graduate Scholarship + International Tuition Scholarship
-- **2012** &mdash; Ranked **Top 0.2%**, Iran's Nationwide University Entrance Exam
+
+- **2019** &mdash; Recipient of the **Vice Chancellor's Congratulatory Letter** for teaching and learning excellence, Monash University, 2019
+
+- **2019–2022** &mdash; Monash Graduate Scholarships 
+- **2019–2022** &mdash; Monash International Tuition Scholarships
+<!-- - **2012** &mdash; Ranked **Top 0.2%**, Iran's Nationwide University Entrance Exam -->
 
 
 ---
@@ -63,6 +71,7 @@ Most recently, he served as a **Postdoctoral Research Fellow (Level B)** at [The
 - **Engineering Tools** &mdash; LabVIEW, Simulink, VHDL, FPGA, Git, GitHub
 - **Languages** &mdash; English (Fluent), Persian/Farsi (Bilingual), Azerbaijani (Native) 
 
+<a href="/files/CV.pdf" class="btn btn--primary" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp; Download CV (PDF)</a>
 ---
 
 ## News
