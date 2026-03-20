@@ -28,11 +28,8 @@ author_profile: true
     </div>
 
     <div>
-      {% assign j_count = site.publications | where: "category", "manuscripts" | size %}
-      {% assign c_count = site.publications | where: "category", "conferences" | size %}
-      {% assign published_count = j_count | plus: c_count %}
-      <span style="font-size:1.7em; font-weight:700; color:#2a7ae2;">{{ published_count }}</span><br>
-      <span style="font-size:0.82em; opacity:0.72;">Papers Published</span>
+      <span style="font-size:1.7em; font-weight:700; color:#2a7ae2;">{{ site.data.metrics.papers }}</span><br>
+      <span style="font-size:0.82em; opacity:0.72;">Papers</span>
     </div>
 
     <div>
