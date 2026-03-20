@@ -7,12 +7,10 @@ author_profile: true
 
 ## Academic Service
 
-| Role | Event / Venue | Year |
-|------|---------------|------|
-| **Technical Program Committee Member** | IEEE Vehicular Technology Conference (VTC) | 2024 |
-| **Session Chair** | IEEE Global Communications Conference (GLOBECOM) — *Physical Layer Security Symposium* | 2023 |
-| **Selection Committee Member** | ANU Summer Research Scholarship (SRS) Program | 2023 |
-| **Exam Supervisor** | Monash University Online Assessment & Integrity Service | 2021–2023 |
+- **Technical Program Committee Member** &mdash; IEEE Vehicular Technology Conference (VTC), 2024
+- **Session Chair** &mdash; IEEE Global Communications Conference (GLOBECOM) 2023, *Physical Layer Security Symposium*, Kuala Lumpur
+- **Selection Committee Member** &mdash; ANU Summer Research Scholarship (SRS) Program, 2023
+- **Exam Supervisor** &mdash; Monash University Online Assessment & Integrity Service, 2021–2023
 
 **Volunteer Reviewer** for 25+ international journals and conferences (2018–2025) &middot; 142 peer reviews &middot; Verified on [ResearcherID / Web of Science](https://www.webofscience.com/wos/author/record/D-3932-2019)
 
@@ -20,60 +18,41 @@ author_profile: true
 
 ## Professional Memberships
 
-| Organization | Period |
-|---|---|
-| IEEE Member | 2022 – 2025 |
-| IEEE Communications Society | 2020 – 2025 |
-| IEEE Young Professionals | 2020 – 2025 |
-| IEEE Consultants Network | 2020 – 2025 |
-| IEEE Graduate Student Member | 2020 – 2022 |
-| IEEE Signal Processing Society | 2020 – 2021 |
-| IEEE Quantum Community | 2020 – 2022 |
-| IEEE Computer Society | 2020 |
-| IEEE Big Data Community | 2020 |
+- **IEEE Member** (2022–2025)
+- **IEEE Communications Society** (2020–2025)
+- **IEEE Young Professionals** (2020–2025)
+- **IEEE Consultants Network** (2020–2025)
+- **IEEE Graduate Student Member** (2020–2022)
+- **IEEE Signal Processing Society** (2020–2021)
+- **IEEE Quantum Community** (2020–2022)
+- **IEEE Computer Society** (2020)
+- **IEEE Big Data Community** (2020)
 
 ---
 
 ## Peer Review
 
-### Journals Reviewed
+**Journals**
 
-- IEEE Transactions on Vehicular Technology
-- IET Communications
+- IEEE Transactions on Wireless Communications
 - IEEE Transactions on Communications
-- IEEE Wireless Communications Letters
+- IEEE Journal on Selected Areas in Communications
+- IEEE Transactions on Vehicular Technology
 - IEEE Transactions on Information Forensics and Security
-- IEEE Systems Journal
-- IEEE Access
-- IEEE Communications Letters
+- IEEE Transactions on Signal Processing
 - IEEE Transactions on Cognitive Communications and Networking
 - IEEE Transactions on Mobile Computing
-- IEEE Transactions on Wireless Communications
-- IEEE Transactions on Signal Processing
-- IEEE Communications Magazine
-- IEEE Wireless Communications Magazine
-- IEEE Journal on Selected Areas in Communications
-- IEEE Wireless Communications
-- IEEE Network Magazine
-- IEEE Internet of Things Journal
 - IEEE Transactions on Green Communications and Networking
 - IEEE Transactions on Network Science and Engineering
-- Physical Communication (Elsevier)
-- Security and Communication Networks (Wiley)
-- Vehicular Communications
-- Engineering Computations
-- Electronics Letters
+- IEEE Internet of Things Journal
+- IEEE Systems Journal &middot; IEEE Access &middot; IEEE Communications Letters &middot; IEEE Wireless Communications Letters
+- IEEE Communications Magazine &middot; IEEE Wireless Communications Magazine &middot; IEEE Network Magazine
+- IET Communications &middot; Physical Communication (Elsevier) &middot; Security and Communication Networks (Wiley)
+- Vehicular Communications &middot; Engineering Computations &middot; Electronics Letters
 
-### Conferences Reviewed
+**Conferences**
 
-- 2024 IEEE Global Communications Conference (GLOBECOM)
-- 2024 IEEE Vehicular Technology Conference (VTC)
-- 2023 IEEE International Conference on Communications (ICC)
-- 2023 International Symposium on Modeling and Optimization in Wireless Networks (WiOpt)
-- 2023 International Conference on Wireless Communications and Signal Processing (WCSP)
-- 2022 IEEE International Conference on Communications (ICC)
-- 2021 IEEE International Conference on Communications (ICC)
-- 2020 IEEE International Conference on Communications (ICC)
-- 2020 IEEE ICC Workshop on Integrating UAVs into 5G and Beyond
-- 2020 International Conference on Cyber-Enabled Distributed Computing (CDCS)
-- 2017 IEEE Global Communications Conference (GLOBECOM)
+- IEEE GLOBECOM 2024 &middot; IEEE VTC 2024
+- IEEE ICC 2023 &middot; IEEE ICC 2022 &middot; IEEE ICC 2021 &middot; IEEE ICC 2020
+- IEEE ICC 2020 Workshop on Integrating UAVs into 5G and Beyond
+- WiOpt 2023 &middot; WCSP 2023 &middot; CDCS 2020 &middot; IEEE GLOBECOM 2017

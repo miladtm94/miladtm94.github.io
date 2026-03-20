@@ -5,15 +5,63 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+<!-- Research Summary Panel -->
+<div style="background:#f8f9fa; border-left:4px solid #2a7ae2; border-radius:4px; padding:1.1em 1.4em; margin-bottom:1.8em;">
+
+  <div style="display:flex; flex-wrap:wrap; gap:1.5em 2.5em; margin-bottom:0.9em;">
+
+    <div>
+      <span style="font-size:1.7em; font-weight:700; color:#2a7ae2;">{{ site.data.metrics.citations }}+</span><br>
+      <span style="font-size:0.82em; color:#555;">Citations</span>
+    </div>
+
+    <div>
+      <span style="font-size:1.7em; font-weight:700; color:#2a7ae2;">{{ site.data.metrics.h_index }}</span><br>
+      <span style="font-size:0.82em; color:#555;">h-index</span>
+    </div>
+
+    <div>
+      <span style="font-size:1.7em; font-weight:700; color:#2a7ae2;">{{ site.data.metrics.i10_index }}</span><br>
+      <span style="font-size:0.82em; color:#555;">i10-index</span>
+    </div>
+
+    <div>
+      <span style="font-size:1.7em; font-weight:700; color:#2a7ae2;">{{ site.publications | size }}</span><br>
+      <span style="font-size:0.82em; color:#555;">Publications</span>
+    </div>
+
+    <div>
+      <span style="font-size:1.7em; font-weight:700; color:#2a7ae2;">{{ site.data.metrics.reviews }}+</span><br>
+      <span style="font-size:0.82em; color:#555;">Peer Reviews</span>
+    </div>
+
+  </div>
+
+  <div style="display:flex; flex-wrap:wrap; gap:0.5em; align-items:center;">
+    <a href="{{ site.author.googlescholar }}" target="_blank" class="btn btn--primary btn--small">
+      <i class="fas fa-graduation-cap"></i>&nbsp; Google Scholar
+    </a>
+    <a href="{{ site.author.orcid }}" target="_blank" class="btn btn--inverse btn--small">
+      <i class="fas fa-id-badge"></i>&nbsp; ORCID
+    </a>
+    <a href="{{ site.author.researchgate }}" target="_blank" class="btn btn--inverse btn--small">
+      <i class="fab fa-researchgate"></i>&nbsp; ResearchGate
+    </a>
+    <a href="https://www.webofscience.com/wos/author/record/D-3932-2019" target="_blank" class="btn btn--inverse btn--small">
+      <i class="fas fa-check-circle"></i>&nbsp; Web of Science
+    </a>
+    <span style="font-size:0.75em; color:#999; margin-left:0.5em;">
+      Metrics via Semantic Scholar &middot; updated {{ site.data.metrics.last_updated }}
+    </span>
+  </div>
+
+</div>
+
+<!-- Publication List -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
@@ -31,6 +79,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-

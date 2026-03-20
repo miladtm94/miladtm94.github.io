@@ -1,0 +1,88 @@
+name: Update Research Metrics
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'   # Every Monday at 06:00 UTC
+  workflow_dispatch:       # Allow manual trigger from the Actions tab
+
+jobs:
+  update-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Fetch metrics from Semantic Scholar
+        run: |
+          python3 << 'EOF'
+          import requests, yaml, datetime, sys
+
+          AUTHOR_QUERY = "Milad Tatar Mamaghani"
+          METRICS_FILE = "_data/metrics.yml"
+
+          # Load existing metrics as fallback
+          with open(METRICS_FILE) as f:
+              existing = yaml.safe_load(f)
+
+          try:
+              r = requests.get(
+                  "https://api.semanticscholar.org/graph/v1/author/search",
+                  params={
+                      "query": AUTHOR_QUERY,
+                      "fields": "authorId,name,citationCount,hIndex,paperCount"
+                  },
+                  timeout=30
+              )
+              r.raise_for_status()
+              results = r.json().get("data", [])
+
+              # Pick first result whose name contains "Mamaghani"
+              author = next(
+                  (a for a in results if "Mamaghani" in a.get("name", "")),
+                  None
+              )
+
+              if author:
+                  metrics = {
+                      "citations":    author.get("citationCount", existing["citations"]),
+                      "h_index":      author.get("hIndex",        existing["h_index"]),
+                      "i10_index":    existing.get("i10_index", 16),   # not in S2 API
+                      "papers":       author.get("paperCount",   existing["papers"]),
+                      "reviews":      existing.get("reviews", 142),    # manual
+                      "last_updated": datetime.date.today().isoformat()
+                  }
+                  print(f"Updated from Semantic Scholar: {metrics}")
+              else:
+                  print("Author not found — keeping existing values")
+                  metrics = existing
+                  metrics["last_updated"] = datetime.date.today().isoformat()
+
+          except Exception as e:
+              print(f"Fetch failed ({e}) — keeping existing values")
+              metrics = existing
+              metrics["last_updated"] = datetime.date.today().isoformat()
+
+          with open(METRICS_FILE, "w") as f:
+              f.write("# Auto-updated weekly by .github/workflows/update_metrics.yml\n")
+              f.write("# Source: Semantic Scholar API (https://api.semanticscholar.org)\n")
+              yaml.dump(metrics, f, default_flow_style=False)
+          EOF
+
+      - name: Commit updated metrics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/metrics.yml
+          git commit -m "Auto-update research metrics [skip ci]" || echo "No changes to commit"
+          git push
