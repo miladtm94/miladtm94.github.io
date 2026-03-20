@@ -1,5 +1,5 @@
 ---
-title: "Secure Integrated Sensing and Communications (ISAC)"
+title: "Secure Integrated Sensing and Communications"
 excerpt: "Research programme on physical-layer security for ISAC systems: joint beamforming, sensing, and trajectory optimization against adversarial actors, combining convex optimization, game theory and deep reinforcement learning."
 collection: portfolio
 category: research
