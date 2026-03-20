@@ -1,5 +1,5 @@
 ---
-title: "Physical-Layer Security in the Finite Blocklength Regime"
+title: "Physical-Layer Security in Finite Blocklength Transmissions"
 excerpt: "ANU postdoctoral research: analytical framework for secure short-packet communications over fading channels, with UAV-enabled relaying and average information leakage characterization. 3 IEEE transactions papers + 2 Best Paper Awards."
 collection: portfolio
 category: research
