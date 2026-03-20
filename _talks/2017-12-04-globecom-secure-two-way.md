@@ -6,9 +6,11 @@ permalink: /talks/2017-globecom-secure-two-way
 venue: "IEEE Global Communications Conference (GLOBECOM) 2017"
 date: 2017-12-04
 location: "Singapore"
-paperurl: "https://ieeexplore.ieee.org/document/8254113/"
+doiurl: "https://doi.org/10.1109/GLOCOM.2017.8253999"
+paperurl: "https://ieeexplore.ieee.org/document/8253999/"
+arxivurl: "https://arxiv.org/abs/1708.06562"
 ---
 
-Presented a physical-layer security scheme for two-way communications through an untrusted amplify-and-forward relay, where the relay harvests energy from the RF signals and a friendly jammer is deployed to degrade the relay's information decoding. Derived closed-form expressions for the secrecy outage probability and ergodic secrecy rate.
+We propose a physical-layer security scheme for bidirectional communications through an untrusted amplify-and-forward (AF) relay that simultaneously harvests energy from the RF signals via a time-switching protocol. A cooperative friendly jammer is strategically deployed to transmit artificial noise, degrading the untrusted relay's capacity to eavesdrop on the exchanged messages. We derive closed-form expressions for the secrecy outage probability and ergodic secrecy sum-rate under both the decode-and-forward and amplify-and-forward protocols, and formulate optimization problems to jointly allocate power between the two legitimate nodes and the jammer.
 
 **Co-authors:** A. Mohammadi, P. Yeoh, A. Kuhestani
