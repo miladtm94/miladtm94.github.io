@@ -5,7 +5,7 @@ permalink: /contact/
 author_profile: true
 ---
 
-I welcome inquiries related to research collaborations, academic positions, project proposals, or general questions. Please fill out the form below or email me directly at [milad.tatarmamaghani@gmail.com](mailto:milad.tatarmamaghani@gmail.com).
+I welcome inquiries related to research collaborations, open positions, project proposals, or general questions. Please fill out the form below or email me directly at [milad.tatarmamaghani@gmail.com](mailto:milad.tatarmamaghani@gmail.com).
 
 <form action="https://formspree.io/f/mdawjpdk" method="POST" style="margin-top:1.5em;">
 
