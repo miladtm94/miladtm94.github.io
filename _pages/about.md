@@ -78,23 +78,23 @@ Most recently, he served as a **Postdoctoral Research Fellow (Level B)** at [The
 
 <div style="border-left:3px solid #2a7ae2; padding-left:1.1em; margin:0.5em 0 1.5em 0; max-height:200px; overflow-y:auto;">
 
-<p style="margin:0.5em 0;"><span style="color:#888; font-size:0.85em;">Mar 2026</span><br>
+<p style="margin:0.5em 0;"><span style="font-size:0.85em; opacity:0.7;">Mar 2026</span><br>
 New paper submitted — <em>Symbol-Aware Precoder Design for Physical-Layer Anonymous Communications</em>, IEEE Trans. Commun.</p>
 
-<p style="margin:0.5em 0;"><span style="color:#888; font-size:0.85em;">Sep 2025</span><br>
+<p style="margin:0.5em 0;"><span style="font-size:0.85em; opacity:0.7;">Sep 2025</span><br>
 Paper published in <strong>IEEE JSAC</strong> — <em>Securing ISAC Against a Mobile Adversary: A Stackelberg Game with DRL</em></p>
 
 
-<p style="margin:0.5em 0;"><span style="color:#888; font-size:0.85em;">2024</span><br>
+<p style="margin:0.5em 0;"><span style="font-size:0.85em; opacity:0.7;">2024</span><br>
 Awarded <strong>Australian Global Talent Visa</strong> — recognized as nationally significant talent.</p>
 
-<p style="margin:0.5em 0;"><span style="color:#888; font-size:0.85em;">Jun 2024</span><br>
+<p style="margin:0.5em 0;"><span style="font-size:0.85em; opacity:0.7;">Jun 2024</span><br>
 &#127942; <strong>Best Paper Award</strong> at IEEE ICC 2024, Denver, CO — top 0.6% of 2,364 submissions.</p>
 
-<p style="margin:0.5em 0;"><span style="color:#888; font-size:0.85em;">2024</span><br>
+<p style="margin:0.5em 0;"><span style="font-size:0.85em; opacity:0.7;">2024</span><br>
 &#127942; <strong>Best Paper Award</strong> from IEEE ComSoc SPCC Technical Committee — one paper selected per year.</p>
 
-<p style="margin:0.5em 0;"><span style="color:#888; font-size:0.85em;">Dec 2023</span><br>
+<p style="margin:0.5em 0;"><span style="font-size:0.85em; opacity:0.7;">Dec 2023</span><br>
 Paper published in <strong>IEEE Trans. Wireless Commun.</strong> — <em>Secure Short-Packet Communications via UAV-Enabled Mobile Relaying</em></p>
 
 </div>

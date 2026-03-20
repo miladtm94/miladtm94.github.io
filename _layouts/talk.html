@@ -15,7 +15,7 @@ layout: default
         <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
 
         {% if page.award %}
-          <p style="margin:0.4em 0 0.6em;"><span style="background:#fff3cd; color:#856404; border:1px solid #ffc107; border-radius:3px; padding:0.2em 0.6em; font-size:0.85em; font-weight:600;">&#127942;&nbsp;{{ page.award }}</span></p>
+          <p style="margin:0.4em 0 0.6em;"><span style="border:1.5px solid #c49a00; border-radius:3px; padding:0.2em 0.6em; font-size:0.85em; font-weight:600;">&#127942;&nbsp;{{ page.award }}</span></p>
         {% endif %}
 
         <p class="page__meta">
@@ -29,7 +29,7 @@ layout: default
         {% endif %}
 
         {% if page.note %}
-          <p style="font-size:0.9em; color:#555; font-style:italic;">{{ page.note }}</p>
+          <p style="font-size:0.9em; opacity:0.72; font-style:italic;">{{ page.note }}</p>
         {% endif %}
 
         <p>
