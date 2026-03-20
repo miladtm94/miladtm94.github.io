@@ -27,11 +27,11 @@ Milad is open to opportunities in both academia and industry, including collabor
 
 ## Research Interests
 
-- 5G-and-beyond Wireless Communications
-- Non-terrestrial Networks
+- 5G-and-Beyond Wireless Communications
+- Non-Terrestrial Networks
 - Physical-Layer Cybersecurity & Privacy
-- Integrated Sensing and Communications (ISAC)
-- Machine learning/AI for Communications 
+- Integrated Sensing and Communications 
+- Machine Learning/AI for Communications 
 
 
 
