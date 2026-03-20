@@ -67,6 +67,7 @@ author_profile: true
   {% for category in site.publication_category %}
     {% assign cat_key = category[0] %}
     {% if cat_key == "manuscripts" %}{% assign label_prefix = "[J" %}
+    {% elsif cat_key == "submitted" %}{% assign label_prefix = "[S" %}
     {% elsif cat_key == "conferences" %}{% assign label_prefix = "[C" %}
     {% elsif cat_key == "theses" %}{% assign label_prefix = "[T" %}
     {% else %}{% assign label_prefix = "" %}{% endif %}
