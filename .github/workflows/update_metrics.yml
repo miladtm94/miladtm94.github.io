@@ -40,7 +40,7 @@ jobs:
                   "https://api.semanticscholar.org/graph/v1/author/search",
                   params={
                       "query": AUTHOR_QUERY,
-                      "fields": "authorId,name,citationCount,hIndex,paperCount"
+                      "fields": "authorId,name,citationCount,hIndex,paperCount,influenceScore"
                   },
                   timeout=30
               )
@@ -55,12 +55,13 @@ jobs:
 
               if author:
                   metrics = {
-                      "citations":    author.get("citationCount", existing["citations"]),
-                      "h_index":      author.get("hIndex",        existing["h_index"]),
-                      "i10_index":    existing.get("i10_index", 16),   # not in S2 API
-                      "papers":       author.get("paperCount",   existing["papers"]),
-                      "reviews":      existing.get("reviews", 142),    # manual
-                      "last_updated": datetime.date.today().isoformat()
+                      "citations":        author.get("citationCount",  existing["citations"]),
+                      "h_index":          author.get("hIndex",         existing["h_index"]),
+                      "i10_index":        existing.get("i10_index", 16),        # not in S2 API
+                      "papers":           author.get("paperCount",     existing["papers"]),
+                      "influence_score":  round(author.get("influenceScore", existing.get("influence_score", 0)), 1),
+                      "reviews":          existing.get("reviews", 142),         # manual
+                      "last_updated":     datetime.date.today().isoformat()
                   }
                   print(f"Updated from Semantic Scholar: {metrics}")
               else:
