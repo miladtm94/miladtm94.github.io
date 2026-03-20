@@ -62,35 +62,13 @@
 
     {% if post.collection == 'publications' %}
       {% if post.citation %}<p class="archive__item-excerpt" style="font-size:0.9em;">{{ post.citation }}</p>{% endif %}
-      <p>{% if post.doiurl %}<a href="{{ post.doiurl }}" target="_blank"><i class="fas fa-fw fa-link" aria-hidden="true"></i>&thinsp;DOI</a>{% endif %}{% if post.paperurl %}{% if post.doiurl %}&ensp;&middot;&ensp;{% endif %}<a href="{{ post.paperurl }}" target="_blank"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>&thinsp;PDF</a>{% endif %}{% if post.arxivurl %}{% if post.doiurl or post.paperurl %}&ensp;&middot;&ensp;{% endif %}<a href="{{ post.arxivurl }}" target="_blank"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i>&thinsp;arXiv</a>{% endif %}{% if post.codeurl %}{% if post.doiurl or post.paperurl or post.arxivurl %}&ensp;&middot;&ensp;{% endif %}<a href="{{ post.codeurl }}" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i>&thinsp;Code</a>{% endif %}</p>
-    {% else %}
-      {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-      {% elsif post.citation and post.paperurl and post.slidesurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
-      {% elsif post.citation and post.paperurl and post.bibtexurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-      {% elsif post.citation and post.paperurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-      {% elsif post.citation and post.slidesurl and post.bibtexurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl}}">Download Bibtex</a></p>
-      {% elsif post.citation and post.slidesurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
-      {% elsif post.citation and post.bibtexurl %}
-        <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-      {% elsif post.citation %}
-        <p>Recommended citation: {{ post.citation }}</p>
-      {% elsif post.paperurl and post.bibtexurl %}
-        <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-      {% elsif post.paperurl %}
-        <p><a href="{{ post.paperurl }}">Download Paper</a></p>
-      {% elsif post.slidesurl and post.bibtexurl %}
-        <p><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-      {% elsif post.slidesurl %}
-        <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
-      {% elsif post.bibtexurl %}
-        <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-      {% endif %}
+      <p style="margin:0.4em 0 0;">
+        {% if post.doiurl %}<a href="{{ post.doiurl }}" target="_blank" class="btn btn--inverse btn--small"><i class="fas fa-fw fa-link" aria-hidden="true"></i>&nbsp;DOI</a>{% endif %}
+        {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" class="btn btn--inverse btn--small"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>&nbsp;PDF</a>{% endif %}
+        {% if post.arxivurl %}<a href="{{ post.arxivurl }}" target="_blank" class="btn btn--inverse btn--small"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i>&nbsp;arXiv</a>{% endif %}
+        {% if post.codeurl %}<a href="{{ post.codeurl }}" target="_blank" class="btn btn--inverse btn--small"><i class="fab fa-fw fa-github" aria-hidden="true"></i>&nbsp;Code</a>{% endif %}
+        {% if post.slidesurl %}<a href="{{ post.slidesurl }}" target="_blank" class="btn btn--primary btn--small"><i class="fas fa-fw fa-chalkboard-teacher" aria-hidden="true"></i>&nbsp;Slides</a>{% endif %}
+      </p>
     {% endif %}
 
   </article>
