@@ -2,6 +2,7 @@
 title: "Secure two-way communication via a wireless-powered untrusted relay and friendly jammer"
 collection: publications
 category: conferences
+label: "[C3]"
 permalink: /publication/globecom-secure-two-way
 excerpt: "Secrecy analysis for two-way wireless communications through an untrusted energy-harvesting relay with a cooperative friendly jammer."
 date: 2017-12-01

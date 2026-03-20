@@ -2,6 +2,7 @@
 title: "Secure short-packet communications via UAV-enabled mobile relaying: Joint resource optimization and 3D trajectory design"
 collection: publications
 category: manuscripts
+label: "[J4]"
 permalink: /publication/secure-spc-uav-relay
 excerpt: "Joint optimization of UAV 3D trajectory, blocklength, and transmit power to maximize secrecy throughput for short-packet communications."
 date: 2023-12-01

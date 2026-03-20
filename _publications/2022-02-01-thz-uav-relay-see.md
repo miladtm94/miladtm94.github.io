@@ -2,6 +2,7 @@
 title: "Terahertz meets untrusted UAV-relaying: Minimum secrecy energy efficiency maximization via trajectory and communication co-design"
 collection: publications
 category: manuscripts
+label: "[J6]"
 permalink: /publication/thz-uav-relay-see
 excerpt: "Co-design of UAV trajectory and THz communication parameters to maximize minimum secrecy energy efficiency against an untrusted UAV relay."
 date: 2022-02-01

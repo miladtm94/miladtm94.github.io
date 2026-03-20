@@ -2,6 +2,7 @@
 title: "Performance analysis of finite blocklength transmissions over wiretap fading channels: An average information leakage perspective"
 collection: publications
 category: manuscripts
+label: "[J3]"
 permalink: /publication/fbl-wiretap-fading
 excerpt: "Analytical framework for secrecy performance of finite blocklength codes over fading wiretap channels using an average information leakage metric."
 date: 2024-05-01

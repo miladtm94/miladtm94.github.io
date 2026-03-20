@@ -2,6 +2,7 @@
 title: "Joint trajectory and power allocation design for secure artificial noise aided UAV communications"
 collection: publications
 category: manuscripts
+label: "[J7]"
 permalink: /publication/joint-trajectory-uav-an
 excerpt: "Joint UAV trajectory and artificial noise power allocation to maximize the average secrecy rate against a passive ground eavesdropper."
 date: 2021-03-01

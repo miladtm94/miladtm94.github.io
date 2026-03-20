@@ -2,6 +2,7 @@
 title: "Can a multi-hop link relying on untrusted amplify-and-forward relays render security?"
 collection: publications
 category: manuscripts
+label: "[J9]"
 permalink: /publication/multi-hop-untrusted-af
 excerpt: "Closed-form secrecy analysis for multi-hop amplify-and-forward networks with untrusted relays, showing conditions under which physical-layer security is achievable."
 date: 2020-11-01

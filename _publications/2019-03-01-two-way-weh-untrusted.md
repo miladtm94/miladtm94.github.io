@@ -2,6 +2,7 @@
 title: "Security and reliability performance analysis for two-way wireless energy harvesting based untrusted relaying with cooperative jamming"
 collection: publications
 category: manuscripts
+label: "[J12]"
 permalink: /publication/two-way-weh-untrusted
 excerpt: "Secrecy and reliability analysis for a two-way untrusted relay network with wireless energy harvesting and a cooperative jammer, deriving closed-form expressions for outage probability."
 date: 2019-03-01

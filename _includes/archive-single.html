@@ -27,6 +27,7 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
+      {% if post.label %}<span style="font-size:0.75em; font-weight:700; color:#2a7ae2; font-family:monospace; margin-right:0.45em;">{{ post.label }}</span>{% endif %}
       {% if post.collection == 'publications' and post.doiurl %}
         <a href="{{ post.doiurl }}" target="_blank" rel="noopener">{{ title }}</a>
       {% elsif post.collection == 'publications' and post.arxivurl %}
