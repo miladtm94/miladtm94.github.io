@@ -11,7 +11,7 @@ Milad Tatar Mamaghani is an award-winning Research Scientist and Engineer specia
 
 Most recently, he served as a **Postdoctoral Research Fellow (Level B)** at [The Australian National University (ANU)](https://www.anu.edu.au/), Canberra, Australia (2023–2025), contributing to ARC Discovery Project-funded research on physical-layer security for machine-type communications and publishing five high-impact IEEE papers and earning two IEEE Best Paper Awards. 
 
-Milad is open to opportunities in both academia and industry, including collaborations, projects, and positions. For more information or any inquiries, feel free to [reach out](mailto:milad.tatarmamaghani@gmail.com).
+Milad is open to opportunities in both academia and industry, including collaborations, projects, and positions. For more information or any inquiries, feel free to [reach out](/contact/).
 
 
 
