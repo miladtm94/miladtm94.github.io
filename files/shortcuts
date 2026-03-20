@@ -1,0 +1,16 @@
+Reload your shell once (source ~/.zshrc) and you'll have these shortcuts available from any directory:
+
+Command	What it does
+jk-serve	Start / restart the Jekyll container
+jk-rebuild	Rebuild image from scratch (use after Gemfile changes)
+jk-stop	Stop the container
+jk-logs	Tail live Jekyll output
+jk-open	Open http://localhost:4000 in browser
+jk-push "your message"	git pull --rebase → commit all → push
+The same commands work as make targets when you're inside the project directory:
+
+
+make serve
+make rebuild
+make push MSG="add new portfolio project"
+Note: For regular content edits (markdown, HTML, YAML) you don't need to restart Docker at all — the container already runs with Jekyll's -w watch flag and will regenerate automatically within a few seconds of saving.
