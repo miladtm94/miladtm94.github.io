@@ -2,6 +2,7 @@
 title: "Physical-Layer Security in the Finite Blocklength Regime"
 excerpt: "ANU postdoctoral research: analytical framework for secure short-packet communications over fading channels, with UAV-enabled relaying and average information leakage characterization. 3 IEEE transactions papers + 2 Best Paper Awards."
 collection: portfolio
+category: research
 date: 2024-05-01
 ---
 
@@ -20,6 +21,5 @@ This research programme delivered the first systematic analytical framework for 
 2. **Performance Analysis of FBL Transmissions over Wiretap Fading Channels** *(IEEE Trans. Wireless Commun., vol. 23, no. 10, pp. 13252–13266, Oct. 2024)*
    Average information leakage framework with closed-form results for Rayleigh and Rician fading — **🏆 Best Paper Award, IEEE ICC 2024 & IEEE ComSoc SPCC-TC 2024**.
 
-3. **Secure ISAC Against a Mobile Adversary: A Stackelberg Game with DRL** *(IEEE JSAC, vol. 44, pp. 942–958, Sep. 2025)*
 
 **Technologies:** Python · MATLAB · Statistical Signal Processing · Convex Optimization · UAV Systems · Information Theory

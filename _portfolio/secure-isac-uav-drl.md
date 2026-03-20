@@ -2,6 +2,7 @@
 title: "Secure ISAC Against a Mobile Adversary"
 excerpt: "Joint beamforming, UAV trajectory, and sensing optimization under a mobile eavesdropper, formulated as a Stackelberg game and solved via deep reinforcement learning. Published in IEEE JSAC 2025."
 collection: portfolio
+category: research
 date: 2025-09-01
 ---
 
@@ -19,4 +20,4 @@ This project addresses the physical-layer security of an Integrated Sensing and 
 - Deep Reinforcement Learning (DRL) solution handling the non-cooperative, partially observable game in real time
 - Significant secrecy rate and sensing accuracy gains over benchmark schemes
 
-**Technologies:** Python · PyTorch · Deep Reinforcement Learning · Convex Optimization · ISAC · UAV Systems
+**Technologies:** MATLAB · Deep Reinforcement Learning · Convex Optimization · ISAC · UAV Systems
