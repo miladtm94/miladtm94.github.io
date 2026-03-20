@@ -12,7 +12,7 @@ author_profile: true
 - **Selection Committee Member** &mdash; ANU Summer Research Scholarship (SRS) Program, 2023
 - **Exam Supervisor** &mdash; Monash University Online Assessment & Integrity Service, 2021–2023
 
-- **Volunteer Reviewer** &mdash; 142 peer review for 25+ international journals and conferences (2018–2025) &middot; s &middot; Verified on [Web of Science](https://www.webofscience.com/wos/author/record/D-3932-2019)
+- **Volunteer Reviewer** &mdash; 142 peer reviews for 25+ international journals and conferences (2018–2025) &middot; Verified on [Web of Science](https://www.webofscience.com/wos/author/record/D-3932-2019)
 
 ---
 
