@@ -34,12 +34,12 @@ author:
 
   # Academic websites
   academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : https://arxiv.org/search/?searchtype=author&query=Mamaghani%2C+M+T
   googlescholar    : "https://scholar.google.com/citations?user=aAbVeNwAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-3953-7230"
-  semantic         : # URL
+  semantic         : https://www.semanticscholar.org/author/Milad-Tatar-Mamaghani/24002651
   ssrn             : # URL
   pubmed           : # URL
   researchgate     : "https://researchgate.net/profile/Milad-Tatar-Mamaghani"
@@ -86,6 +86,8 @@ author:
 publication_category:
   manuscripts:
     title: 'Journal Articles'
+  submitted:
+    title: 'Under Review'
   conferences:
     title: 'Conference Papers'
   theses:

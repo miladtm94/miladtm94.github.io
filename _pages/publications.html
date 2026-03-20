@@ -28,8 +28,11 @@ author_profile: true
     </div>
 
     <div>
-      <span style="font-size:1.7em; font-weight:700; color:#2a7ae2;">{{ site.publications | size }}</span><br>
-      <span style="font-size:0.82em; opacity:0.72;">Publications</span>
+      {% assign j_count = site.publications | where: "category", "manuscripts" | size %}
+      {% assign c_count = site.publications | where: "category", "conferences" | size %}
+      {% assign published_count = j_count | plus: c_count %}
+      <span style="font-size:1.7em; font-weight:700; color:#2a7ae2;">{{ published_count }}</span><br>
+      <span style="font-size:0.82em; opacity:0.72;">Papers Published</span>
     </div>
 
     <div>
@@ -66,7 +69,7 @@ author_profile: true
     {% if cat_key == "manuscripts" %}{% assign label_prefix = "[J" %}
     {% elsif cat_key == "conferences" %}{% assign label_prefix = "[C" %}
     {% elsif cat_key == "theses" %}{% assign label_prefix = "[T" %}
-    {% else %}{% assign label_prefix = "[P" %}{% endif %}
+    {% else %}{% assign label_prefix = "" %}{% endif %}
 
     {% assign cat_pubs = site.publications | where: "category", cat_key | sort: "date" %}
     {% assign cat_count = cat_pubs | size %}
@@ -74,9 +77,13 @@ author_profile: true
     {% if cat_count > 0 %}
       <h2>{{ category[1].title }}</h2><hr />
       {% for post in cat_pubs reversed %}
-        {% assign label_num = cat_count | minus: forloop.index0 %}
-        {% assign pub_label = label_prefix | append: label_num | append: "]" %}
-        {% include archive-single.html label=pub_label %}
+        {% if label_prefix != "" %}
+          {% assign label_num = cat_count | minus: forloop.index0 %}
+          {% assign pub_label = label_prefix | append: label_num | append: "]" %}
+          {% include archive-single.html label=pub_label %}
+        {% else %}
+          {% include archive-single.html %}
+        {% endif %}
       {% endfor %}
     {% endif %}
   {% endfor %}
