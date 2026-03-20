@@ -12,18 +12,16 @@ date: 2020-11-01
 
 This research programme investigated the physical-layer security of bidirectional (two-way) relay networks where the relay node is inherently untrusted — it must forward messages yet cannot be permitted to decode them. A cooperative friendly jammer and wireless energy harvesting (WEH) are exploited to simultaneously confuse the relay eavesdropper and sustain network operation without additional power infrastructure.
 
-**Key publications:**
+### Technical contributions:
 
-1. **Secure Two-Way Transmission via Wireless-Powered Untrusted Relay and External Jammer** *(IEEE Trans. Veh. Technol., vol. 67, no. 9, pp. 8451–8465, 2018)*
-   First closed-form analysis of secrecy outage and ergodic secrecy rate for the WEH untrusted two-way relay channel with a dedicated cooperative jammer. [DOI](https://doi.org/10.1109/TVT.2018.2848648)
 
-2. **Security and Reliability Performance Analysis for Two-Way WEH-Based Untrusted Relaying with Cooperative Jamming** *(IET Commun., vol. 13, no. 4, pp. 449–459, 2019)*
-   Extended analysis characterizing the secrecy–reliability trade-off across time-switching and power-splitting energy harvesting protocols. [DOI](https://doi.org/10.1049/iet-com.2018.5718)
+1. **Milad Tatar Mamaghani**, Ali Kuhestani, and Hamid Behroozi, "[Can a multi-hop link relying on untrusted amplify-and-forward relays render security?](https://doi.org/10.1007/s11276-020-02487-w)" Wireless Networks, vol. 27, pp. 795-807, Jan. 2021.  
 
-3. **Can a Multi-Hop Link Relying on Untrusted AF Relays Render Security?** *(Wireless Networks, vol. 27, pp. 795–807, 2020)*
-   Showed conditions under which multi-hop amplify-and-forward chains with fully untrusted relays remain secrecy-capable, with exact closed-form outage expressions. [DOI](https://doi.org/10.1007/s11276-020-02487-w)
+2. **Milad Tatar Mamaghani** and Robert Abbas, "[Security and reliability performance analysis for two-way wireless energy harvesting based untrusted relaying with cooperative jamming](https://doi.org/10.1049/iet-com.2018.5718)," IET Communications, vol. 13, pp. 449-459, Mar. 2019.  
 
-4. **Secure Two-Way Communication via a Wireless-Powered Untrusted Relay and Friendly Jammer** *(IEEE GLOBECOM 2017, Singapore)*
-   Conference paper presenting the foundational system model and initial secrecy results. [DOI](https://doi.org/10.1109/GLOCOM.2017.8253999)
+3. **Milad Tatar Mamaghani**, Ali Kuhestani, and Kai Kit Wong, "[Secure two-way transmission via wireless-powered untrusted relay and external jamme](https://doi.org/10.1109/TVT.2018.2848648)," IEEE Transactions on Vehicular Technology, vol. 67, no. 9, pp. 8451-8465, Sept. 2018.)
 
-**Technologies:** MATLAB · Probability Theory · Stochastic Geometry · Convex Optimization · Wireless Energy Harvesting
+
+4. **Milad Tatar Mamaghani**, Abbas Mohammadi, Phil Yeoh, and Ali Kuhestani, “[Secure two-way communication via a wireless-powered untrusted relay and friendly jammer](https://doi.org/10.1109/GLOCOM.2017.8253999),” in Proc. IEEE Global Communications Conference, Singapore, pp. 1-6, Dec. 2017,  pp. 1-6. 
+
+**Technologies:** MATLAB · Probability Theory · Stochastic Geometry · Optimization · Wireless Energy Harvesting · Pysical Layer Security

@@ -15,11 +15,14 @@ This research programme delivered the first systematic analytical framework for 
 
 **Key publications:**
 
-1. **Secure Short-Packet Communications via UAV-Enabled Mobile Relaying** *(IEEE Trans. Wireless Commun., vol. 23, no. 7, pp. 7802–7815, Jul. 2024)*
-   Joint resource optimization and 3D UAV trajectory design for secure FBL communications against an eavesdropper.
+1. **Milad Tatar Mamaghani**, Xiangyun Zhou, Nan Yang, A. Lee Swindlehurst, and H. Vincent Poor, "[Performance Analysis of Finite Blocklength Transmissions Over Wiretap Fading Channels: An Average Information Leakage Perspective](https://doi.org/10.1109/TWC.2024.3400601)," IEEE Transactions on Wireless Communications, vol. 23, no. 10, pp. 13252-13266, Oct. 2024.
 
-2. **Performance Analysis of FBL Transmissions over Wiretap Fading Channels** *(IEEE Trans. Wireless Commun., vol. 23, no. 10, pp. 13252–13266, Oct. 2024)*
-   Average information leakage framework with closed-form results for Rayleigh and Rician fading — **🏆 Best Paper Award, IEEE ICC 2024 & IEEE ComSoc SPCC-TC 2024**.
+2. **Milad Tatar Mamaghani**, Xiangyun Zhou, Nan Yang, A. Lee Swindlehurst, and H. Vincent Poor, “[On the Information Leakage Performance of Secure Finite Blocklength Transmissions over Rayleigh Fading Channels](https://doi.org/10.1109/ICC51166.2024.10622223),” in Proc. IEEE International Conference on Communications, Denver, CO, USA, June 2024, pp. 1467-1472. (**🏆 Best Paper Award**)
 
 
-**Technologies:** Python · MATLAB · Statistical Signal Processing · Convex Optimization · UAV Systems · Information Theory
+3. **Milad Tatar Mamaghani**, Xiangyun Zhou, Nan Yang, and A. Lee Swindlehurst, "[Secure Short-Packet Communications via UAV-Enabled Mobile Relaying: Joint Resource Optimization and 3D Trajectory Design](https://doi.org/10.1109/TWC.2023.3344802)," IEEE Transactions on Wireless Communications, vol. 23, no. 7, pp. 7802-7815, July 2024.
+
+4. **Milad Tatar Mamaghani**, Xiangyun Zhou, Nan Yang, and A. Lee Swindlehurst, “[Secure Short-Packet Transmission with Aerial Relaying: Blocklength and Trajectory Co-Design](https://doi.org/10.1109/GLOBECOM54140.2023.10437972),” in Proc. IEEE Global Communications Conference, Kuala Lumpur, Malaysia, pp. 1-7, Dec. 2023, pp. 5998-6004.
+
+
+**Technologies:** MATLAB · Statistical Signal Processing · Convex Optimization · UAV Systems · Information Theory · Physical Layer Security

@@ -1,5 +1,5 @@
 ---
-title: "Deep Reinforcement Learning Stackelberg Game for Secure ISAC"
+title: "Secure Integrated Sensing and Communications"
 excerpt: "Joint beamforming, UAV trajectory, and sensing optimization under a mobile eavesdropper, formulated as a Stackelberg game and solved via deep reinforcement learning. Published in IEEE JSAC 2025."
 collection: portfolio
 category: research
