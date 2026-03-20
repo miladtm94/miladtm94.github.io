@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Milad Tatar Mamaghani is an award-winning Research Scientist and Engineer specializing in wireless communications, physical-layer cybersecurity, and AI-driven communication systems. He holds a **Ph.D. in Electrical Engineering** (Wireless Communications) from [Monash University](https://www.monash.edu/), Melbourne, Australia (2022), and a double **B.Sc. with Honours** in Telecommunications Engineering and Control Engineering from [Amirkabir University of Technology (Tehran Polytechnic)](http://aut.ac.ir/) (2018).
+Milad Tatar Mamaghani is an award-winning Research Scientist and Engineer specializing in wireless communications, signal processing, physical-layer cybersecurity, and machine learning/AI. He holds a **Ph.D. in Electrical Engineering** (Wireless Communications) from [Monash University](https://www.monash.edu/), Melbourne, Australia (2022), and a double **B.Sc. with Honours** in Telecommunications Engineering and Control Engineering from [Amirkabir University of Technology (Tehran Polytechnic)](http://aut.ac.ir/) (2018).
 
 Most recently, he served as a **Postdoctoral Research Fellow (Level B)** at [The Australian National University (ANU)](https://www.anu.edu.au/), Canberra, Australia (2023–2025), contributing to ARC Discovery Project-funded research on physical-layer security for machine-type communications and publishing five high-impact IEEE papers and earning two IEEE Best Paper Awards. 
+
+Milad is open to opportunities in both academia and industry, including collaborations, projects, and positions. For more information or any inquiries, feel free to [reach out](mailto:milad.tatarmamaghani@gmail.com).
 
 
 
