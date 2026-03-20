@@ -8,15 +8,15 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "dirt" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Milad Tatar Mamaghani"
 title_separator          : "-"
 name                     : &name "Milad Tatar Mamaghani"
-description              : &description "Milad's Personal Website"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://mtmamaghani.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+description              : &description "Research Scientist & Engineer | PhD | Wireless Communications, Physical-Layer Security, AI for 6G | IEEE Best Paper Award 2024"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://miladtm94.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "miladtm94/mtmamaghani.github.io"
+repository               : "miladtm94.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -143,8 +143,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "https://miladtm94.github.io/images/profile.png"  # Social media default site image
+og_description           : "Research Scientist & Engineer specializing in wireless communications, physical-layer security, and AI for 6G. IEEE Best Paper Award 2024."  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
