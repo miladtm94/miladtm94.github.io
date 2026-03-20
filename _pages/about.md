@@ -15,7 +15,7 @@ Most recently, he served as a **Postdoctoral Research Fellow (Level B)** at [The
 
 ## News
 
-<div style="border-left:3px solid #2a7ae2; padding-left:1.1em; margin:0.5em 0 1.5em 0;">
+<div style="border-left:3px solid #2a7ae2; padding-left:1.1em; margin:0.5em 0 1.5em 0; max-height:200px; overflow-y:auto;">
 
 <p style="margin:0.5em 0;"><span style="color:#888; font-size:0.85em;">Mar 2026</span><br>
 New paper submitted — <em>Symbol-Aware Precoder Design for Physical-Layer Anonymous Communications</em>, IEEE Trans. Commun.</p>
@@ -23,8 +23,6 @@ New paper submitted — <em>Symbol-Aware Precoder Design for Physical-Layer Anon
 <p style="margin:0.5em 0;"><span style="color:#888; font-size:0.85em;">Sep 2025</span><br>
 Paper published in <strong>IEEE JSAC</strong> — <em>Securing ISAC Against a Mobile Adversary: A Stackelberg Game with DRL</em></p>
 
-<p style="margin:0.5em 0;"><span style="color:#888; font-size:0.85em;">Jan 2025</span><br>
-Joined <strong>Mercor Intelligence / Scale AI</strong> as AI Training STEM Expert. Concluded postdoctoral fellowship at ANU.</p>
 
 <p style="margin:0.5em 0;"><span style="color:#888; font-size:0.85em;">2024</span><br>
 Awarded <strong>Australian Global Talent Visa</strong> — recognized as nationally significant talent.</p>
@@ -64,19 +62,19 @@ Paper published in <strong>IEEE Trans. Wireless Commun.</strong> — <em>Secure 
 
 ---
 
-## Highlights
+<!-- ## Highlights
 
 - <i class="fas fa-fw fa-graduation-cap"></i>&nbsp; 17+ publications in top-tier IEEE journals and conferences &middot; [**Google Scholar**](https://scholar.google.com/citations?user=aAbVeNwAAAAJ&hl=en) &middot; [**ORCID**](https://orcid.org/0000-0002-3953-7230)
-- <i class="fas fa-fw fa-code"></i>&nbsp; Expert in Python, MATLAB, C/C++; proficient in TensorFlow, PyTorch, GNU Radio/SDR
+- <i class="fas fa-fw fa-code"></i>&nbsp; Expert in Python, MATLAB, C/C++, TensorFlow, PyTorch, SDR
 - <i class="fas fa-fw fa-users"></i>&nbsp; IEEE Member; 142+ peer reviews across 25+ international journals and conferences
-- <i class="fas fa-fw fa-language"></i>&nbsp; English (Fluent), Persian/Farsi & Azerbaijani (Native), Turkish (Bilingual)
+- <i class="fas fa-fw fa-language"></i>&nbsp; English (Fluent), Persian/Farsi & Azerbaijani (Native)
 
----
+--- -->
 
-## Contact
+<!-- ## Contact
 
 <a href="mailto:milad.tatarmamaghani@gmail.com" class="btn btn--primary"><i class="fas fa-envelope"></i>&nbsp; milad.tatarmamaghani@gmail.com</a>
 &nbsp;
 <a href="/cv/" class="btn btn--inverse"><i class="fas fa-file-pdf"></i>&nbsp; View CV</a>
 &nbsp;
-<a href="https://scholar.google.com/citations?user=aAbVeNwAAAAJ&hl=en" class="btn btn--inverse" target="_blank"><i class="fas fa-graduation-cap"></i>&nbsp; Google Scholar</a>
+<a href="https://scholar.google.com/citations?user=aAbVeNwAAAAJ&hl=en" class="btn btn--inverse" target="_blank"><i class="fas fa-graduation-cap"></i>&nbsp; Google Scholar</a> -->
