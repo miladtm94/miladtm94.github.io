@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# About me
 Milad Tatar Mamaghani is an award-winning Research Scientist and Engineer specializing in wireless communications, physical-layer cybersecurity, and AI-driven communication systems. He holds a **Ph.D. in Electrical Engineering** (Wireless Communications) from [Monash University](https://www.monash.edu/), Melbourne, Australia (2022), and a double **B.Sc. with Honours** in Telecommunications Engineering and Control Engineering from [Amirkabir University of Technology (Tehran Polytechnic)](http://aut.ac.ir/) (2018).
 
 Most recently, he served as a **Postdoctoral Research Fellow (Level B)** at [The Australian National University (ANU)](https://www.anu.edu.au/), Canberra, Australia (2023–2025), contributing to ARC Discovery Project-funded research on physical-layer security for machine-type communications and publishing five high-impact IEEE papers and earning two IEEE Best Paper Awards. 
@@ -19,28 +18,29 @@ Most recently, he served as a **Postdoctoral Research Fellow (Level B)** at [The
 ## Education
 
 - **Ph.D. in Electrical Engineering** (Wireless Communications) &mdash; [Monash University](https://www.monash.edu/), Melbourne, Australia, 2019–2022
+
 - **B.Sc. (Hons) in Telecommunications & Control Engineering** &mdash; [Amirkabir University of Technology](http://aut.ac.ir/), Tehran, Iran, 2012–2018
 
 ---
 
 ## Research Interests
 
-- **5G-and-beyond Wireless Communications** 
-- **Non-terrestrial Networks**
-- **Physical-Layer Cybersecurity & Privacy** 
-- **Integrated Sensing and Communications (ISAC)** 
-- **AI for Communications** 
+- 5G-and-beyond Wireless Communications
+- Non-terrestrial Networks
+- Physical-Layer Cybersecurity & Privacy
+- Integrated Sensing and Communications (ISAC)
+- Machine learning/AI for Communications 
 
 
 
----
+<!-- ---
 
 ## Work Experience
 
 - **STEM Consultant** &mdash; Mercor/Scale AI, Remote, Jan. 2025 – Present
 - **ARC Postdoctoral Research Fellow (Level B)** &mdash; [Australian National University](https://www.anu.edu.au/), Canberra, Jan. 2023 – Jan. 2025
 - **Doctoral Researcher & Teaching Associate** &mdash; [Monash University](https://www.monash.edu/), Melbourne, Jan. 2019 – Dec. 2022
-- **Research Assistant** &mdash; [Amirkabir University of Technology](http://aut.ac.ir/), Tehran, Jan. 2016 – Nov. 2018
+- **Research Assistant** &mdash; [Amirkabir University of Technology](http://aut.ac.ir/), Tehran, Jan. 2016 – Nov. 2018 -->
 
 
 ---
@@ -76,7 +76,7 @@ Most recently, he served as a **Postdoctoral Research Fellow (Level B)** at [The
 
 ## News
 
-<div style="border-left:3px solid #2a7ae2; padding-left:1.1em; margin:0.5em 0 1.5em 0; max-height:150px; overflow-y:auto;">
+<div style="border-left:3px solid #2a7ae2; padding-left:1.1em; margin:0.5em 0 1.5em 0; max-height:200px; overflow-y:auto;">
 
 <p style="margin:0.5em 0;"><span style="color:#888; font-size:0.85em;">Mar 2026</span><br>
 New paper submitted — <em>Symbol-Aware Precoder Design for Physical-Layer Anonymous Communications</em>, IEEE Trans. Commun.</p>

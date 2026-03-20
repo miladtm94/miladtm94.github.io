@@ -8,31 +8,31 @@ author_profile: true
 ## Academic Service
 
 - **Technical Program Committee Member** &mdash; IEEE Vehicular Technology Conference (VTC), 2024
-- **Session Chair** &mdash; IEEE Global Communications Conference (GLOBECOM) 2023, *Physical Layer Security Symposium*, Kuala Lumpur
+- **[Session Chair](https://globecom2023.ieee-globecom.org/program/technical-program-day-3)** &mdash; IEEE Global Communications Conference (GLOBECOM) 2023, *Physical Layer Security Symposium*, Kuala Lumpur
 - **Selection Committee Member** &mdash; ANU Summer Research Scholarship (SRS) Program, 2023
 - **Exam Supervisor** &mdash; Monash University Online Assessment & Integrity Service, 2021–2023
 
-- **Volunteer Reviewer** &mdash; 142 peer reviews for 25+ international journals and conferences (2018–2025) &middot; Verified on [Web of Science](https://www.webofscience.com/wos/author/record/D-3932-2019)
+- **[Volunteer Reviewer](https://www.webofscience.com/wos/author/record/D-3932-2019)** &mdash; 142+ peer reviews for 25+ international journals and conferences (2018–2025) 
 
 ---
 
 ## Professional Memberships
 
-- **IEEE Member** (2022–2025)
-- **IEEE Communications Society** (2020–2025)
-- **IEEE Young Professionals** (2020–2025)
-- **IEEE Consultants Network** (2020–2025)
-- **IEEE Graduate Student Member** (2020–2022)
-- **IEEE Signal Processing Society** (2020–2021)
-- **IEEE Quantum Community** (2020–2022)
-- **IEEE Computer Society** (2020)
-- **IEEE Big Data Community** (2020)
+- IEEE Member (2022–2025)
+- IEEE Communications Society (2020–2025)
+- IEEE Young Professionals (2020–2025)
+- IEEE Consultants Network (2020–2025)
+- IEEE Graduate Student Member (2020–2022)
+- IEEE Signal Processing Society (2020–2021)
+- IEEE Quantum Community (2020–2022)
+- IEEE Computer Society (2020)
+- IEEE Big Data Community (2020)
 
 ---
 
-## Peer Review
+## Peer Review Contributions 
 
-**Journals**
+**Journals:**
 
 - IEEE Transactions on Wireless Communications
 - IEEE Transactions on Communications
@@ -59,7 +59,7 @@ author_profile: true
 - Engineering Computations 
 - Electronics Letters
 
-**Conferences**
+**Conferences:**
 
 - 2024 IEEE Global Communications Conference  
 - 2024 IEEE Vehicular Technology Conference 
