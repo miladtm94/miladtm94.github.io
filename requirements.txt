@@ -1,0 +1,7 @@
+# Python dependencies for local scripts (scripts/)
+# Set up once: make venv
+# Then use:    make bib
+
+bibtexparser<2
+requests
+pyyaml

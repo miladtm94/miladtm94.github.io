@@ -18,18 +18,13 @@ Rules:
 import os, re, sys
 from pathlib import Path
 
-# ── auto-install bibtexparser v1 if missing ───────────────────────────────────
 try:
     import bibtexparser
     from bibtexparser.bparser import BibTexParser
     from bibtexparser.customization import convert_to_unicode
 except ImportError:
-    import subprocess
-    print("bibtexparser not found — installing…")
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "bibtexparser<2"])
-    import bibtexparser
-    from bibtexparser.bparser import BibTexParser
-    from bibtexparser.customization import convert_to_unicode
+    print("bibtexparser not found. Run 'make venv' from the repo root to set up the environment.")
+    sys.exit(1)
 
 # ── paths ─────────────────────────────────────────────────────────────────────
 REPO_ROOT = Path(__file__).resolve().parent.parent

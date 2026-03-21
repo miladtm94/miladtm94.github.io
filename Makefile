@@ -1,6 +1,8 @@
 SITE_DIR := $(shell pwd)
+VENV      := $(SITE_DIR)/.venv
+PYTHON    := $(VENV)/bin/python
 
-.PHONY: serve rebuild stop logs push open
+.PHONY: serve rebuild stop logs push open venv bib
 
 ## Start the Jekyll server (or restart if already running)
 serve:
@@ -34,6 +36,18 @@ push:
 	git -C "$(SITE_DIR)" add -A
 	git -C "$(SITE_DIR)" commit -m "$(MSG)" || echo "Nothing new to commit."
 	git -C "$(SITE_DIR)" push
+
+## Create/update the Python virtual environment (run once)
+venv:
+	python3 -m venv $(VENV)
+	$(VENV)/bin/pip install --upgrade pip -q
+	$(VENV)/bin/pip install -r requirements.txt
+	@echo "Virtual environment ready at .venv/"
+
+## Convert BibTeX files in files/bibtex/ to _publications/ markdown
+bib:
+	@test -f $(PYTHON) || (echo "Run 'make venv' first to set up the Python environment." && exit 1)
+	$(PYTHON) scripts/bib_to_md.py $(BIB)
 
 ## Show this help
 help:
