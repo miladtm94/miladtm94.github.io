@@ -28,7 +28,7 @@ except ImportError:
 
 # ── paths ─────────────────────────────────────────────────────────────────────
 REPO_ROOT = Path(__file__).resolve().parent.parent
-BIB_DIR   = REPO_ROOT / "files" / "bibtex"
+BIB_DIR   = REPO_ROOT / "files"
 PUB_DIR   = REPO_ROOT / "_publications"
 
 # ── constants ─────────────────────────────────────────────────────────────────

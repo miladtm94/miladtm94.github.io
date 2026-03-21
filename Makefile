@@ -44,7 +44,7 @@ venv:
 	$(VENV)/bin/pip install -r requirements.txt
 	@echo "Virtual environment ready at .venv/"
 
-## Convert BibTeX files in files/bibtex/ to _publications/ markdown
+## Convert BibTeX files in files/ to _publications/ markdown
 bib:
 	@test -f $(PYTHON) || (echo "Run 'make venv' first to set up the Python environment." && exit 1)
 	$(PYTHON) scripts/bib_to_md.py $(BIB)

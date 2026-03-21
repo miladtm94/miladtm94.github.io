@@ -1,6 +1,5 @@
 # Python dependencies for local scripts (scripts/)
-# Set up once: make venv
-# Then use:    make bib
+# Setup: make venv   Usage: make bib  (reads *.bib from files/)
 
 bibtexparser<2
 requests
