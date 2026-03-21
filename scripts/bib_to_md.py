@@ -58,8 +58,6 @@ TYPE_TO_CATEGORY = {
     "inproceedings": "conferences",
     "conference":    "conferences",
     "proceedings":   "conferences",
-    "phdthesis":     "theses",
-    "mastersthesis": "theses",
     "misc":          "submitted",
     "unpublished":   "submitted",
     "techreport":    "manuscripts",
@@ -172,10 +170,6 @@ def make_venue(entry, btype):
         bt   = clean(entry.get("booktitle", ""))
         addr = clean(entry.get("address", ""))
         return f"{bt}, {addr}" if addr and addr not in bt else bt
-    if btype == "phdthesis":
-        return f"Ph.D. Dissertation, {clean(entry.get('school', ''))}"
-    if btype == "mastersthesis":
-        return f"M.Sc. Dissertation, {clean(entry.get('school', ''))}"
     return clean(entry.get("journal", entry.get("booktitle", entry.get("howpublished", ""))))
 
 
@@ -207,11 +201,6 @@ def make_citation(entry, btype):
         pp    = f", pp. {pages}" if pages else ""
         yr    = f", {mon} {year}".strip() if year else ""
         return f'{authors}, "{title}," in <em>Proc. {bt}</em>{loc}{pp}{yr}.'
-
-    if btype in ("phdthesis", "mastersthesis"):
-        school = clean(entry.get("school", ""))
-        deg    = "Ph.D." if btype == "phdthesis" else "M.Sc."
-        return f'{authors}, "{title}," {deg} dissertation, {school}, {year}.'
 
     return f'{authors}, "{title}," {year}.'
 
