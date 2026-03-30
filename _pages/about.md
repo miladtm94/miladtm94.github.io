@@ -73,7 +73,7 @@ Milad is open to opportunities in both academia and industry, including collabor
 - **Engineering Tools** &mdash; LabVIEW, Simulink, VHDL, FPGA, Git, GitHub
 - **Languages** &mdash; English (Fluent), Persian/Farsi (Bilingual), Azerbaijani (Native) 
 
-<a href="/files/CV.pdf" class="btn btn--primary" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp; Download CV (PDF)</a>
+<a href="/files/CV_Academic_MiladTM_April26.pdf" class="btn btn--primary" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp; Download CV (PDF)</a>
 ---
 
 ## News
