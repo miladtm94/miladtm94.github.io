@@ -51,19 +51,22 @@ Milad is always interested in discussing new research directions, collaborations
 
 ---
 
-## Selected Awards & Recognitions
+## Honours & Awards
 
 - 2024 &mdash; **IEEE ICC Best Paper Award** — top 0.6% of 2,364 contributions
-- 2024 &mdash; **IEEE ComSoc SPCC-TC Best Paper Award** — only one paper selected each year
-- 2024 &mdash; **Australian Global Talent** — national recognition for innovation
-- 2023 &mdash; ECR International Travel Grant (AUD $3,000), ANU 
+- 2024 &mdash; **IEEE SPCC-TC Best Paper Award** — only one paper selected per year
+- 2024 &mdash; **Australian Global Talent** — national recognition for exceptional achievement in technology
 - 2022 &mdash; Exceptional Ph.D. Thesis Evaluation, Monash University
-- 2022 &mdash; Postgraduate Publications Award (AUD $5,000), Monash University 
+- 2019 &mdash; **Vice-Chancellor's Congratulatory Letter** for teaching and learning excellence, Monash University
 
-- 2019 &mdash; Recipient of the **Vice Chancellor's Congratulatory Letter** for teaching and learning excellence, Monash University
+---
 
-- 2019–2022 &mdash; Monash Graduate Scholarship + Monash International Tuition Scholarship
-<!-- - **2012** &mdash; Ranked **Top 0.2%**, Iran's Nationwide University Entrance Exam -->
+## Grants & Scholarships
+
+- 2023 &mdash; ECR International Travel Grant (AUD $3,000), Australian National University
+- 2022 &mdash; Postgraduate Publications Award (AUD $5,000), Monash University
+- 2019–2022 &mdash; Monash Graduate Scholarship + International Tuition Scholarship 
+  (AUD ~$120,000 stipend + AUD ~$200,000 tuition waiver)
 
 
 ---
