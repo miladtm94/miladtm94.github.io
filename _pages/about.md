@@ -35,14 +35,14 @@ Milad is open to opportunities in both academia and industry, including collabor
 
 
 
-<!-- ---
+---
 
 ## Work Experience
 
-- **STEM Consultant** &mdash; Mercor/Scale AI, Remote, Jan. 2025 – Present
+<!-- - **STEM Consultant** &mdash; Mercor/Scale AI, Remote, Jan. 2025 – Present -->
 - **ARC Postdoctoral Research Fellow (Level B)** &mdash; [Australian National University](https://www.anu.edu.au/), Canberra, Jan. 2023 – Jan. 2025
 - **Doctoral Researcher & Teaching Associate** &mdash; [Monash University](https://www.monash.edu/), Melbourne, Jan. 2019 – Dec. 2022
-- **Research Assistant** &mdash; [Amirkabir University of Technology](http://aut.ac.ir/), Tehran, Jan. 2016 – Nov. 2018 -->
+- **Research Assistant** &mdash; [Amirkabir University of Technology](http://aut.ac.ir/), Tehran, Jan. 2016 – Nov. 2018 
 
 
 ---
@@ -58,8 +58,8 @@ Milad is open to opportunities in both academia and industry, including collabor
 
 - 2019 &mdash; Recipient of the **Vice Chancellor's Congratulatory Letter** for teaching and learning excellence, Monash University
 
-- 2019–2022 &mdash; Monash Graduate Scholarships (AUD $120,000+) 
-- 2019–2022 &mdash; Monash International Tuition Scholarships (AUD $200,000+)
+- 2019–2022 &mdash; Monash Graduate Scholarships (equivalent of AUD $120,000+) 
+- 2019–2022 &mdash; Monash International Tuition Scholarships (equivalent of AUD $200,000+)
 <!-- - **2012** &mdash; Ranked **Top 0.2%**, Iran's Nationwide University Entrance Exam -->
 
 
