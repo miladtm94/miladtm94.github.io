@@ -7,13 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-Milad Tatar Mamaghani is an award-winning Research Scientist and Engineer specializing in wireless communications, signal processing, physical-layer cybersecurity, and machine learning/AI. He holds a **Ph.D. in Electrical Engineering** (Wireless Communications) from [Monash University](https://www.monash.edu/), Melbourne, Australia (2022), and a double **B.Sc. with Honours** in Telecommunications Engineering and Control Engineering from [Amirkabir University of Technology (Tehran Polytechnic)](http://aut.ac.ir/) (2018).
-
-Most recently, he served as a **Postdoctoral Research Fellow (Level B)** at [The Australian National University (ANU)](https://www.anu.edu.au/), Canberra, Australia (2023–2025), contributing to ARC Discovery Project-funded research on physical-layer security for machine-type communications and publishing five high-impact IEEE papers and earning two IEEE Best Paper Awards. 
-
-Milad is open to opportunities in both academia and industry, including collaborations, projects, and positions. For more information or any inquiries, feel free to [reach out](/contact/).
+Milad Tatar Mamaghani is an award-winning Research Scientist and Engineer working at the intersection of wireless communications, signal processing, physical-layer security/privacy, and machine learning/AI. His research develops rigorous theoretical frameworks and algorithmic solutions — spanning information-theoretic analysis, AI-driven approaches, and convex optimisation — for secure, 
+reliable, and intelligent next-generation wireless systems, with contributions to integrated sensing and communication (ISAC), non-terrestrial networks, and low-latency machine-type communications.
 
 
+He holds a **Ph.D. in Electrical Engineering** (Wireless Communications) from [Monash University](https://www.monash.edu/), Melbourne, Australia (2022), and a double **B.Sc.** in Telecommunications and Control Engineering from [Amirkabir University of Technology](http://aut.ac.ir/) (2018). He completed a **Postdoctoral Research Fellowship (Level B)** at [The Australian National University](https://www.anu.edu.au/) 
+(2023–2025), supported by an ARC Discovery Project on physical-layer security for machine-type communications.
+
+
+His work has appeared in top-tier IEEE venues including *IEEE Journal on Selected Areas in Communications*, *IEEE Transactions on Wireless Communications*, and *IEEE Internet of Things Journal*, accumulating 600+ citations (h-index: 11). He is a recipient of the **[IEEE SPCC-TC Best Paper Award](https://spcc.committees.comsoc.org/awards/)** (2024) and the **[IEEE ICC Best Paper Award](https://icc2024.ieee-icc.org/program/best-paper-awards)** (2024), and holds an Australian Global Talent recognising exceptional record of achievement in technology.
+
+
+Milad is always interested in discussing new research directions, collaborations, and academic or industry partnerships. [Get in touch](/contact/).
 
 ---
 
@@ -21,7 +26,7 @@ Milad is open to opportunities in both academia and industry, including collabor
 
 - **Ph.D. in Electrical Engineering** (Wireless Communications) &mdash; [Monash University](https://www.monash.edu/), Melbourne, Australia, 2019–2022
 
-- **B.Sc. (Hons) in Telecommunications & Control Engineering** &mdash; [Amirkabir University of Technology](http://aut.ac.ir/), Tehran, Iran, 2012–2018
+- **B.Sc. in Telecommunications & Control Engineering** &mdash; [Amirkabir University of Technology](http://aut.ac.ir/), Tehran, Iran, 2012–2018
 
 ---
 
@@ -37,12 +42,11 @@ Milad is open to opportunities in both academia and industry, including collabor
 
 ---
 
-## Work Experience
+## Research & Teaching Positions
 
-<!-- - **STEM Consultant** &mdash; Mercor/Scale AI, Remote, Jan. 2025 – Present -->
-- **ARC Postdoctoral Research Fellow (Level B)** &mdash; [Australian National University](https://www.anu.edu.au/), Canberra, Jan. 2023 – Jan. 2025
-- **Doctoral Researcher & Teaching Associate** &mdash; [Monash University](https://www.monash.edu/), Melbourne, Jan. 2019 – Dec. 2022
-- **Research Assistant** &mdash; [Amirkabir University of Technology](http://aut.ac.ir/), Tehran, Jan. 2016 – Nov. 2018 
+- Postdoctoral Research Fellow (Level B) &mdash; [Australian National University](https://www.anu.edu.au/), Canberra, 2023–2025
+- Doctoral Researcher & Teaching Associate &mdash; [Monash University](https://www.monash.edu/), Melbourne, 2019–2022
+- Research & Teaching Assistant &mdash; [Amirkabir University of Technology](http://aut.ac.ir/), Tehran, 2016–2018
 
 
 ---
@@ -58,8 +62,7 @@ Milad is open to opportunities in both academia and industry, including collabor
 
 - 2019 &mdash; Recipient of the **Vice Chancellor's Congratulatory Letter** for teaching and learning excellence, Monash University
 
-- 2019–2022 &mdash; Monash Graduate Scholarships (equivalent of AUD $120,000+) 
-- 2019–2022 &mdash; Monash International Tuition Scholarships (equivalent of AUD $200,000+)
+- 2019–2022 &mdash; Monash Graduate Scholarship + Monash International Tuition Scholarship
 <!-- - **2012** &mdash; Ranked **Top 0.2%**, Iran's Nationwide University Entrance Exam -->
 
 
@@ -70,8 +73,8 @@ Milad is open to opportunities in both academia and industry, including collabor
 - **Programming** &mdash; Python, MATLAB, C/C++
 - **ML / Deep Learning** &mdash; TensorFlow, PyTorch, Scikit-learn, Keras
 - **Wireless & SDR** &mdash; 5G/NR, MIMO, OFDM, IEEE 802.11, 3GPP, GNU Radio
-- **Engineering Tools** &mdash; LabVIEW, Simulink, VHDL, FPGA, Git, GitHub
-- **Languages** &mdash; English (Fluent), Persian/Farsi (Bilingual), Azerbaijani (Native) 
+- **Engineering Tools** &mdash; LabVIEW, Simulink, FPGA, SDR, Git, GitHub
+- **Languages** &mdash; English (Fluent), Persian/Farsi (Native), Azerbaijani (Native) 
 
 <a href="/files/CV_Academic_MiladTM_April26.pdf" class="btn btn--primary" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp; Download CV (PDF)</a>
 ---
