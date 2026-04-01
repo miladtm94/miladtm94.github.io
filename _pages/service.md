@@ -7,18 +7,18 @@ author_profile: true
 
 ## Academic Service
 
-- **Technical Program Committee Member** &mdash; IEEE Vehicular Technology Conference (VTC), 2024
-- **[Session Chair](https://globecom2023.ieee-globecom.org/program/technical-program-day-3)** &mdash; IEEE Global Communications Conference (GLOBECOM) 2023, *Physical Layer Security Symposium*, Kuala Lumpur
-- **Selection Committee Member** &mdash; ANU Summer Research Scholarship (SRS) Program, 2023
-- **Exam Supervisor** &mdash; Monash University Online Assessment & Integrity Service, 2021–2023
+- **Technical Program Committee Member** &mdash; IEEE Vehicular Technology Conference, 2024
+- **[Session Chair](https://globecom2023.ieee-globecom.org/program/technical-program-day-3)** (*Physical Layer Security Symposium*) &mdash; IEEE Global Communications Conference, 2023
+- **Selection Committee Member** &mdash; ANU Summer Research Scholarship Program, 2023
+- **Exam Supervisor** &mdash; Monash University Online Assessment & Integrity Service, 2021&ndash;2023
 
-- **[Volunteer Reviewer](https://www.webofscience.com/wos/author/record/D-3932-2019)** &mdash; 142+ peer reviews for 25+ international journals and conferences (2018–2025) 
+- **[Volunteer Reviewer](https://www.webofscience.com/wos/author/record/D-3932-2019)** &mdash; for 25+ international leading journals and conferences with 140+ peer reviews  (2018&ndash;) 
 
 ---
 
 ## Professional Memberships
 
-- IEEE Member (2022–2025)
+- IEEE Member (2022&ndash;2025)
 - IEEE Communications Society (2020–2025)
 - IEEE Young Professionals (2020–2025)
 - IEEE Consultants Network (2020–2025)

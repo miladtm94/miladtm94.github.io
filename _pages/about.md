@@ -53,7 +53,7 @@ Milad is always interested in discussing new research directions, collaborations
 
 - 2024 &mdash; **IEEE ICC Best Paper Award** — top 0.6% of 2,364 contributions
 - 2024 &mdash; **IEEE SPCC-TC Best Paper Award** — only one paper selected per year
-- 2024 &mdash; **Australian Global Talent** — national recognition for exceptional achievement in technology
+- 2024 &mdash; **Australian Global Talent Recognition**
 - 2022 &mdash; Exceptional Ph.D. Thesis Evaluation, Monash University
 - 2019 &mdash; **Vice-Chancellor's Congratulatory Letter** for teaching and learning excellence, Monash University
 
