@@ -53,8 +53,8 @@ Milad is always interested in discussing new research directions, collaborations
 
 - 2024 &mdash; **IEEE ICC Best Paper Award** — top 0.6% of 2,364 contributions
 - 2024 &mdash; **IEEE SPCC-TC Best Paper Award** — only one paper selected per year
-- 2024 &mdash; **Australian Global Talent Recognition**
-- 2022 &mdash; Exceptional Ph.D. Thesis Evaluation, Monash University
+- 2024 &mdash; **Australian Global Talent** Recognition
+- 2022 &mdash; **Exceptional Ph.D. Thesis** Evaluation, Monash University
 - 2019 &mdash; **Vice-Chancellor's Congratulatory Letter** for teaching and learning excellence, Monash University
 
 ---
@@ -74,10 +74,10 @@ Milad is always interested in discussing new research directions, collaborations
 - **Programming** &mdash; Python, MATLAB, C/C++
 - **ML / Deep Learning** &mdash; TensorFlow, PyTorch, Scikit-learn, Keras
 - **Wireless & SDR** &mdash; 5G/NR, MIMO, OFDM, IEEE 802.11, 3GPP, GNU Radio
-- **Engineering Tools** &mdash; LabVIEW, Simulink, FPGA, SDR, Git, GitHub
+- **Engineering Tools** &mdash; LabVIEW, Simulink, FPGA, Git/GitHub
 - **Languages** &mdash; English (Fluent), Persian/Farsi (Native), Azerbaijani (Native) 
 
-<a href="/files/CV_Academic_MiladTM_April26.pdf" class="btn btn--primary" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp; Download CV (PDF)</a>
+<a href="/usr/src/app/files/CV_MiladTatarMamaghani.pdf" class="btn btn--primary" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp; Download CV (PDF)</a>
 ---
 
 ## News
