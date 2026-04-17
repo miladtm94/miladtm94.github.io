@@ -15,27 +15,32 @@
       }
 
       function pin() {
-        var mh  = mastheadH();
-        var top = ph.getBoundingClientRect().top;
+        var mh = mastheadH();
 
-        if (!nav.classList.contains('is-pinned') && top < mh) {
-          // Pin the nav
-          ph.style.height  = nav.offsetHeight + 'px';
-          ph.style.display = 'block';
-          nav.style.position = 'fixed';
-          nav.style.top      = mh + 'px';
-          nav.style.width    = ph.offsetWidth + 'px';
-          nav.style.zIndex   = '999';
-          nav.classList.add('is-pinned');
-        } else if (nav.classList.contains('is-pinned') && top >= mh) {
-          // Unpin the nav
-          nav.style.position = '';
-          nav.style.top      = '';
-          nav.style.width    = '';
-          nav.style.zIndex   = '';
-          nav.classList.remove('is-pinned');
-          ph.style.display = 'none';
-          ph.style.height  = '';
+        if (!nav.classList.contains('is-pinned')) {
+          // Measure the nav itself (placeholder is display:none here and returns top:0)
+          var navTop = nav.getBoundingClientRect().top;
+          if (navTop <= mh) {
+            ph.style.height  = nav.offsetHeight + 'px';
+            ph.style.display = 'block';
+            nav.style.position = 'fixed';
+            nav.style.top      = mh + 'px';
+            nav.style.width    = ph.offsetWidth + 'px';
+            nav.style.zIndex   = '999';
+            nav.classList.add('is-pinned');
+          }
+        } else {
+          // Pinned: placeholder is visible — use it to decide when to unpin
+          var phTop = ph.getBoundingClientRect().top;
+          if (phTop > mh) {
+            nav.style.position = '';
+            nav.style.top      = '';
+            nav.style.width    = '';
+            nav.style.zIndex   = '';
+            nav.classList.remove('is-pinned');
+            ph.style.display = 'none';
+            ph.style.height  = '';
+          }
         }
       }
 
