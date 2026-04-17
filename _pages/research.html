@@ -1,0 +1,95 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+redirect_from:
+  - /publications/
+  - /talks/
+---
+
+{% include base_path %}
+
+<!-- ── STICKY SECTION NAVIGATION ───────────────────────────────── -->
+{% assign talks_all = site.talks | sort: "date" %}
+{% assign talks_count = talks_all | size %}
+{% assign manuscripts_count = site.publications | where: "category", "manuscripts" | size %}
+{% assign conferences_count = site.publications | where: "category", "conferences" | size %}
+{% assign submitted_count   = site.publications | where: "category", "submitted"   | size %}
+
+<nav id="research-quicknav" class="sticky-quicknav" style="background:var(--global-bg-color); border:none; border-bottom:1px solid rgba(42,122,226,0.15); border-radius:0; box-shadow:none; padding:0.45em 0; margin-bottom:2em;">
+  <div style="display:flex; flex-wrap:wrap; align-items:center; gap:0.4em 0.6em;">
+    {% if manuscripts_count > 0 %}
+    <a href="#journal-articles" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">📄&nbsp;Journal Articles&nbsp;<span style="opacity:0.65;">({{ manuscripts_count }})</span></a>
+    {% endif %}
+    {% if conferences_count > 0 %}
+    <a href="#conference-papers" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🎤&nbsp;Conference Papers&nbsp;<span style="opacity:0.65;">({{ conferences_count }})</span></a>
+    {% endif %}
+    {% if talks_count > 0 %}
+    <a href="#talks" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🗣️&nbsp;Talks&nbsp;<span style="opacity:0.65;">({{ talks_count }})</span></a>
+    {% endif %}
+    {% if submitted_count > 0 %}
+    <a href="#under-review" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">📩&nbsp;Submitted&nbsp;<span style="opacity:0.65;">({{ submitted_count }})</span></a>
+    {% endif %}
+  </div>
+</nav>
+
+<!-- ── RESEARCH VISION ─────────────────────────────────────────── -->
+<h2 id="research-vision" style="scroll-margin-top:3.5em;">Research Vision &amp; Interests</h2>
+
+<div style="border-left:4px solid var(--global-link-color); padding:1.1em 1.5em; margin-bottom:1.5em; background: var(--global-bg-color); border-radius:0 6px 6px 0;">
+  <p style="margin:0; font-size:0.97em; line-height:1.8;">
+    My research sits at the intersection of <strong>wireless communications theory</strong>, <strong>physical-layer security</strong>, and <strong>machine intelligence</strong>. I develop mathematically grounded and computationally tractable frameworks that make next-generation wireless systems &mdash; spanning 5G-and-beyond, non-terrestrial networks, and integrated sensing &amp; communication platforms &mdash; simultaneously <em>secure, spectrally efficient, and low-latency</em>. I approach problems by constructing rigorous analytical models first, then using optimization and learning-based methods to scale solutions to real-world constraints.
+  </p>
+</div>
+
+<div style="display:flex; flex-wrap:wrap; gap:0.55em; margin-bottom:2.5em;">
+  <span style="padding:0.3em 0.9em; border-radius:20px; border:1.5px solid var(--global-link-color); color: var(--global-link-color); font-size:0.88em; font-weight:500;">Physical-Layer Security &amp; Privacy</span>
+  <span style="padding:0.3em 0.9em; border-radius:20px; border:1.5px solid var(--global-link-color); color: var(--global-link-color); font-size:0.88em; font-weight:500;">5G-and-Beyond Wireless Networks</span>
+  <span style="padding:0.3em 0.9em; border-radius:20px; border:1.5px solid var(--global-link-color); color: var(--global-link-color); font-size:0.88em; font-weight:500;">Non-Terrestrial Networks (UAV / Satellite)</span>
+  <span style="padding:0.3em 0.9em; border-radius:20px; border:1.5px solid var(--global-link-color); color: var(--global-link-color); font-size:0.88em; font-weight:500;">Integrated Sensing &amp; Communications</span>
+  <span style="padding:0.3em 0.9em; border-radius:20px; border:1.5px solid var(--global-link-color); color: var(--global-link-color); font-size:0.88em; font-weight:500;">Machine Learning / AI for Communications</span>
+  <span style="padding:0.3em 0.9em; border-radius:20px; border:1.5px solid var(--global-link-color); color: var(--global-link-color); font-size:0.88em; font-weight:500;">Statistical Signal Processing</span>
+  <span style="padding:0.3em 0.9em; border-radius:20px; border:1.5px solid var(--global-link-color); color: var(--global-link-color); font-size:0.88em; font-weight:500;">Deep Reinforcement Learning</span>
+  <span style="padding:0.3em 0.9em; border-radius:20px; border:1.5px solid var(--global-link-color); color: var(--global-link-color); font-size:0.88em; font-weight:500;">Machine-Type Communications</span>
+</div>
+
+<!-- ── PUBLICATIONS ─────────────────────────────────────────────── -->
+{% if site.publication_category %}
+  {% for category in site.publication_category %}
+    {% assign cat_key = category[0] %}
+    {% if cat_key == "manuscripts" %}{% assign label_prefix = "[J" %}{% assign sec_anchor = "journal-articles" %}
+    {% elsif cat_key == "submitted" %}{% assign label_prefix = "[S" %}{% assign sec_anchor = "under-review" %}
+    {% elsif cat_key == "conferences" %}{% assign label_prefix = "[C" %}{% assign sec_anchor = "conference-papers" %}
+    {% else %}{% assign label_prefix = "" %}{% assign sec_anchor = cat_key %}{% endif %}
+
+    {% assign cat_pubs = site.publications | where: "category", cat_key | sort: "date" %}
+    {% assign cat_count = cat_pubs | size %}
+
+    {% if cat_count > 0 %}
+      <h2 id="{{ sec_anchor }}" style="scroll-margin-top:3.5em;">{{ category[1].title }}</h2><hr />
+      {% for post in cat_pubs reversed %}
+        {% if label_prefix != "" %}
+          {% assign label_num = cat_count | minus: forloop.index0 %}
+          {% assign pub_label = label_prefix | append: label_num | append: "]" %}
+          {% include archive-single.html label=pub_label %}
+        {% else %}
+          {% include archive-single.html %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<!-- ── TALKS & PRESENTATIONS ───────────────────────────────────── -->
+{% if talks_count > 0 %}
+  <h2 id="talks" style="scroll-margin-top:3.5em;">Talks &amp; Presentations</h2><hr />
+  {% for post in talks_all reversed %}
+    {% assign label_num = talks_count | minus: forloop.index0 %}
+    {% assign talk_label = "[T" | append: label_num | append: "]" %}
+    {% include archive-single-talk.html label=talk_label %}
+  {% endfor %}
+{% endif %}
+
+<style>html { scroll-behavior: smooth; }</style>
+{% include sticky-nav.html %}

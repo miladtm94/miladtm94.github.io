@@ -41,3 +41,27 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ── Author sidebar: icon sizing & hover ──────────────────────── */
+.author__urls .icon-pad-right,
+.author__desktop .icon-pad-right {
+  font-size: 1.15em;
+  vertical-align: middle;
+}
+.author__urls a i {
+  transition: opacity 0.15s;
+}
+.author__urls a:hover i {
+  opacity: 0.65;
+}
+
+/* ── Publication / talk link buttons: highlight on hover ──────── */
+.pub-links a {
+  opacity: 0.72;
+  transition: opacity 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+.pub-links a:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.22);
+}

@@ -25,12 +25,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Milad Tatar Mamaghani"
-  pronouns         : "He/him/his"
-  bio              : "Ph.D. | Researcher | Engineer"
+  bio              : "Research Scientist & Engineer | Wireless Comms, Physical-Layer Security, AI for 6G"
   location         : "Sydney, Australia"
   employer         : # Employer name
   uri              : # URL
   email            : "milad.tatarmamaghani@gmail.com" 
+
 
   # Academic websites
   academia         : # URL
@@ -90,8 +90,6 @@ publication_category:
     title: 'Under Review'
   conferences:
     title: 'Conference Papers'
-  theses:
-    title: 'Dissertation'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -157,7 +155,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : false # set to "google-analytics-4" and add tracking_id when ready
   google:
     tracking_id          :
 
@@ -361,3 +359,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+
+

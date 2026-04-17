@@ -1,0 +1,57 @@
+<!-- Sticky quick-nav handler: pins .sticky-quicknav elements below the masthead on scroll -->
+<script>
+(function () {
+  function initStickyNav() {
+    document.querySelectorAll('.sticky-quicknav').forEach(function (nav) {
+      // Placeholder holds the nav's space when it becomes fixed
+      var ph = document.createElement('div');
+      ph.setAttribute('aria-hidden', 'true');
+      ph.style.display = 'none';
+      nav.parentNode.insertBefore(ph, nav);
+
+      function mastheadH() {
+        var m = document.querySelector('.masthead');
+        return m ? m.offsetHeight : 0;
+      }
+
+      function pin() {
+        var mh  = mastheadH();
+        var top = ph.getBoundingClientRect().top;
+
+        if (!nav.classList.contains('is-pinned') && top < mh) {
+          // Pin the nav
+          ph.style.height  = nav.offsetHeight + 'px';
+          ph.style.display = 'block';
+          nav.style.position = 'fixed';
+          nav.style.top      = mh + 'px';
+          nav.style.width    = ph.offsetWidth + 'px';
+          nav.style.zIndex   = '999';
+          nav.classList.add('is-pinned');
+        } else if (nav.classList.contains('is-pinned') && top >= mh) {
+          // Unpin the nav
+          nav.style.position = '';
+          nav.style.top      = '';
+          nav.style.width    = '';
+          nav.style.zIndex   = '';
+          nav.classList.remove('is-pinned');
+          ph.style.display = 'none';
+          ph.style.height  = '';
+        }
+      }
+
+      window.addEventListener('scroll', pin, { passive: true });
+      window.addEventListener('resize', function () {
+        if (nav.classList.contains('is-pinned')) {
+          nav.style.width = ph.offsetWidth + 'px';
+        }
+      });
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initStickyNav);
+  } else {
+    initStickyNav();
+  }
+})();
+</script>

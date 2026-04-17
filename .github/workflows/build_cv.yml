@@ -21,7 +21,7 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: files/CV.tex
-          latexmk_use_xelatex: true   # remove this line if your CV uses pdflatex
+          # latexmk_use_xelatex: true   # remove this line if your CV uses pdflatex
 
       - name: Move compiled PDF to files/
         run: mv CV.pdf files/CV.pdf

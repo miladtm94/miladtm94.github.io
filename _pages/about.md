@@ -7,100 +7,144 @@ redirect_from:
   - /about.html
 ---
 
-Milad Tatar Mamaghani is an award-winning Research Scientist specializing in wireless communications, signal processing, and intelligent wireless systems, with a focus on integrating information-theoretic foundations and AI-driven approaches for next-generation communication networks. His research develops theoretically grounded and computationally efficient methods for secure, low-latency, and reliable wireless systems across emerging paradigms &mdash; including integrated sensing and communication (ISAC), non-terrestrial networks, and machine-type communications &mdash; with emphasis on physical-layer security, resource allocation, and privacy-preserving design under practical constraints.
+## About Me
 
 
-He was a Postdoctoral Research Fellow (Level B) at [The Australian National University](https://www.anu.edu.au/) (2023–2025), contributing to an Australian Research Council Discovery Project on physical-layer security for machine-type communications. He holds a Ph.D. in Electrical Engineering (Wireless Communications) from [Monash University](https://www.monash.edu/) (2022), and a double B.Sc. in Telecommunications and Control Engineering from [Amirkabir University of Technology (Tehran Polytechnic)](http://aut.ac.ir/) (2018). 
+I’m Milad — a researcher and engineer specializing in wireless communications, signal processing, and applied machine learning. My work sits at the intersection of mathematical modelling, ML/AI algorithm development, and data-driven systems, with a focus on physical-layer design for 5G/6G networks. I’ve published in leading IEEE transactions and flagship conferences, with work recognized by two IEEE Best Paper Awards. Beyond research, I build AI tools, data science pipelines, and simulation frameworks, with occasional full-stack development. Outside of work, I’m usually hiking or in the water. 
 
-
-His publications appear in top-tier IEEE transactions and flagship conferences, accumulating 600+ citations (h-index: 11). He is a recipient of the **[IEEE SPCC-TC Best Paper Award](https://spcc.committees.comsoc.org/awards/)** &mdash; awarded to a single paper annually across the field &mdash; and the **[IEEE ICC Best Paper Award](https://icc2024.ieee-icc.org/program/best-paper-awards)** (2024, Communication Theory Symposium; top 0.6% of 2,364 submissions). He has also served as a Session Chair at IEEE GlobeCom'23, a TPC Member for IEEE VTC'24, and a technical reviewer for numerous leading international journals and conferences. He was recognized under the Australian Global Talent program for exceptional achievement in technology.
-
-
-Milad is always interested in discussing new research directions, collaborations, and academic or industry partnerships. [Get in touch](/contact/).
+[**Get in touch** →](/contact/)
 
 ---
 
 ## Education
 
-- **Ph.D. in Electrical Engineering** (Wireless Communications) &mdash; [Monash University](https://www.monash.edu/), Melbourne, Australia, 2019–2022
+<div class="about__education">
 
-- **B.Sc. in Telecommunications & Control Engineering** &mdash; [Amirkabir University of Technology](http://aut.ac.ir/), Tehran, Iran, 2012–2018
+  <div class="about__education-item">
+    <div class="about__education-icon">
+      <img src="/images/monashuni_logo.png" alt="Monash University"
+           style="width:42px; height:42px; object-fit:contain;" />
+    </div>
+    <div>
+      <div><strong>Ph.D. in Electrical Engineering</strong></div>
+      <div class="about__education-meta">Monash University, Melbourne, Australia · Jan. 2019–Dec. 2022</div>
+      <div class="about__education-thesis">
+        Thesis: <a href="/portfolio/uav-physical-layer-security/">
+          <em>Safeguarding Beyond-5G Wireless UAV Communications: Design and Optimization</em>
+        </a>
+      </div>
+    </div>
+  </div>
 
----
+  <div class="about__education-item">
+    <div class="about__education-icon">
+      <img src="/images/amirkabiruni_logo.png" alt="Amirkabir University of Technology"
+           style="width:42px; height:42px; object-fit:contain;" />
+    </div>
+    <div>
+      <div><strong>B.Sc. in Telecommunications &amp; Control Engineering</strong></div>
+      <div class="about__education-meta"><a href="http://aut.ac.ir/">Amirkabir University of Technology</a> (Tehran Polytechnic), Tehran, Iran · 2012–2018</div>
+    </div>
+  </div>
 
-## Research Interests
-
-- 5G-and-Beyond Wireless Communications
-- Non-Terrestrial Networks
-- Physical-Layer Cybersecurity & Privacy
-- Integrated Sensing and Communications 
-- Machine Learning/AI for Communications 
-
-
-
----
-
-## Research & Teaching Positions
-
-- Postdoctoral Research Fellow (Level B) &mdash; [Australian National University](https://www.anu.edu.au/), Canberra, 2023–2025
-- Doctoral Researcher & Teaching Associate &mdash; [Monash University](https://www.monash.edu/), Melbourne, 2019–2022
-- Research & Teaching Assistant &mdash; [Amirkabir University of Technology](http://aut.ac.ir/), Tehran, 2016–2018
-
-
----
-
-## Honours & Awards
-
-- 2024 &mdash; **IEEE ICC Best Paper Award** — top 0.6% of 2,364 submissions
-- 2024 &mdash; **IEEE SPCC-TC Best Paper Award** — only one paper selected annually
-- 2024 &mdash; **Australian Global Talent** — recognition under national innovation program, Australian Government
-- 2022 &mdash; **Exceptional PhD Thesis** — recognised among top 5% in field, Monash University
-- 2019 &mdash; **Vice-Chancellor's Congratulatory Letter** — teaching and learning excellence, Monash University
-
----
-
-## Grants & Scholarships
-
-- 2023 &mdash; ECR International Travel Grant (AUD $3,000), Australian National University
-- 2022 &mdash; Postgraduate Publications Award (AUD $5,000), Monash University
-- 2019–2022 &mdash; Monash Graduate Scholarship + International Tuition Scholarship 
-  (AUD ~$120,000 stipend + AUD ~$200,000 tuition waiver)
-
+</div>
 
 ---
 
 ## Skills
 
-- **Programming** &mdash; Python, MATLAB, C/C++
-- **ML / Deep Learning** &mdash; TensorFlow, PyTorch, Scikit-learn, Keras
-- **Wireless & SDR** &mdash; 5G/NR, MIMO, OFDM, IEEE 802.11, 3GPP, GNU Radio
-- **Engineering Tools** &mdash; LabVIEW, Simulink, FPGA, Git/GitHub
-- **Languages** &mdash; English (Fluent), Persian/Farsi (Native), Azerbaijani (Native) 
+<div class="about__grid">
 
-<a href="/usr/src/app/files/CV_MiladTatarMamaghani.pdf" class="btn btn--primary" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp; Download CV (PDF)</a>
+  <div class="about__card">
+    <div class="about__card-title">Programming &amp; Software Dev</div>
+    <div class="about__tags">
+      <span class="about__tag">Python</span>
+      <span class="about__tag">C/C++</span>
+      <span class="about__tag">MATLAB</span>
+      <span class="about__tag">Git</span>
+      <span class="about__tag">GitHub</span>
+    </div>
+  </div>
+
+  <div class="about__card">
+    <div class="about__card-title">Data Science &amp; Analytics</div>
+    <div class="about__tags">
+      <span class="about__tag">NumPy</span>
+      <span class="about__tag">Pandas</span>
+      <span class="about__tag">SciPy</span>
+      <span class="about__tag">Excel</span>
+      <span class="about__tag">SPSS</span>
+    </div>
+  </div>
+
+  <div class="about__card">
+    <div class="about__card-title">Machine Learning &amp; AI</div>
+    <div class="about__tags">
+      <span class="about__tag">TensorFlow</span>
+      <span class="about__tag">PyTorch</span>
+      <span class="about__tag">Keras</span>
+      <span class="about__tag">Scikit-learn</span>
+    </div>
+  </div>
+
+  <div class="about__card">
+    <div class="about__card-title">Wireless Comms &amp; Signal Processing</div>
+    <div class="about__tags">
+      <span class="about__tag">5G/NR</span>
+      <span class="about__tag">3GPP</span>
+      <span class="about__tag">IEEE 802.11</span>
+      <span class="about__tag">MIMO</span>
+      <span class="about__tag">OFDM</span>
+      <span class="about__tag">GNU Radio</span>
+      <span class="about__tag">SDR</span>
+      <span class="about__tag">TCP/IP</span>
+    </div>
+  </div>
+
+  <div class="about__card">
+    <div class="about__card-title">Embedded Systems &amp; Eng. Tools</div>
+    <div class="about__tags">
+      <span class="about__tag">FPGA</span>
+      <span class="about__tag">VHDL</span>
+      <span class="about__tag">Simulink</span>
+      <span class="about__tag">LabVIEW</span>
+    </div>
+  </div>
+
+  <div class="about__card">
+    <div class="about__card-title">Languages</div>
+    <div class="about__tags">
+      <span class="about__tag">English (Fluent)</span>
+      <span class="about__tag">Persian (Native)</span>
+      <span class="about__tag">Azeri (Native)</span>
+      <span class="about__tag">Turkish (Intermediate)</span>
+    </div>
+  </div>
+
+</div>
+
 ---
 
 ## News
 
-<div style="border-left:3px solid #2a7ae2; padding-left:1.1em; margin:0.5em 0 1.5em 0; max-height:200px; overflow-y:auto;">
+<div class="about__news">
 
-<p style="margin:0.5em 0;"><span style="font-size:0.85em; opacity:0.7;">Mar 2026</span><br>
-New paper submitted — <em>Symbol-Aware Precoder Design for Physical-Layer Anonymous Communications</em>, IEEE Trans. Commun.</p>
+<p class="about__news-item"><span class="about__news-date">Mar 2026</span><br>
+New paper submitted &mdash; <em>Symbol-Aware Precoder Design for Physical-Layer Anonymous Communications</em>, IEEE Trans. Commun.</p>
 
-<p style="margin:0.5em 0;"><span style="font-size:0.85em; opacity:0.7;">Sep 2025</span><br>
-Paper published in <strong>IEEE JSAC</strong> — <em>Securing ISAC Against a Mobile Adversary: A Stackelberg Game with DRL</em></p>
+<p class="about__news-item"><span class="about__news-date">Sep 2025</span><br>
+Paper published in <strong>IEEE JSAC</strong> &mdash; <em>Securing ISAC Against a Mobile Adversary: A Stackelberg Game with DRL</em></p>
 
+<p class="about__news-item"><span class="about__news-date">2024</span><br>
+Awarded <strong>Australian Global Talent Visa</strong> &mdash; recognized as nationally significant talent.</p>
 
-<p style="margin:0.5em 0;"><span style="font-size:0.85em; opacity:0.7;">2024</span><br>
-Awarded <strong>Australian Global Talent Visa</strong> — recognized as nationally significant talent.</p>
+<p class="about__news-item"><span class="about__news-date">Jun 2024</span><br>
+&#127942; <strong>Best Paper Award</strong> at IEEE ICC 2024, Denver, CO &mdash; top 0.6% of 2,364 submissions.</p>
 
-<p style="margin:0.5em 0;"><span style="font-size:0.85em; opacity:0.7;">Jun 2024</span><br>
-&#127942; <strong>Best Paper Award</strong> at IEEE ICC 2024, Denver, CO — top 0.6% of 2,364 submissions.</p>
+<p class="about__news-item"><span class="about__news-date">2024</span><br>
+&#127942; <strong>Best Paper Award</strong> from IEEE ComSoc SPCC Technical Committee &mdash; one paper selected per year.</p>
 
-<p style="margin:0.5em 0;"><span style="font-size:0.85em; opacity:0.7;">2024</span><br>
-&#127942; <strong>Best Paper Award</strong> from IEEE ComSoc SPCC Technical Committee — one paper selected per year.</p>
-
-<p style="margin:0.5em 0;"><span style="font-size:0.85em; opacity:0.7;">Dec 2023</span><br>
-Paper published in <strong>IEEE Trans. Wireless Commun.</strong> — <em>Secure Short-Packet Communications via UAV-Enabled Mobile Relaying</em></p>
+<p class="about__news-item"><span class="about__news-date">Dec 2023</span><br>
+Paper published in <strong>IEEE Trans. Wireless Commun.</strong> &mdash; <em>Secure Short-Packet Communications via UAV-Enabled Mobile Relaying</em></p>
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: "Ph.D. Thesis Defense: Safeguarding Wireless Communications with Unmanned Aerial Vehicles — Design and Optimization"
+title: "Safeguarding Wireless Communications with Unmanned Aerial Vehicles : Design and Optimization"
 collection: talks
 type: "Thesis defense"
 permalink: /talks/2022-monash-phd-defense

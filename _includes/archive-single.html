@@ -41,11 +41,11 @@
     </h2>
     
     {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+      <p class="page__meta archive__item-meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p class="archive__item-meta">{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
         {% elsif post.collection == 'publications' %}
           {% if post.category == 'submitted' %}
             <p>Submitted to <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
@@ -54,26 +54,30 @@
           {% else %}
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
           {% endif %}
+        {% elsif post.collection == 'portfolio' %}
+          {% if post.period %}<p class="archive__item-meta"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Period:</strong> {{ post.period }}</p>{% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
     {% unless post.collection == 'publications' %}
-    {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    {% if post.excerpt %}
+      {% capture excerpt_html %}{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+      <p class="archive__item-excerpt" itemprop="description">{{ excerpt_html }}</p>
+      {% if post.url %}
+        <p class="archive__item-readmore"><a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more&nbsp;&rarr;</a></p>
+      {% endif %}
     {% endif %}
     {% endunless %}
 
     {% if post.collection == 'publications' %}
       {% if post.citation %}<p class="archive__item-excerpt" style="font-size:0.9em;">{{ post.citation }}</p>{% endif %}
-      <p style="margin:0.4em 0 0;">
-        {% if post.doiurl %}<a href="{{ post.doiurl }}" target="_blank" class="btn btn--inverse btn--small"><i class="fas fa-fw fa-link" aria-hidden="true"></i>&nbsp;DOI</a>{% endif %}
-        {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" class="btn btn--inverse btn--small"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>&nbsp;PDF</a>{% endif %}
-        {% if post.arxivurl %}<a href="{{ post.arxivurl }}" target="_blank" class="btn btn--inverse btn--small"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i>&nbsp;arXiv</a>{% endif %}
-        {% if post.codeurl %}<a href="{{ post.codeurl }}" target="_blank" class="btn btn--inverse btn--small"><i class="fab fa-fw fa-github" aria-hidden="true"></i>&nbsp;Code</a>{% endif %}
-        {% if post.slidesurl %}<a href="{{ post.slidesurl }}" target="_blank" class="btn btn--inverse btn--small"><i class="fas fa-fw fa-chalkboard-teacher" aria-hidden="true"></i>&nbsp;Slides</a>{% endif %}
+      <p class="pub-links" style="margin:0.5em 0 0; display:flex; flex-wrap:wrap; gap:0.4em;">
+        {% if post.doiurl %}<a href="{{ post.doiurl }}" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:0.3em; padding:0.28em 0.75em; font-size:0.82em; font-weight:600; letter-spacing:0.03em; border-radius:5px; text-decoration:none; background:#2a7ae2; color:#fff; border:none; line-height:1.5;"><i class="fas fa-fw fa-link" aria-hidden="true"></i>DOI</a>{% endif %}
+        {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:0.3em; padding:0.28em 0.75em; font-size:0.82em; font-weight:600; letter-spacing:0.03em; border-radius:5px; text-decoration:none; background:#d63b2f; color:#fff; border:none; line-height:1.5;"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF</a>{% endif %}
+        {% if post.arxivurl %}<a href="{{ post.arxivurl }}" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:0.3em; padding:0.28em 0.75em; font-size:0.82em; font-weight:600; letter-spacing:0.03em; border-radius:5px; text-decoration:none; background:#b31b1b; color:#fff; border:none; line-height:1.5;"><i class="ai ai-arxiv ai-fw" aria-hidden="true" style="color:#fff;"></i>arXiv</a>{% endif %}
+        {% if post.codeurl %}<a href="{{ post.codeurl }}" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:0.3em; padding:0.28em 0.75em; font-size:0.82em; font-weight:600; letter-spacing:0.03em; border-radius:5px; text-decoration:none; background:#24292e; color:#fff; border:none; line-height:1.5;"><i class="fas fa-fw fa-code" aria-hidden="true"></i>Code</a>{% endif %}
+        {% if post.slidesurl %}<a href="{{ post.slidesurl }}" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:0.3em; padding:0.28em 0.75em; font-size:0.82em; font-weight:600; letter-spacing:0.03em; border-radius:5px; text-decoration:none; background:#6b35a8; color:#fff; border:none; line-height:1.5;"><i class="fas fa-fw fa-chalkboard-teacher" aria-hidden="true"></i>Slides</a>{% endif %}
       </p>
     {% endif %}
 

@@ -4,20 +4,17 @@ main:
   - title: "Home"
     url: /
 
-  - title: "Publications"
-    url: /publications/
-
-  - title: "Talks"
-    url: /talks/
+  - title: "Research"
+    url: /research/
 
   - title: "Projects"
     url: /portfolio/
 
-  - title: "Teaching"
-    url: /teaching/
+  - title: "Experience"
+    url: /experience/
 
-  - title: "Service"
-    url: /service/
+  - title: "Awards"
+    url: /awards/
 
   - title: "Contact"
     url: /contact/

@@ -105,6 +105,97 @@
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+
+  .about__education {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+    margin: 0.8em 0 1.8em;
+  }
+
+  .about__education-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+  }
+
+  .about__education-icon {
+    flex-shrink: 0;
+    width: 54px;
+    height: 54px;
+    border: 1.5px solid var(--global-border-color);
+    border-radius: 10px;
+    background: var(--global-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+    padding: 4px;
+  }
+
+  .about__education-meta {
+    font-size: 0.9em;
+    opacity: 0.75;
+  }
+
+  .about__education-thesis {
+    font-size: 0.85em;
+    opacity: 0.62;
+  }
+
+  .about__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 0.7em;
+    margin: 0.8em 0 1.5em;
+  }
+
+  .about__card {
+    padding: 0.9em 1em;
+    border: 1px solid var(--global-border-color);
+    border-radius: 8px;
+    background: var(--global-bg-color);
+  }
+
+  .about__card-title {
+    font-size: 0.72em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--global-link-color);
+    margin-bottom: 0.5em;
+  }
+
+  .about__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.28em;
+  }
+
+  .about__tag {
+    padding: 0.12em 0.5em;
+    border-radius: 4px;
+    background: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    font-size: 0.83em;
+  }
+
+  .about__news {
+    border-left: 3px solid var(--global-link-color);
+    padding-left: 1.1em;
+    margin: 0.5em 0 1.5em 0;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+
+  .about__news-item {
+    margin: 0.5em 0;
+  }
+
+  .about__news-date {
+    font-size: 0.85em;
+    opacity: 0.7;
+  }
 }
 
 .page__hero {
@@ -218,6 +309,30 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+}
+
+.sticky-quicknav {
+  background: var(--global-bg-color);
+}
+
+.sticky-quicknav a {
+  background: var(--global-bg-color);
+}
+
+.teaching-subjects {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.teaching-subjects > li {
+  margin-bottom: 0.8em;
+  padding-left: 1em;
+  border-left: 3px solid #2a7ae2;
+}
+
+.teaching-subjects > li:last-child {
+  margin-bottom: 0;
 }
 
 
