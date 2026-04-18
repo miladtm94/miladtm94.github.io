@@ -5,7 +5,16 @@ permalink: /contact/
 author_profile: true
 ---
 
-I always welcome inquiries related to research collaborations, opportunities in academia or industry, project proposals, or general questions. Please fill out the form below or email me directly at [milad.tatarmamaghani@gmail.com](mailto:milad.tatarmamaghani@gmail.com).
+I'm open to research collaborations, academic and industry opportunities, seminar invitations, and general inquiries. You can reach me via the form below, by email, or connect with me on LinkedIn.
+
+<div style="display:flex; flex-wrap:wrap; gap:0.75em; margin:1.2em 0 1.8em;">
+  <a href="mailto:milad.tatarmamaghani@gmail.com" style="display:inline-flex; align-items:center; gap:0.45em; padding:0.45em 1em; border-radius:6px; border:1px solid var(--global-border-color); text-decoration:none; font-size:0.9em; font-weight:500; color:inherit;">
+    <i class="fas fa-envelope" style="color:#2a7ae2;"></i> milad.tatarmamaghani@gmail.com
+  </a>
+  <a href="https://linkedin.com/in/mtmamaghani" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:0.45em; padding:0.45em 1em; border-radius:6px; border:1px solid var(--global-border-color); text-decoration:none; font-size:0.9em; font-weight:500; color:inherit;">
+    <i class="fab fa-linkedin" style="color:#0a66c2;"></i> LinkedIn
+  </a>
+</div>
 
 <form action="https://formspree.io/f/mdawjpdk" method="POST" style="margin-top:1.5em;">
 
