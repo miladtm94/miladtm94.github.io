@@ -8,9 +8,9 @@ author_profile: true
 I'm open to research collaborations, academic and industry opportunities, seminar invitations, and general inquiries. You can reach me via the form below, by email, or connect with me on LinkedIn.
 
 <div style="display:flex; flex-wrap:wrap; gap:0.75em; margin:1.2em 0 1.8em;">
-  <a href="mailto:milad.tatarmamaghani@gmail.com" style="display:inline-flex; align-items:center; gap:0.45em; padding:0.45em 1em; border-radius:6px; border:1px solid var(--global-border-color); text-decoration:none; font-size:0.9em; font-weight:500; color:inherit;">
+  <span style="display:inline-flex; align-items:center; gap:0.45em; padding:0.45em 1em; border-radius:6px; border:1px solid var(--global-border-color); font-size:0.9em; font-weight:500;">
     <i class="fas fa-envelope" style="color:#2a7ae2;"></i> milad.tatarmamaghani@gmail.com
-  </a>
+  </span>
   <a href="https://linkedin.com/in/mtmamaghani" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:0.45em; padding:0.45em 1em; border-radius:6px; border:1px solid var(--global-border-color); text-decoration:none; font-size:0.9em; font-weight:500; color:inherit;">
     <i class="fab fa-linkedin" style="color:#0a66c2;"></i> LinkedIn
   </a>
@@ -59,3 +59,5 @@ I'm open to research collaborations, academic and industry opportunities, semina
   </button>
 
 </form>
+
+<p style="margin-top:2em; font-size:0.88em; opacity:0.6; text-align:center;">Looking forward to connecting &nbsp;🤝</p>
