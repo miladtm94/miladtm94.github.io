@@ -16,7 +16,7 @@ date: 2025-01-01
 
 This project investigates secure wireless communication for large-scale Internet of Things (IoT) and machine-type communication (MTC) networks composed of low-cost, resource-constrained devices. It advances physical-layer security as a lightweight alternative to conventional cryptography by leveraging the inherent randomness of wireless channels to enable information-theoretic security without significant computational overhead.
 
-The research focuses on the finite blocklength (FBL) regime, capturing practical scenarios with short packets and strict latency constraints where classical asymptotic results no longer apply. It develops analytical frameworks to quantify secrecy performance using average information leakage, alongside novel transmission strategies such as UAV-enabled mobile relaying with joint resource allocation and 3D trajectory optimisation. Overall, the project delivers both theoretical foundations and practical design guidelines for secure, low-latency IoT systems, supporting the scalability and resilience of next-generation wireless networks.
+The research focuses on the finite blocklength (FBL) regime, capturing practical scenarios with short packets and strict latency constraints where classical asymptotic results no longer apply. It develops analytical frameworks to quantify secrecy performance using average information leakage, alongside novel transmission strategies such as UAV-enabled mobile relaying with joint resource allocation and 3D trajectory optimization. Overall, the project delivers both theoretical foundations and practical design guidelines for secure, low-latency IoT systems, supporting the scalability and resilience of next-generation wireless networks.
 
 ### Technical Contributions
 
@@ -28,4 +28,4 @@ The research focuses on the finite blocklength (FBL) regime, capturing practical
 
 4. **Milad Tatar Mamaghani**, Xiangyun Zhou, Nan Yang, and A. Lee Swindlehurst, "[Secure Short-Packet Transmission with Aerial Relaying: Blocklength and Trajectory Co-Design](https://doi.org/10.1109/GLOBECOM54140.2023.10437972)," in Proc. *IEEE Global Communications Conference*, Kuala Lumpur, Malaysia, Dec. 2023, pp. 5998–6004.
 
-**Keywords:** Physical-Layer Security · Information-Theoretic Security · Finite Blocklength Communications · Secure Short-Packet Transmission · Wireless Communications · Information Leakage Analysis · Wiretap Channels · Fading Channel Modelling · Statistical Signal Processing · Convex Optimization · Resource Allocation · Aerial Relaying Systems · MATLAB
+**Keywords:** Physical-Layer Security · Information-Theoretic Security · Finite Blocklength Communications · Secure Short-Packet Transmission · Wireless Communications · Information Leakage Analysis · Wiretap Channels · Fading Channel Modeling · Statistical Signal Processing · Convex Optimization · Resource Allocation · Aerial Relaying Systems · MATLAB

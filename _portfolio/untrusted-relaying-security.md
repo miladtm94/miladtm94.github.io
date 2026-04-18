@@ -1,6 +1,6 @@
 ---
 title: "Wireless-Powered Untrusted Relaying Networks"
-excerpt: "An early-career research programme on physical-layer security for two-way relay networks where the forwarding node is inherently untrusted, exploiting cooperative jamming and wireless energy harvesting to achieve information-theoretic security without additional power infrastructure."
+excerpt: "An early-career research program on physical-layer security for two-way relay networks where the forwarding node is inherently untrusted, exploiting cooperative jamming and wireless energy harvesting to achieve information-theoretic security without additional power infrastructure."
 collection: portfolio
 category: research
 period: "2016–2021"
@@ -16,7 +16,7 @@ date: 2020-11-01
 
 ## Overview
 
-This research programme examined physical-layer security in cooperative relay networks where the relay is an *untrusted* amplify-and-forward (AF) node — it is needed to extend coverage yet cannot be allowed to decode the source messages. The work addresses two interconnected problems: (i) characterising the fundamental **security–reliability trade-off (SRT)** under this threat model, and (ii) designing cooperative strategies that resolve the tension without external power infrastructure.
+This research program examined physical-layer security in cooperative relay networks where the relay is an *untrusted* amplify-and-forward (AF) node — it is needed to extend coverage yet cannot be allowed to decode the source messages. The work addresses two interconnected problems: (i) characterizing the fundamental **security–reliability trade-off (SRT)** under this threat model, and (ii) designing cooperative strategies that resolve the tension without external power infrastructure.
 
 The core mechanism couples a **cooperative friendly jammer** — which transmits artificial noise to degrade the relay's eavesdropping capability — with **wireless energy harvesting (WEH)** at the relay, so that jamming energy is simultaneously harvested and recycled to sustain two-way data exchange. Closed-form expressions for secrecy outage probability (SOP) and connection outage probability (COP) are derived under Rayleigh fading, and power allocation is optimised to navigate the SRT. A follow-on study extends the analysis to **multi-hop AF chains**, establishing conditions under which cascaded untrusted relays can still yield a positive secrecy rate.
 
@@ -33,4 +33,4 @@ The core mechanism couples a **cooperative friendly jammer** — which transmits
 
 5. **Milad Tatar Mamaghani**, "Secure Communications via an Untrusted Relay with Wireless Energy Harvesting: Performance Analysis and Trade-offs," B.Sc. Dissertation [in Farsi], EE Dept., Amirkabir University of Technology, Tehran, Iran, July 2016. 
 
-**Keywords:** Physical-Layer Security · Untrusted AF Relaying · Two-Way Relay Networks · Cooperative Jamming · Wireless Energy Harvesting · Security–Reliability Trade-off · Multi-Hop Networks · Secrecy Outage Analysis · Power Allocation & Optimisation · MATLAB
+**Keywords:** Physical-Layer Security · Untrusted AF Relaying · Two-Way Relay Networks · Cooperative Jamming · Wireless Energy Harvesting · Security–Reliability Trade-off · Multi-Hop Networks · Secrecy Outage Analysis · Power Allocation & Optimization · MATLAB

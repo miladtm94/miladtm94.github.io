@@ -10,7 +10,7 @@ redirect_from:
 ## About Me
 
 
-I'm Milad — a researcher and engineer specialising in wireless communications, signal processing, and applied machine learning. My work sits at the intersection of mathematical modelling, optimisation, and ML/AI algorithm development, with a focus on physical-layer design for 5G/6G networks. I've published in leading IEEE journals and conferences, including two Best Paper Awards. Beyond research, I build AI tools, data science pipelines, and simulation frameworks. Outside of work, I'm usually hiking or in the water.
+I'm Milad — a researcher and engineer specializing in wireless communications, signal processing, and applied machine learning. My work sits at the intersection of mathematical modeling, optimization, and ML/AI algorithm development, with a focus on physical-layer design for 5G/6G networks. I've published in leading IEEE journals and conferences, including two Best Paper Awards. Beyond research, I build AI tools, data science pipelines, and simulation frameworks. Outside of work, I'm usually hiking or in the water.
 
 [**Get in touch** →](/contact/)
 
@@ -33,6 +33,7 @@ I'm Milad — a researcher and engineer specialising in wireless communications,
           <em>Safeguarding Beyond-5G Wireless Communications with Unmanned Aerial Vehicles: Design and Optimization</em>
         </a>
       </div>
+      <div class="about__education-thesis"><em>Exceptional PhD Thesis &mdash; top 5% in the field</em></div>
     </div>
   </div>
 
@@ -42,8 +43,14 @@ I'm Milad — a researcher and engineer specialising in wireless communications,
            style="width:42px; height:42px; object-fit:contain;" />
     </div>
     <div>
-      <div><strong>B.Sc. in Telecommunications &amp; Control Engineering</strong></div>
-      <div class="about__education-meta"><a href="http://aut.ac.ir/">Amirkabir University of Technology</a> (Tehran Polytechnic), Tehran, Iran · 2012–2018</div>
+      <div><strong>B.Sc. in Electrical &ndash; Communications Engineering</strong></div>
+      <div class="about__education-meta">Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran · Sep. 2012–Oct. 2016</div>
+      <div class="about__education-thesis">
+        Thesis: <a href="/portfolio/untrusted-relaying-security/">
+          <em>Secure Communications via an Untrusted Relay with Wireless Energy Harvesting: Performance Analysis and Trade-offs</em>
+        </a>
+      </div>
+      <div class="about__education-thesis"><em>Double Degree in Control Engineering specialization &middot; Feb. 2018</em></div>
     </div>
   </div>
 
