@@ -3,14 +3,14 @@ title: "Physical-Layer Security for Wireless Machine-Type Communications"
 excerpt: "An ARC-funded project developing new theoretical frameworks and transmission designs to secure wireless IoT and machine-type communications in the finite blocklength regime — the critical operating mode for 6G networks where short packets and strict latency constraints invalidate classical security results."
 collection: portfolio
 category: research
-period: "2022–2025"
+period: "2023–2025"
 date: 2025-01-01
 ---
 
 **ARC Discovery Project:** [DP220101318](https://dataportal.arc.gov.au/NCGP/Web/Grant/Grant/DP220101318)  
 **Host Institution:** The Australian National University (ANU)  
 **Role:** Postdoctoral Research Fellow (Level B)  
-**Key Personnel:** A/Prof Xiangyun Zhou (CI) · Prof. A. Lee Swindlehurst (PI)
+**Mentors:** [A/Prof Xiangyun Zhou](https://scholar.google.com/citations?user=s4dIgfgAAAAJ&hl=en) (CI) · [Prof. A. Lee Swindlehurst](https://scholar.google.com/citations?user=ibAcKWwAAAAJ&hl=en) (PI)
 
 ## Overview
 
@@ -28,4 +28,4 @@ The research focuses on the finite blocklength (FBL) regime, capturing practical
 
 4. **Milad Tatar Mamaghani**, Xiangyun Zhou, Nan Yang, and A. Lee Swindlehurst, "[Secure Short-Packet Transmission with Aerial Relaying: Blocklength and Trajectory Co-Design](https://doi.org/10.1109/GLOBECOM54140.2023.10437972)," in Proc. *IEEE Global Communications Conference*, Kuala Lumpur, Malaysia, Dec. 2023, pp. 5998–6004.
 
-**Technologies:** Physical-Layer Security · Information-Theoretic Security · Finite Blocklength Communications · Secure Short-Packet Transmission · Wireless Communications · Information Leakage Analysis · Wiretap Channels · Fading Channel Modelling · Convex Optimization · Resource Allocation · Aerial Relaying Systems · MATLAB · Statistical Signal Processing
+**Keywords:** Physical-Layer Security · Information-Theoretic Security · Finite Blocklength Communications · Secure Short-Packet Transmission · Wireless Communications · Information Leakage Analysis · Wiretap Channels · Fading Channel Modelling · Statistical Signal Processing · Convex Optimization · Resource Allocation · Aerial Relaying Systems · MATLAB

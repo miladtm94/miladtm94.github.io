@@ -8,12 +8,19 @@ date: 2022-12-01
 ---
 
 **PhD Thesis:** [Safeguarding Beyond-5G Wireless Communications with Unmanned Aerial Vehicles: Design and Optimization](https://doi.org/10.26180/21721709.v1)  
-**Institution:** Monash University, Melbourne, Australia, 2022 — *Awarded Exceptional Ph.D. Thesis Evaluation*  
-**Supervisor:** Prof Yi Hong
+**Institution:** Monash University, Melbourne, Australia  
+**Role:** Doctoral Researcher  
+**Supervisor:** [A/Prof. Yi Hong](https://scholar.google.com/citations?user=vacIFQkAAAAJ&hl=en)
+
+
+
 
 ## Overview
 
-The application frameworks of unmanned aerial vehicles (UAVs), more commonly known as drones, have recently gained popularity in public and civil domains. In beyond-5G wireless networks, drone technology plays a crucial role in establishing seamless and pervasive connectivity. This thesis addresses the security challenges of such aerial wireless communications using low-complexity physical-layer techniques. The fundamental goal is to design, develop, and optimise analytical frameworks for deploying confidential and energy-efficient wireless drone communication systems, proposing efficient solutions based on convex optimisation and artificial intelligence.
+This PhD research develops physical-layer security frameworks for UAV-assisted wireless networks, with trajectory design as the central optimisation lever. By treating the UAV's mobility as a controllable degree of freedom — jointly optimised with beamforming, power allocation, and jamming — the work demonstrates that aerial platforms can achieve security gains that are structurally inaccessible to fixed infrastructure.
+
+The programme spans four interconnected thrusts. The first establishes baseline security and energy performance for **UAV-enabled AF relaying** under cooperative jamming and simultaneous wireless information and power transfer (SWIPT), deriving closed-form benchmarks under Rician fading. The second develops **joint trajectory and resource optimisation** frameworks — using successive convex approximation (SCA) and robust design under channel uncertainty — for artificial-noise-aided UAV transmitters facing passive eavesdroppers. The third introduces **deep reinforcement learning (DRL)** for full-duplex MIMO-UAV relaying against *active* eavesdroppers, where the adversary's CSI is unavailable and the state space is too complex for model-based methods. The fourth extends the architecture to **emerging physical-layer paradigms**: terahertz (THz) bands with untrusted UAV relays (minimising secrecy energy efficiency via co-designed trajectory and communication), and aerial intelligent reflecting surfaces (IRS) enabling covert THz communications in B5G IoT deployments.
+
 
 ### Technical Contributions
 
@@ -29,4 +36,4 @@ The application frameworks of unmanned aerial vehicles (UAVs), more commonly kno
 
 - **Milad Tatar Mamaghani** and Yi Hong, "[On the Performance of Low-Altitude UAV-Enabled Secure AF Relaying With Cooperative Jamming and SWIPT](https://doi.org/10.1109/ACCESS.2019.2948384)," *IEEE Access*, vol. 7, pp. 153060–153073, Oct. 2019.
 
-**Technologies:** Python · MATLAB · Convex Optimization · CVX · Reinforcement Learning · UAV Communications · THz Technology · Intelligent Reflecting Surfaces · Covert Communications · Physical Layer Security · Wireless Communications · Beyond-5G
+**Keywords:** Physical-Layer Security · UAV Trajectory Optimisation · Covert Communications · Terahertz Communications · Intelligent Reflecting Surfaces · Full-Duplex MIMO · Cooperative Jamming · SWIPT · Untrusted Relaying · Successive Convex Approximation · Robust Optimisation · Deep Reinforcement Learning · CVX · MATLAB · Python
