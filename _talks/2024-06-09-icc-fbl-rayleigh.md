@@ -15,4 +15,3 @@ award: "Best Paper Award — IEEE ICC 2024, Communication Theory Symposium"
 
 We analyze the average information leakage (AIL) for secure finite blocklength (FBL) transmissions over Rayleigh fading wiretap channels. Departing from the conventional worst-case secrecy paradigm, we adopt AIL as a more operationally meaningful security metric for short-packet systems. We derive tight closed-form approximations for the AIL and reveal fundamental tradeoffs between blocklength, secrecy outage, and reliability — findings directly relevant to latency-constrained 6G machine-type and IoT communications. The analysis provides actionable design guidelines for engineers deploying short-packet secure links over fading channels.
 
-**Co-authors:** X. Zhou, N. Yang, A. L. Swindlehurst, H. V. Poor

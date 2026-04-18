@@ -10,5 +10,5 @@ doiurl: "https://doi.org/10.1109/TWC.2024.3400601"
 paperurl: "https://drive.google.com/file/d/1nVwuuHx2Il1TxRkDfEvzr26MkbP_awko/view?usp=sharing"
 arxivurl: "https://arxiv.org/abs/2308.13184"
 codeurl: "https://github.com/miladtm94/FBL-FadingChannels-AIL"
-citation: '<strong>M. T. Mamaghani</strong>, X. Zhou, N. Yang, A. L. Swindlehurst, and H. V. Poor, "Performance analysis of finite blocklength transmissions over wiretap fading channels: An average information leakage perspective," <em>IEEE Trans. Wireless Commun.</em>, May 2024.'
+citation: '<strong>M. T. Mamaghani</strong>, X. Zhou, N. Yang, A. L. Swindlehurst, and H. V. Poor, "Performance analysis of finite blocklength transmissions over wiretap fading channels: An average information leakage perspective," <em>IEEE Trans. Wireless Commun.</em>, vol. 23, no. 10, pp. 13252&ndash;13266, Oct. 2024.'
 ---

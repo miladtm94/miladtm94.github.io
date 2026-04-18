@@ -30,7 +30,7 @@ I'm Milad — a researcher and engineer specialising in wireless communications,
       <div class="about__education-meta">Monash University, Melbourne, Australia · Jan. 2019–Dec. 2022</div>
       <div class="about__education-thesis">
         Thesis: <a href="/portfolio/uav-physical-layer-security/">
-          <em>Safeguarding Beyond-5G Wireless UAV Communications: Design and Optimization</em>
+          <em>Safeguarding Beyond-5G Wireless Communications with Unmanned Aerial Vehicles: Design and Optimization</em>
         </a>
       </div>
     </div>
@@ -128,6 +128,9 @@ I'm Milad — a researcher and engineer specialising in wireless communications,
 ## News
 
 <div class="about__news">
+
+<p class="about__news-item"><span class="about__news-date">Apr 2026</span><br>
+Personal website is live on GitHub Pages &mdash; featuring research, publications, projects, and more.</p>
 
 <p class="about__news-item"><span class="about__news-date">Mar 2026</span><br>
 New paper submitted &mdash; <em>Symbol-Aware Precoder Design for Physical-Layer Anonymous Communications</em>, IEEE Trans. Commun.</p>

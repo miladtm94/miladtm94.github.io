@@ -9,5 +9,5 @@ venue: "Wireless Networks"
 doiurl: "https://doi.org/10.1007/s11276-020-02487-w"
 paperurl: "https://drive.google.com/file/d/1THluWaiCFOkq9cPvEaVlLfRjRhmeD1Vw/view?usp=sharing"
 arxivurl: "https://arxiv.org/abs/1905.09384"
-citation: '<strong>M. T. Mamaghani</strong>, A. Kuhestani, and H. Behrouzi, "Can a multi-hop link relying on untrusted amplify-and-forward relays render security?" <em>Wireless Netw.</em>, vol. 27, pp. 795&ndash;807, Nov. 2020.'
+citation: '<strong>M. T. Mamaghani</strong>, A. Kuhestani, and H. Behroozi, "Can a multi-hop link relying on untrusted amplify-and-forward relays render security?" <em>Wireless Netw.</em>, vol. 27, pp. 795&ndash;807, Nov. 2020.'
 ---

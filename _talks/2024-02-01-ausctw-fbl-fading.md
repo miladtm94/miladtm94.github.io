@@ -11,4 +11,3 @@ posterurl: "https://drive.google.com/file/d/1CNLQbnnpyqNbyc48Ilo84XsZ6yeh2MmW/vi
 
 We examine the secrecy performance of finite blocklength (FBL) transmissions over fading wiretap channels, using average information leakage (AIL) as a practically relevant security metric. Unlike classical secrecy capacity analyses that assume asymptotically long codewords, FBL analysis is critical for latency-constrained 6G applications such as ultra-reliable low-latency communications (URLLC) and massive IoT. We characterize the AIL over Rayleigh fading channels and study its dependence on blocklength, transmit power, and channel conditions — providing design insights for physical-layer secure short-packet systems.
 
-**Co-authors:** X. Zhou, N. Yang, A. L. Swindlehurst, H. V. Poor
