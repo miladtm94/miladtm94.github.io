@@ -312,6 +312,9 @@
 }
 
 .sticky-quicknav {
+  position: sticky;
+  top: var(--masthead-h, 60px);
+  z-index: 999;
   background: var(--global-bg-color);
 }
 
