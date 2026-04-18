@@ -10,7 +10,7 @@ redirect_from:
 ## About Me
 
 
-I’m Milad — a researcher and engineer specializing in wireless communications, signal processing, and applied machine learning. My work sits at the intersection of mathematical modelling, ML/AI algorithm development, and data-driven systems, with a focus on physical-layer design for 5G/6G networks. I’ve published in leading IEEE transactions and flagship conferences, with work recognized by two IEEE Best Paper Awards. Beyond research, I build AI tools, data science pipelines, and simulation frameworks, with occasional full-stack development. Outside of work, I’m usually hiking or in the water. 
+I'm Milad — a researcher and engineer specialising in wireless communications, signal processing, and applied machine learning. My work sits at the intersection of mathematical modelling, optimisation, and ML/AI algorithm development, with a focus on physical-layer design for 5G/6G networks. I've published in leading IEEE journals and conferences, including two Best Paper Awards. Beyond research, I build AI tools, data science pipelines, and simulation frameworks. Outside of work, I'm usually hiking or in the water.
 
 [**Get in touch** →](/contact/)
 
