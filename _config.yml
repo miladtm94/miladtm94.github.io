@@ -12,7 +12,7 @@ site_theme               : "mint" # The available themes options are "default", 
 title                    : "Milad Tatar Mamaghani"
 title_separator          : "-"
 name                     : &name "Milad Tatar Mamaghani"
-description              : &description "Research Scientist"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Applied Research Scientist"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://miladtm94.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Milad Tatar Mamaghani"
-  bio              : "Research Scientist"
+  bio              : "Applied Research Scientist"
   location         : "Sydney, Australia"
   employer         : # Employer name
   uri              : # URL
