@@ -137,7 +137,7 @@ I'm Milad — a researcher and engineer specializing in wireless communications,
 <div class="about__news">
 
 <p class="about__news-item"><span class="about__news-date">Apr 2026</span><br>
-Personal website is live on GitHub Pages &mdash; featuring research, publications, projects, and more.</p>
+🚀 Personal website relaunched with a new design and domain.</p>
 
 <p class="about__news-item"><span class="about__news-date">Mar 2026</span><br>
 New paper submitted &mdash; <em>Symbol-Aware Precoder Design for Physical-Layer Anonymous Communications</em>, IEEE Trans. Commun.</p>
