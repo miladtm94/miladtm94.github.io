@@ -71,7 +71,7 @@ redirect_from:
     {% assign cat_count = cat_pubs | size %}
 
     {% if cat_count > 0 %}
-      <h1 id="{{ sec_anchor }}" style="scroll-margin-top:3.5em;">{{ category[1].title }}</h1><hr />
+      <h1 id="{{ sec_anchor }}" style="scroll-margin-top:3.5em; margin-top:2em;">{{ category[1].title }}</h1><hr />
       {% for post in cat_pubs reversed %}
         {% if label_prefix != "" %}
           {% assign label_num = cat_count | minus: forloop.index0 %}
