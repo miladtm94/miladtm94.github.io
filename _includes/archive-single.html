@@ -26,7 +26,7 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title" itemprop="headline" style="font-size:1.1em;">
       {% assign display_label = include.label | default: post.label %}
       {% if display_label %}<span style="font-size:0.75em; font-weight:700; color:#2a7ae2; font-family:monospace; margin-right:0.45em;">{{ display_label }}</span>{% endif %}
       {% if post.collection == 'publications' and post.doiurl %}

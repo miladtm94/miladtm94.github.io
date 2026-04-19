@@ -71,7 +71,7 @@ redirect_from:
     {% assign cat_count = cat_pubs | size %}
 
     {% if cat_count > 0 %}
-      <h2 id="{{ sec_anchor }}" style="scroll-margin-top:3.5em;">{{ category[1].title }}</h2><hr />
+      <h1 id="{{ sec_anchor }}" style="scroll-margin-top:3.5em;">{{ category[1].title }}</h1><hr />
       {% for post in cat_pubs reversed %}
         {% if label_prefix != "" %}
           {% assign label_num = cat_count | minus: forloop.index0 %}
@@ -87,7 +87,7 @@ redirect_from:
 
 <!-- ── TALKS & PRESENTATIONS ───────────────────────────────────── -->
 {% if talks_count > 0 %}
-  <h3 id="talks" style="scroll-margin-top:3.5em;">Talks &amp; Presentations</h3><hr />
+  <h1 id="talks" style="scroll-margin-top:3.5em;">Talks &amp; Presentations</h1><hr />
   {% for post in talks_all reversed %}
     {% assign label_num = talks_count | minus: forloop.index0 %}
     {% assign talk_label = "[T" | append: label_num | append: "]" %}
