@@ -3,12 +3,12 @@ title: "Secure Short-Packet Transmission with Aerial Relaying: Blocklength and T
 collection: talks
 type: "Conference presentation"
 permalink: /talks/2023-globecom-spc-aerial
-venue: "IEEE Global Communications Conference (GLOBECOM) 2023"
+venue: "2023 IEEE Global Communications Conference (GLOBECOM)"
 date: 2023-12-04
 location: "Kuala Lumpur, Malaysia"
-doiurl: "https://doi.org/10.1109/GLOBECOM54140.2023.10437972"
-paperurl: "https://ieeexplore.ieee.org/document/10437972/"
-arxivurl: "https://arxiv.org/abs/2310.05142"
+# doiurl: "https://doi.org/10.1109/GLOBECOM54140.2023.10437972"
+# paperurl: "https://ieeexplore.ieee.org/document/10437972/"
+# arxivurl: "https://arxiv.org/abs/2310.05142"
 slidesurl: "https://drive.google.com/file/d/1_bOlSVNrVIhNhuK3tuSpN9rORODovBFD/view?usp=drive_link"
 ---
 
