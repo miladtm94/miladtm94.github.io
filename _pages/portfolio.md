@@ -42,6 +42,7 @@ author_profile: true
     'FBL-FadingChannels-AIL',
     'UIRS-THz-CovertComm',
     'SPC-UAV-Relay',
+    'THz_UUR_MSEE',
     'FaceRecognition-FaceNet',
     'Investment-Portfolio-Tracker',
     'AI-Trading-Engine',
