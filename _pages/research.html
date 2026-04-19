@@ -87,7 +87,7 @@ redirect_from:
 
 <!-- ── TALKS & PRESENTATIONS ───────────────────────────────────── -->
 {% if talks_count > 0 %}
-  <h3 id="talks" style="scroll-margin-top:3.5em; margin-top:2em;">Talks & Presentations</h3><hr />
+  <h1 id="talks" style="scroll-margin-top:3.5em; margin-top:2em;">Talks & Presentations</h1><hr />
   {% for post in talks_all reversed %}
     {% assign label_num = talks_count | minus: forloop.index0 %}
     {% assign talk_label = "[T" | append: label_num | append: "]" %}
