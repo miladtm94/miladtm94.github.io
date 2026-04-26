@@ -7,20 +7,11 @@ author_profile: true
 
 <nav id="portfolio-quicknav" class="sticky-quicknav" style="background:var(--global-bg-color); border:none; border-bottom:1px solid rgba(42,122,226,0.15); border-radius:0; box-shadow:none; padding:0.45em 0; margin-bottom:2em;">
   <div style="display:flex; flex-wrap:wrap; align-items:center; gap:0.4em 0.6em;">
-    <a href="#research-projects" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🔬&nbsp;Research Projects</a>
     <a href="#github-repos" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🐙&nbsp;GitHub Repositories</a>
+    <a href="#research-projects" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🔬&nbsp;Research Projects</a>
   </div>
 </nav>
 
-# Research Projects
-{: id="research-projects" style="scroll-margin-top:3.5em;" }
-
-{% assign research_projects = site.portfolio | where: "category", "research" | sort: "date" %}
-{% for post in research_projects reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
----
 
 # Selected GitHub Repositories
 {: id="github-repos" style="scroll-margin-top:3.5em;" }
@@ -46,7 +37,7 @@ author_profile: true
     'FaceRecognition-FaceNet',
     'Investment-Portfolio-Tracker',
     'AI-Trading-Engine',
-    'Job-Seeking-Mate'
+    'LynkOo'
   ];
 
   var grid    = document.getElementById('gh-repo-grid');
@@ -122,5 +113,17 @@ author_profile: true
     });
 })();
 </script>
+
+---
+
+# Research Projects
+{: id="research-projects" style="scroll-margin-top:3.5em;" }
+
+{% assign research_projects = site.portfolio | where: "category", "research" | sort: "date" %}
+{% for post in research_projects reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+
 
 {% include sticky-nav.html %}
