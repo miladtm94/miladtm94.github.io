@@ -13,7 +13,7 @@ portfolio_details:
   - label: "Role"
     value: "Postdoctoral Research Fellow"
   - label: "Mentors"
-    value: "[A/Prof Xiangyun Zhou](https://scholar.google.com/citations?user=s4dIgfgAAAAJ&hl=en) (CI) | [Prof. A. Lee Swindlehurst](https://scholar.google.com/citations?user=ibAcKWwAAAAJ&hl=en) (PI)"
+    value: "A/Prof. Xiangyun (Sean) Zhou (CI) | Prof. Lee Swindlehurst (PI)"
 keywords:
   - Physical-Layer Security
   - Information-Theoretic Security

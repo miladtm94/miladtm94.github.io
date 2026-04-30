@@ -13,7 +13,7 @@ portfolio_details:
   - label: "Role"
     value: "Doctoral Researcher"
   - label: "Supervisor"
-    value: "[A/Prof. Yi Hong](https://scholar.google.com/citations?user=vacIFQkAAAAJ&hl=en)"
+    value: "A/Prof. Yi Hong"
 keywords:
   - Physical-Layer Security
   - UAV Trajectory Optimization
