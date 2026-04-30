@@ -77,17 +77,17 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
       <span class="about__pub-year">Sep 2025</span>
     </div>
     <div class="about__pub-title">Securing Integrated Sensing and Communication Against a Mobile Adversary: A Stackelberg Game with Deep Reinforcement Learning</div>
-    <div class="about__pub-impact">Models ISAC security as a Stackelberg game solved via DRL; published in the highest-impact wireless communications journal (IF 17.2).</div>
+    <div class="about__pub-impact">Models ISAC security as a Stackelberg game, tackling via a hybrid SCA-DRL optimisation approach; published in the highest-impact communications journal (IF 17.2).</div>
   </div>
 
-  <div class="about__pub-item">
+  <!-- <div class="about__pub-item">
     <div class="about__pub-meta">
       <span class="about__pub-venue">IEEE TWC</span>
       <span class="about__pub-year">Oct 2024</span>
     </div>
     <div class="about__pub-title">Performance Analysis of Finite Blocklength Transmissions over Wiretap Fading Channels: An Average Information Leakage Perspective</div>
-    <div class="about__pub-impact">Derives closed-form secrecy bounds for short-packet systems; co-authored with H. V. Poor (Princeton).</div>
-  </div>
+    <div class="about__pub-impact">Derives information-theoretic closed-form secrecy bounds for short-packet communications;establishes new security-reliablity trade-off bounds.</div>
+  </div> -->
 
   <div class="about__pub-item">
     <div class="about__pub-meta">
@@ -95,7 +95,7 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
       <span class="about__pub-year">Jul 2024</span>
     </div>
     <div class="about__pub-title">Secure Short-Packet Communications via UAV-Enabled Mobile Relaying: Joint Resource Optimization and 3D Trajectory Design</div>
-    <div class="about__pub-impact">Jointly optimizes UAV 3D trajectory and power for URLLC-constrained secure links; establishes new latency–security trade-off bounds.</div>
+    <div class="about__pub-impact">Jointly optimizes UAV 3D trajectory and power usage with low-complexity algorithm for MTC-constrained networks.</div>
   </div>
 
   <div class="about__pub-item about__pub-item--award">
