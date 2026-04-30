@@ -13,7 +13,7 @@ portfolio_details:
   - label: "Role"
     value: "Research Assistant"
   - label: "Supervisors"
-    value: "Prof. Abbas Mohammadi | Dr. Ali Kuhestani"
+    value: "Prof. Abbas Mohammadi, Dr. Ali Kuhestani"
 keywords:
   - Physical-Layer Security
   - Untrusted AF Relaying
