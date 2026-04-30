@@ -7,14 +7,21 @@ redirect_from:
   - /about.html
 ---
 
+
 ## About Me
 
+<div class="about__announcement">
+  <span class="about__announcement-icon">🟢</span>
+  <span><strong>Open to both academic &amp; industry opportunities.</strong></span>
+</div>
 
-I'm Milad — a researcher and engineer specializing in wireless communications, signal processing, and applied machine learning. My work sits at the intersection of mathematical modeling, optimization, and ML/AI algorithm development, with a focus on physical-layer design for 5G/6G networks. I've published in leading IEEE journals and conferences, including two Best Paper Awards. Beyond research, I build AI tools, data science pipelines, and simulation frameworks. Outside of work, I'm usually hiking or in the water.
+I’m Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a town near Tabriz in northwestern Iran, and now based in Sydney, Australia. I completed my Ph.D. at Monash University under [A/Prof. Yi Hong](https://research.monash.edu/en/persons/yi-hong), where my thesis on wireless communications security with unmanned aerial vehicles (a.k.a. drones) received an exceptional rating (top 5% in the field). I later worked as a postdoctoral research fellow at the Australian National University with [A/Prof. Xiangyun Zhou](https://users.cecs.anu.edu.au/~xyzhou/), focusing on machine-type communications from the physical-layer perspective. My research sits at the intersection of wireless communications, signal processing, optimization, and machine learning/AI, with a focus on building the mathematical and algorithmic foundations for energy-efficient, reliable, and secure next-generation wireless networks. I have published 17+ papers in leading IEEE journals and flagship conferences, received two Best Paper Awards, and served as a technical reviewer and TPC member for numerous international venues. Outside work, I enjoy hiking, swimming, and overthinking my next chess moves.
+
 
 [**Get in touch** →](/contact/)
 
 ---
+
 
 ## Education
 
@@ -43,20 +50,67 @@ I'm Milad — a researcher and engineer specializing in wireless communications,
            style="width:42px; height:42px; object-fit:contain;" />
     </div>
     <div>
-      <div><strong>B.Sc. in Electrical &ndash; Communications Engineering</strong></div>
-      <div class="about__education-meta">Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran · Sep. 2012–Oct. 2016</div>
+      <div><strong>B.Sc. in Electrical Engineering</strong></div>
+      <div class="about__education-meta">Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran · Sep. 2012–Oct. 2018</div>
       <div class="about__education-thesis">
         Thesis: <a href="/portfolio/untrusted-relaying-security/">
           <em>Secure Communications via an Untrusted Relay with Wireless Energy Harvesting: Performance Analysis and Trade-offs</em>
         </a>
       </div>
-      <div class="about__education-thesis"><em>Double Degree in Control Engineering specialization &middot; Feb. 2018</em></div>
+      <div class="about__education-thesis"><em>Double Degree in Telecommunications (Oct. 2016) and Control Engineering (Oct. 2018) specializations</em></div>
     </div>
   </div>
 
 </div>
 
 ---
+
+
+## Selected Publications
+
+<div class="about__pubs">
+
+  <div class="about__pub-item">
+    <div class="about__pub-meta">
+      <span class="about__pub-venue">IEEE JSAC</span>
+      <span class="about__pub-year">Sep 2025</span>
+    </div>
+    <div class="about__pub-title">Securing Integrated Sensing and Communication Against a Mobile Adversary: A Stackelberg Game with Deep Reinforcement Learning</div>
+    <div class="about__pub-impact">Models ISAC security as a Stackelberg game solved via DRL; published in the highest-impact wireless communications journal (IF 17.2).</div>
+  </div>
+
+  <div class="about__pub-item">
+    <div class="about__pub-meta">
+      <span class="about__pub-venue">IEEE TWC</span>
+      <span class="about__pub-year">Oct 2024</span>
+    </div>
+    <div class="about__pub-title">Performance Analysis of Finite Blocklength Transmissions over Wiretap Fading Channels: An Average Information Leakage Perspective</div>
+    <div class="about__pub-impact">Derives closed-form secrecy bounds for short-packet systems; co-authored with H. V. Poor (Princeton).</div>
+  </div>
+
+  <div class="about__pub-item">
+    <div class="about__pub-meta">
+      <span class="about__pub-venue">IEEE TWC</span>
+      <span class="about__pub-year">Jul 2024</span>
+    </div>
+    <div class="about__pub-title">Secure Short-Packet Communications via UAV-Enabled Mobile Relaying: Joint Resource Optimization and 3D Trajectory Design</div>
+    <div class="about__pub-impact">Jointly optimizes UAV 3D trajectory and power for URLLC-constrained secure links; establishes new latency–security trade-off bounds.</div>
+  </div>
+
+  <div class="about__pub-item about__pub-item--award">
+    <div class="about__pub-meta">
+      <span class="about__pub-venue">IEEE ICC</span>
+      <span class="about__pub-year">Jun 2024</span>
+      <span class="about__pub-award">Best Paper</span>
+    </div>
+    <div class="about__pub-title">On the Average Information Leakage of Finite Blocklength Transmissions over Rayleigh Fading Channels</div>
+    <div class="about__pub-impact">IEEE ICC Best Paper Award — top 0.6% of 2,364 submissions. Introduces average information leakage as a tractable FBL security metric over fading channels.</div>
+  </div>
+
+</div>
+
+<p style="font-size:0.88em; margin-top:0.5em;"><a href="/research/">All publications →</a></p>
+
 
 ## Skills
 
