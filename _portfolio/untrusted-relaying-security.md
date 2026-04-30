@@ -8,12 +8,12 @@ date: 2020-11-01
 portfolio_details:
   - label: "B.Sc. Thesis"
     value: "Secure Communications via an Untrusted Relay with Wireless Energy Harvesting: Performance Analysis and Trade-offs"
-  - label: "Institution"
-    value: "Amirkabir University of Technology, Tehran, Iran"
+#   - label: "Institution"
+#     value: "Amirkabir University of Technology, Tehran, Iran"
   - label: "Role"
     value: "Research Assistant"
-  - label: "Supervisors"
-    value: "[Prof. Abbas Mohammadi](https://scholar.google.com/citations?user=rahfGagAAAAJ&hl=en) | [Dr. Ali Kuhestani](https://scholar.google.com/citations?user=OlNKv6sAAAAJ&hl=en)"
+  - label: "Supervisor"
+    value: "[Prof. Abbas Mohammadi](https://scholar.google.com/citations?user=rahfGagAAAAJ&hl=en)"
 keywords:
   - Physical-Layer Security
   - Untrusted AF Relaying

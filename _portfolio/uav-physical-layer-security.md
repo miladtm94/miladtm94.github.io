@@ -8,8 +8,8 @@ date: 2022-12-01
 portfolio_details:
   - label: "PhD Thesis"
     value: "[Safeguarding Beyond-5G Wireless Communications with Unmanned Aerial Vehicles: Design and Optimization](https://doi.org/10.26180/21721709.v1)"
-  - label: "Institution"
-    value: "Monash University, Melbourne, Australia"
+  # - label: "Institution"
+  #   value: "Monash University, Melbourne, Australia"
   - label: "Role"
     value: "Doctoral Researcher"
   - label: "Supervisor"
