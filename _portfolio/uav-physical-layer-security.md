@@ -6,8 +6,8 @@ category: research
 period: "2019–2022"
 date: 2022-12-01
 portfolio_details:
-  - label: "PhD Thesis"
-    value: "[Safeguarding Beyond-5G Wireless Communications with Unmanned Aerial Vehicles: Design and Optimization](https://doi.org/10.26180/21721709.v1)"
+  # - label: "PhD Thesis"
+  #   value: "[Safeguarding Beyond-5G Wireless Communications with Unmanned Aerial Vehicles: Design and Optimization](https://doi.org/10.26180/21721709.v1)"
   # - label: "Institution"
   #   value: "Monash University, Melbourne, Australia"
   - label: "Role"
@@ -41,15 +41,17 @@ The program spans four interconnected thrusts. The first establishes baseline se
 
 ### Technical Contributions
 
-- **Milad Tatar Mamaghani** and Yi Hong, "[Aerial Intelligent Reflecting Surface-Enabled Terahertz Covert Communications in Beyond-5G Internet of Things](https://doi.org/10.1109/JIOT.2022.3163396)," *IEEE Internet of Things Journal*, vol. 9, no. 19, pp. 19012–19033, Oct. 2022.
+1. **Milad Tatar Mamaghani**, ``[Safeguarding Beyond-5G Wireless Communications with Unmanned Aerial Vehicles: Design and Optimization](https://doi.org/10.26180/21721709.v1)," Ph.D. Thesis, Electrical and Computer Systems Engineering Department, Faculty of Engineering, Monash University, Melbourne, Australia, Dec. 2022.
 
-- **Milad Tatar Mamaghani** and Yi Hong, "[Terahertz Meets Untrusted UAV-Relaying: Minimum Secrecy Energy Efficiency Maximization via Trajectory and Communication Co-Design](https://doi.org/10.1109/TVT.2022.3150011)," *IEEE Transactions on Vehicular Technology*, vol. 71, no. 5, pp. 4991–5006, May 2022.
+2. **Milad Tatar Mamaghani** and Yi Hong, "[Aerial Intelligent Reflecting Surface-Enabled Terahertz Covert Communications in Beyond-5G Internet of Things](https://doi.org/10.1109/JIOT.2022.3163396)," *IEEE Internet of Things Journal*, vol. 9, no. 19, pp. 19012–19033, Oct. 2022.
 
-- **Milad Tatar Mamaghani** and Yi Hong, "[Intelligent Trajectory Design for Secure Full-Duplex MIMO-UAV Relaying Against Active Eavesdroppers: A Model-Free Reinforcement Learning Approach](https://doi.org/10.1109/ACCESS.2020.3048021)," *IEEE Access*, vol. 9, pp. 4447–4465, Dec. 2021.
+3. **Milad Tatar Mamaghani** and Yi Hong, "[Terahertz Meets Untrusted UAV-Relaying: Minimum Secrecy Energy Efficiency Maximization via Trajectory and Communication Co-Design](https://doi.org/10.1109/TVT.2022.3150011)," *IEEE Transactions on Vehicular Technology*, vol. 71, no. 5, pp. 4991–5006, May 2022.
 
-- **Milad Tatar Mamaghani** and Yi Hong, "[Joint Trajectory and Power Allocation Design for Secure Artificial Noise Aided UAV Communications](https://doi.org/10.1109/TVT.2021.3057397)," *IEEE Transactions on Vehicular Technology*, vol. 70, no. 3, pp. 2850–2855, Mar. 2021.
+4. **Milad Tatar Mamaghani** and Yi Hong, "[Intelligent Trajectory Design for Secure Full-Duplex MIMO-UAV Relaying Against Active Eavesdroppers: A Model-Free Reinforcement Learning Approach](https://doi.org/10.1109/ACCESS.2020.3048021)," *IEEE Access*, vol. 9, pp. 4447–4465, Dec. 2021.
 
-- **Milad Tatar Mamaghani** and Yi Hong, "[Improving PHY-Security of UAV-Enabled Transmission With Wireless Energy Harvesting: Robust Trajectory Design and Communications Resource Allocation](https://doi.org/10.1109/TVT.2020.2998060)," *IEEE Transactions on Vehicular Technology*, vol. 69, no. 8, pp. 8586–8600, Aug. 2020.
+5. **Milad Tatar Mamaghani** and Yi Hong, "[Joint Trajectory and Power Allocation Design for Secure Artificial Noise Aided UAV Communications](https://doi.org/10.1109/TVT.2021.3057397)," *IEEE Transactions on Vehicular Technology*, vol. 70, no. 3, pp. 2850–2855, Mar. 2021.
 
-- **Milad Tatar Mamaghani** and Yi Hong, "[On the Performance of Low-Altitude UAV-Enabled Secure AF Relaying With Cooperative Jamming and SWIPT](https://doi.org/10.1109/ACCESS.2019.2948384)," *IEEE Access*, vol. 7, pp. 153060–153073, Oct. 2019.
+6. **Milad Tatar Mamaghani** and Yi Hong, "[Improving PHY-Security of UAV-Enabled Transmission With Wireless Energy Harvesting: Robust Trajectory Design and Communications Resource Allocation](https://doi.org/10.1109/TVT.2020.2998060)," *IEEE Transactions on Vehicular Technology*, vol. 69, no. 8, pp. 8586–8600, Aug. 2020.
+
+7. **Milad Tatar Mamaghani** and Yi Hong, "[On the Performance of Low-Altitude UAV-Enabled Secure AF Relaying With Cooperative Jamming and SWIPT](https://doi.org/10.1109/ACCESS.2019.2948384)," *IEEE Access*, vol. 7, pp. 153060–153073, Oct. 2019.
 {: .portfolio-publications}

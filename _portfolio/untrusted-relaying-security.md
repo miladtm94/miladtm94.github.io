@@ -6,13 +6,13 @@ category: research
 period: "2016–2021"
 date: 2020-11-01
 portfolio_details:
-  - label: "B.Sc. Thesis"
-    value: "Secure Communications via an Untrusted Relay with Wireless Energy Harvesting: Performance Analysis and Trade-offs"
+  # - label: "B.Sc. Thesis"
+  #   value: "Secure Communications via an Untrusted Relay with Wireless Energy Harvesting: Performance Analysis and Trade-offs"
 #   - label: "Institution"
 #     value: "Amirkabir University of Technology, Tehran, Iran"
   - label: "Role"
     value: "Research Assistant"
-  - label: "Supervisor"
+  - label: "Supervisors"
     value: "Prof. Abbas Mohammadi | Dr. Ali Kuhestani"
 keywords:
   - Physical-Layer Security
@@ -44,5 +44,5 @@ The core mechanism couples a **cooperative friendly jammer** — which transmits
 
 4. **Milad Tatar Mamaghani**, Abbas Mohammadi, Phil Yeoh, and Ali Kuhestani, "[Secure two-way communication via a wireless-powered untrusted relay and friendly jammer](https://doi.org/10.1109/GLOCOM.2017.8253999)," in Proc. *IEEE Global Communications Conference*, Singapore, pp. 1–6, Dec. 2017.
 
-5. **Milad Tatar Mamaghani**, "Secure Communications via an Untrusted Relay with Wireless Energy Harvesting: Performance Analysis and Trade-offs," B.Sc. Dissertation [in Farsi], EE Dept., Amirkabir University of Technology, Tehran, Iran, July 2016. 
+5. **Milad Tatar Mamaghani**, "Secure Communications via Untrusted Relaying with Wireless Energy Harvesting: Performance Analysis and Trade-offs," B.Sc. Thesis [in Persian], Department of Electrical Engineering, Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran, Sep. 2016.
 {: .portfolio-publications}

@@ -7,7 +7,7 @@ period: "2025–Present"
 date: 2025-09-01
 portfolio_details:
   - label: "Role"
-    value: "Independent Researcher/Collaborator"
+    value: "Independent Researcher"
 keywords:
   - ISAC
   - Physical-Layer Security

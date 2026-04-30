@@ -6,14 +6,14 @@ category: research
 period: "2023–2025"
 date: 2025-01-01
 portfolio_details:
-  - label: "ARC Discovery Project"
-    value: "[DP220101318](https://dataportal.arc.gov.au/NCGP/Web/Grant/Grant/DP220101318)"
+  # - label: "ARC Discovery Project"
+  #   value: "[DP220101318](https://dataportal.arc.gov.au/NCGP/Web/Grant/Grant/DP220101318)"
 #   - label: "Host Institution"
 #     value: "The Australian National University (ANU)"
   - label: "Role"
     value: "Postdoctoral Research Fellow"
   - label: "Mentors"
-    value: "A/Prof. Xiangyun (Sean) Zhou (CI) | Prof. Lee Swindlehurst (PI)"
+    value: "A/Prof. Xiangyun (Sean) Zhou (CI), Prof. Lee Swindlehurst (PI)"
 keywords:
   - Physical-Layer Security
   - Information-Theoretic Security
