@@ -7,15 +7,15 @@ redirect_from:
   - /about.html
 ---
 
+<div class="about__announcement">
+  <span class="about__announcement-icon">🟢</span>
+  <span><strong>Open to academic and industry opportunities.</strong></span>
+</div>
 
 ## About Me
 
-<div class="about__announcement">
-  <span class="about__announcement-icon">🟢</span>
-  <span><strong>Open to both academic &amp; industry opportunities.</strong></span>
-</div>
 
-I’m Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a town near Tabriz in northwestern Iran, and now based in Sydney, Australia. I completed my Ph.D. at Monash University under [A/Prof. Yi Hong](https://research.monash.edu/en/persons/yi-hong), where my thesis on wireless communications security with unmanned aerial vehicles (a.k.a. drones) received an exceptional rating (top 5% in the field). I later worked as a postdoctoral research fellow at the Australian National University with [A/Prof. Xiangyun Zhou](https://users.cecs.anu.edu.au/~xyzhou/), focusing on machine-type communications from the physical-layer perspective. My research sits at the intersection of wireless communications, signal processing, optimization, and machine learning/AI, with a focus on building the mathematical and algorithmic foundations for energy-efficient, reliable, and secure next-generation wireless networks. I have published 17+ papers in leading IEEE journals and flagship conferences, received two Best Paper Awards, and served as a technical reviewer and TPC member for numerous international venues. Outside work, I enjoy hiking, swimming, and overthinking my next chess moves.
+I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a town near Tabriz in northwestern Iran, and now based in Sydney, Australia. I completed my Ph.D. at Monash University under [A/Prof. Yi Hong](https://research.monash.edu/en/persons/yi-hong), where my thesis on wireless communications security with unmanned aerial vehicles (a.k.a. drones) received an exceptional rating (top 5% in the field). I later worked as a postdoctoral research fellow at the Australian National University with [A/Prof. Xiangyun Zhou](https://users.cecs.anu.edu.au/~xyzhou/), focusing on machine-type communications from the physical-layer perspective. My research sits at the intersection of wireless communications, signal processing, optimization, and machine learning/AI, with a focus on building the mathematical and algorithmic foundations for energy-efficient, reliable, and secure next-generation wireless networks. I have published 17+ papers in leading IEEE journals and flagship conferences, received two Best Paper Awards, and served as a technical reviewer and TPC member for numerous international venues. Outside work, I enjoy hiking, swimming, and overthinking my next chess moves.
 
 
 [**Get in touch** →](/contact/)
@@ -57,7 +57,7 @@ I’m Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a 
         </a>
       </div>
       <div class="about__education-thesis">
-        <em>Double degree in Communications and Control Engineering (Feb. 2018).</em>
+        <em>Also B.Sc. in Control Engineering with extra course credits (Feb. 2018).</em>
       </div>
     </div>
   </div>
