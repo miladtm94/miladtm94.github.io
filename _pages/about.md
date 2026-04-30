@@ -37,10 +37,9 @@ I’m Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a 
       <div class="about__education-meta">Monash University, Melbourne, Australia · Jan. 2019–Dec. 2022</div>
       <div class="about__education-thesis">
         Thesis: <a href="/portfolio/uav-physical-layer-security/">
-          <em>Safeguarding Beyond-5G Wireless Communications with Unmanned Aerial Vehicles: Design and Optimization</em>
+          <em>Safeguarding Beyond-5G Wireless UAV Communications: Design and Optimization</em>
         </a>
       </div>
-      <div class="about__education-thesis"><em>Exceptional PhD Thesis &mdash; top 5% in the field</em></div>
     </div>
   </div>
 
@@ -51,13 +50,15 @@ I’m Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a 
     </div>
     <div>
       <div><strong>B.Sc. in Electrical Engineering</strong></div>
-      <div class="about__education-meta">Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran · Sep. 2012–Oct. 2018</div>
+      <div class="about__education-meta">Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran · Sep. 2012–Oct. 2016</div>
       <div class="about__education-thesis">
         Thesis: <a href="/portfolio/untrusted-relaying-security/">
-          <em>Secure Communications via an Untrusted Relay with Wireless Energy Harvesting: Performance Analysis and Trade-offs</em>
+          <em>Secure Communications with Untrusted Relaying and Wireless Energy Harvesting</em>
         </a>
       </div>
-      <div class="about__education-thesis"><em>Double Degree in Telecommunications (Oct. 2016) and Control Engineering (Oct. 2018) specializations</em></div>
+      <div class="about__education-thesis">
+        <em>Double degree in Communications and Control Engineering (Feb. 2018).</em>
+      </div>
     </div>
   </div>
 
