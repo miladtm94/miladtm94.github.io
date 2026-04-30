@@ -5,15 +5,32 @@ collection: portfolio
 category: research
 period: "2019–2022"
 date: 2022-12-01
+portfolio_details:
+  - label: "PhD Thesis"
+    value: "[Safeguarding Beyond-5G Wireless Communications with Unmanned Aerial Vehicles: Design and Optimization](https://doi.org/10.26180/21721709.v1)"
+  - label: "Institution"
+    value: "Monash University, Melbourne, Australia"
+  - label: "Role"
+    value: "Doctoral Researcher"
+  - label: "Supervisor"
+    value: "[A/Prof. Yi Hong](https://scholar.google.com/citations?user=vacIFQkAAAAJ&hl=en)"
+keywords:
+  - Physical-Layer Security
+  - UAV Trajectory Optimization
+  - Covert Communications
+  - Terahertz Communications
+  - Intelligent Reflecting Surfaces
+  - Full-Duplex MIMO
+  - Cooperative Jamming
+  - SWIPT
+  - Untrusted Relaying
+  - Successive Convex Approximation
+  - Robust Optimization
+  - Deep Reinforcement Learning
+  - CVX
+  - MATLAB
+  - Python
 ---
-
-**PhD Thesis:** [Safeguarding Beyond-5G Wireless Communications with Unmanned Aerial Vehicles: Design and Optimization](https://doi.org/10.26180/21721709.v1)  
-**Institution:** Monash University, Melbourne, Australia  
-**Role:** Doctoral Researcher  
-**Supervisor:** [A/Prof. Yi Hong](https://scholar.google.com/citations?user=vacIFQkAAAAJ&hl=en)
-
-
-
 
 ## Overview
 
@@ -35,5 +52,4 @@ The program spans four interconnected thrusts. The first establishes baseline se
 - **Milad Tatar Mamaghani** and Yi Hong, "[Improving PHY-Security of UAV-Enabled Transmission With Wireless Energy Harvesting: Robust Trajectory Design and Communications Resource Allocation](https://doi.org/10.1109/TVT.2020.2998060)," *IEEE Transactions on Vehicular Technology*, vol. 69, no. 8, pp. 8586–8600, Aug. 2020.
 
 - **Milad Tatar Mamaghani** and Yi Hong, "[On the Performance of Low-Altitude UAV-Enabled Secure AF Relaying With Cooperative Jamming and SWIPT](https://doi.org/10.1109/ACCESS.2019.2948384)," *IEEE Access*, vol. 7, pp. 153060–153073, Oct. 2019.
-
-**Keywords:** Physical-Layer Security · UAV Trajectory Optimization · Covert Communications · Terahertz Communications · Intelligent Reflecting Surfaces · Full-Duplex MIMO · Cooperative Jamming · SWIPT · Untrusted Relaying · Successive Convex Approximation · Robust Optimization · Deep Reinforcement Learning · CVX · MATLAB · Python
+{: .portfolio-publications}

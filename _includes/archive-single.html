@@ -7,13 +7,13 @@
 {% endif %}
 
 {% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" | strip %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item{% if post.collection == 'portfolio' %} archive__item--portfolio{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -55,15 +55,22 @@
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
           {% endif %}
         {% elsif post.collection == 'portfolio' %}
-          {% if post.period %}<p class="archive__item-meta"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Period:</strong> {{ post.period }}</p>{% endif %}
+          {% if post.period %}<p class="archive__item-meta portfolio-card__period"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>{{ post.period }}</p>{% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
     {% unless post.collection == 'publications' %}
     {% if post.excerpt %}
-      {% capture excerpt_html %}{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+      {% capture excerpt_html %}{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% endcapture %}
       <p class="archive__item-excerpt" itemprop="description">{{ excerpt_html }}</p>
+      {% if post.collection == 'portfolio' and post.keywords %}
+        <div class="portfolio-card__keywords" aria-label="Project keywords">
+          {% for keyword in post.keywords limit:5 %}
+            <span>{{ keyword }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
       {% if post.url %}
         <p class="archive__item-readmore"><a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more&nbsp;&rarr;</a></p>
       {% endif %}

@@ -5,14 +5,27 @@ collection: portfolio
 category: research
 period: "2016–2021"
 date: 2020-11-01
+portfolio_details:
+  - label: "B.Sc. Thesis"
+    value: "Secure Communications via an Untrusted Relay with Wireless Energy Harvesting: Performance Analysis and Trade-offs"
+  - label: "Institution"
+    value: "Amirkabir University of Technology, Tehran, Iran"
+  - label: "Role"
+    value: "Research Assistant"
+  - label: "Supervisors"
+    value: "[Prof. Abbas Mohammadi](https://scholar.google.com/citations?user=rahfGagAAAAJ&hl=en) | [Dr. Ali Kuhestani](https://scholar.google.com/citations?user=OlNKv6sAAAAJ&hl=en)"
+keywords:
+  - Physical-Layer Security
+  - Untrusted AF Relaying
+  - Two-Way Relay Networks
+  - Cooperative Jamming
+  - Wireless Energy Harvesting
+  - Security-Reliability Trade-off
+  - Multi-Hop Networks
+  - Secrecy Outage Analysis
+  - Power Allocation and Optimization
+  - MATLAB
 ---
-
-
-
-**B.Sc. Thesis:** Secure Communications via an Untrusted Relay with Wireless Energy Harvesting: Performance Analysis and Trade-offs
-**Institution:** Amirkabir University of Technology, Tehran, Iran
-**Role:** Research Assistant
-**Supervisors:** [Prof. Abbas Mohammadi](https://scholar.google.com/citations?user=rahfGagAAAAJ&hl=en) ·  [Dr. Ali Kuhestani](https://scholar.google.com/citations?user=OlNKv6sAAAAJ&hl=en)
 
 ## Overview
 
@@ -32,5 +45,4 @@ The core mechanism couples a **cooperative friendly jammer** — which transmits
 4. **Milad Tatar Mamaghani**, Abbas Mohammadi, Phil Yeoh, and Ali Kuhestani, "[Secure two-way communication via a wireless-powered untrusted relay and friendly jammer](https://doi.org/10.1109/GLOCOM.2017.8253999)," in Proc. *IEEE Global Communications Conference*, Singapore, pp. 1–6, Dec. 2017.
 
 5. **Milad Tatar Mamaghani**, "Secure Communications via an Untrusted Relay with Wireless Energy Harvesting: Performance Analysis and Trade-offs," B.Sc. Dissertation [in Farsi], EE Dept., Amirkabir University of Technology, Tehran, Iran, July 2016. 
-
-**Keywords:** Physical-Layer Security · Untrusted AF Relaying · Two-Way Relay Networks · Cooperative Jamming · Wireless Energy Harvesting · Security–Reliability Trade-off · Multi-Hop Networks · Secrecy Outage Analysis · Power Allocation & Optimization · MATLAB
+{: .portfolio-publications}

@@ -5,9 +5,22 @@ collection: portfolio
 category: research
 period: "2025–Present"
 date: 2025-09-01
+portfolio_details:
+  - label: "Role"
+    value: "Independent Researcher/Collaborator"
+keywords:
+  - ISAC
+  - Physical-Layer Security
+  - Stackelberg Game Theory
+  - Deep Reinforcement Learning
+  - Mobile Adversary Modeling
+  - Dual-Function Base Station
+  - Radar Sensing
+  - Cramér-Rao Bound
+  - Convex Optimization
+  - MATLAB
+  - Python
 ---
-
-**Role:** Independent Researcher/Collaborator
 
 ## Overview
 
@@ -18,5 +31,4 @@ The work spans game-theoretic modeling, joint resource optimization, and learnin
 ### Technical Contributions
 
 1. **Milad Tatar Mamaghani**, Xiangyun Zhou, Nan Yang, and A. Lee Swindlehurst, "[Securing Integrated Sensing and Communication Against a Mobile Adversary: A Stackelberg Game with Deep Reinforcement Learning](https://doi.org/10.1109/JSAC.2025.3611404)," *IEEE Journal on Selected Areas in Communications*, vol. 44, pp. 942–958, Sept. 2025.
-
-**Keywords:** ISAC · Physical-Layer Security · Stackelberg Game Theory · Deep Reinforcement Learning · Mobile Adversary Modeling · Dual-Function Base Station · Radar Sensing · Cramér–Rao Bound · Convex Optimization · MATLAB · Python
+{: .portfolio-publications}

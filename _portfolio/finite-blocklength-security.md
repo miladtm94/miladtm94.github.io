@@ -5,12 +5,30 @@ collection: portfolio
 category: research
 period: "2023–2025"
 date: 2025-01-01
+portfolio_details:
+  - label: "ARC Discovery Project"
+    value: "[DP220101318](https://dataportal.arc.gov.au/NCGP/Web/Grant/Grant/DP220101318)"
+  - label: "Host Institution"
+    value: "The Australian National University (ANU)"
+  - label: "Role"
+    value: "Postdoctoral Research Fellow (Level B)"
+  - label: "Mentors"
+    value: "[A/Prof Xiangyun Zhou](https://scholar.google.com/citations?user=s4dIgfgAAAAJ&hl=en) (CI) &middot; [Prof. A. Lee Swindlehurst](https://scholar.google.com/citations?user=ibAcKWwAAAAJ&hl=en) (PI)"
+keywords:
+  - Physical-Layer Security
+  - Information-Theoretic Security
+  - Finite Blocklength Communications
+  - Secure Short-Packet Transmission
+  - Wireless Communications
+  - Information Leakage Analysis
+  - Wiretap Channels
+  - Fading Channel Modeling
+  - Statistical Signal Processing
+  - Convex Optimization
+  - Resource Allocation
+  - Aerial Relaying Systems
+  - MATLAB
 ---
-
-**ARC Discovery Project:** [DP220101318](https://dataportal.arc.gov.au/NCGP/Web/Grant/Grant/DP220101318)  
-**Host Institution:** The Australian National University (ANU)  
-**Role:** Postdoctoral Research Fellow (Level B)  
-**Mentors:** [A/Prof Xiangyun Zhou](https://scholar.google.com/citations?user=s4dIgfgAAAAJ&hl=en) (CI) · [Prof. A. Lee Swindlehurst](https://scholar.google.com/citations?user=ibAcKWwAAAAJ&hl=en) (PI)
 
 ## Overview
 
@@ -27,5 +45,4 @@ The research focuses on the finite blocklength (FBL) regime, capturing practical
 3. **Milad Tatar Mamaghani**, Xiangyun Zhou, Nan Yang, and A. Lee Swindlehurst, "[Secure Short-Packet Communications via UAV-Enabled Mobile Relaying: Joint Resource Optimization and 3D Trajectory Design](https://doi.org/10.1109/TWC.2023.3344802)," *IEEE Transactions on Wireless Communications*, vol. 23, no. 7, pp. 7802–7815, July 2024.
 
 4. **Milad Tatar Mamaghani**, Xiangyun Zhou, Nan Yang, and A. Lee Swindlehurst, "[Secure Short-Packet Transmission with Aerial Relaying: Blocklength and Trajectory Co-Design](https://doi.org/10.1109/GLOBECOM54140.2023.10437972)," in Proc. *IEEE Global Communications Conference*, Kuala Lumpur, Malaysia, Dec. 2023, pp. 5998–6004.
-
-**Keywords:** Physical-Layer Security · Information-Theoretic Security · Finite Blocklength Communications · Secure Short-Packet Transmission · Wireless Communications · Information Leakage Analysis · Wiretap Channels · Fading Channel Modeling · Statistical Signal Processing · Convex Optimization · Resource Allocation · Aerial Relaying Systems · MATLAB
+{: .portfolio-publications}

@@ -17,7 +17,7 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="page{% if page.collection == 'portfolio' %} page--portfolio{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
@@ -25,26 +25,53 @@ layout: default
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
-        <header>
+        <header{% if page.collection == 'portfolio' %} class="portfolio-page__header"{% endif %}>
 
-        {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+        {% if page.collection == 'portfolio' %}
+          <p class="portfolio-page__eyebrow">
+            Research project
+            {% if page.period %}<span>{{ page.period }}</span>{% endif %}
+          </p>
+          <h1 class="page__title portfolio-page__title">{{ page.title }}</h1>
+          {% if page.excerpt %}
+            <p class="portfolio-page__lead">{{ page.excerpt }}</p>
+          {% endif %}
+          {% if page.portfolio_details %}
+            <dl class="portfolio-detail-grid">
+              {% for detail in page.portfolio_details %}
+                <div class="portfolio-detail">
+                  <dt>{{ detail.label }}</dt>
+                  <dd>{{ detail.value | markdownify | remove: '<p>' | remove: '</p>' | strip }}</dd>
+                </div>
+              {% endfor %}
+            </dl>
+          {% endif %}
+        {% else %}
+          {% if page.modified %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+          {% endif %}
+
+          {% if page.collection == 'teaching' %}
+            <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% elsif page.venue and page.date %}
+            <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% elsif page.date %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+          {% endif %}
         {% endif %}
-        
-        {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.collection == 'portfolio' %}
-          {% if page.period %}<p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Period:</strong> {{ page.period }}</p>{% endif %}
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}    
         </header>
       {% endunless %}
 
       <section class="page__content" itemprop="text">
         {{ content }}
+
+        {% if page.collection == 'portfolio' and page.keywords %}
+          <div class="portfolio-keywords" aria-label="Project keywords">
+            {% for keyword in page.keywords %}
+              <span>{{ keyword }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
 
         {% if page.doiurl or page.paperurl or page.arxivurl or page.codeurl or page.slidesurl or page.posterurl %}
           <p>
