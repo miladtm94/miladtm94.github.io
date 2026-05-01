@@ -27,7 +27,7 @@ redirect_from:
     <div style="padding:2.5em; text-align:center; opacity:0.7;">
       <p><i class="fas fa-file-pdf" style="font-size:2em; margin-bottom:0.5em; display:block;"></i></p>
       <p>PDF preview not available in this browser.</p>
-      <a href="/files/CV_MiladTatarMamaghani.pdf" class="btn btn--primary" download>Download CV (PDF)</a>
+      <a href="/files/CV_MiladTatarMamaghani.pdf" class="btn btn--primary" download>Download Full CV (PDF)</a>
     </div>
   </object>
 </div>
