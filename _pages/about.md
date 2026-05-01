@@ -67,7 +67,7 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
 ---
 
 
-## Selected Publications
+## Featured Publications
 
 <div class="about__pubs">
 

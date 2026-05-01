@@ -8,17 +8,15 @@ redirect_from:
   - /cv/
 ---
 
-<div style="display:flex; flex-wrap:wrap; gap:0.75em; margin-bottom:2em;">
+<!-- <div style="display:flex; flex-wrap:wrap; gap:0.75em; margin-bottom:2em;">
   <a href="/files/CV_MiladTatarMamaghani.pdf" class="btn btn--primary" download>
     <i class="fas fa-download"></i>&nbsp; Download CV (PDF)
   </a>
-  <a href="https://scholar.google.com/citations?user=aAbVeNwAAAAJ&hl=en" target="_blank" rel="noopener" class="btn btn--inverse">
-    <i class="fas fa-graduation-cap"></i>&nbsp; Google Scholar
-  </a>
+
   <a href="https://www.linkedin.com/in/mtmamaghani" target="_blank" rel="noopener" class="btn btn--inverse">
     <i class="fab fa-linkedin"></i>&nbsp; LinkedIn
   </a>
-</div>
+</div> -->
 
 <div style="width:100%; border:1px solid var(--global-border-color); border-radius:6px; overflow:hidden; background:var(--global-bg-color);">
   <object
