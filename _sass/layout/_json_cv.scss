@@ -13,7 +13,7 @@
 .cv-pdf-object {
   display: block;
   width: 100%;
-  height: clamp(420px, 62vh, 640px);
+  height: clamp(760px, 84vh, 980px);
 }
 
 .cv-pdf-fallback {
@@ -30,7 +30,7 @@
 
 @media (max-width: 600px) {
   .cv-pdf-object {
-    height: clamp(340px, 58vh, 500px);
+    height: clamp(620px, 78vh, 760px);
   }
 
   .cv-pdf-fallback {
