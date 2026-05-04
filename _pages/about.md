@@ -14,14 +14,14 @@ redirect_from:
 
 # Milad Tatar Mamaghani
 
-<p class="about__hero-lede">Research scientist working on secure, reliable, and AI-native 6G wireless systems.</p>
+<p class="about__hero-lede">Research scientist and engineer working on secure, reliable, and energy-efficient AI-native wireless communication systems in 6G and beyond.</p>
 
 <!-- <div class="about__hero-actions">
   <a class="btn btn--primary" href="/contact/">Get in touch</a>
   <a class="btn btn--inverse" href="/files/CV_MiladTatarMamaghani.pdf">View CV</a>
 </div> -->
 
-<div class="about__metrics about__metrics--home">
+<!-- <div class="about__metrics about__metrics--home">
   <div class="about__metric-item">
     <div class="about__metric-number">{{ site.data.metrics.citations }}</div>
     <div class="about__metric-label">Citations</div>
@@ -39,7 +39,7 @@ redirect_from:
     <div class="about__metric-label">Peer Reviews</div>
   </div>
 </div>
-<p class="about__metrics-source">Source: <a href="https://scholar.google.com/citations?user=aAbVeNwAAAAJ&hl=en">Google Scholar</a> &middot; updated {{ site.data.metrics.last_updated }}</p>
+<p class="about__metrics-source">Source: <a href="https://scholar.google.com/citations?user=aAbVeNwAAAAJ&hl=en">Google Scholar</a> &middot; updated {{ site.data.metrics.last_updated }}</p> -->
 
 ## About Me
 
