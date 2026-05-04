@@ -33,7 +33,7 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
            style="width:42px; height:42px; object-fit:contain;" />
     </div>
     <div>
-      <div><strong>Ph.D. in Electrical Engineering</strong></div>
+      <div><strong>Ph.D. in Engineering</strong></div>
       <div class="about__education-meta">Monash University, Melbourne, Australia · Jan. 2019–Dec. 2022</div>
       <div class="about__education-thesis">
         Thesis: <a href="/portfolio/uav-physical-layer-security/">
@@ -49,7 +49,7 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
            style="width:42px; height:42px; object-fit:contain;" />
     </div>
     <div>
-      <div><strong>B.Sc. in Electrical Engineering</strong></div>
+      <div><strong>B.Sc. in Electrical — Communications Engineering</strong></div>
       <div class="about__education-meta">Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran · Sep. 2012–Oct. 2016</div>
       <div class="about__education-thesis">
         Thesis: <a href="/portfolio/untrusted-relaying-security/">
@@ -57,7 +57,7 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
         </a>
       </div>
       <div class="about__education-thesis">
-        <em>Also B.Sc. in Control Engineering with extra course credits (Feb. 2018).</em>
+        <em>Also awarded B.Sc. in Control Engineering with extra course credits (Feb. 2018).</em>
       </div>
     </div>
   </div>
@@ -102,10 +102,10 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
     <div class="about__pub-meta">
       <span class="about__pub-venue">IEEE ICC</span>
       <span class="about__pub-year">Jun 2024</span>
-      <span class="about__pub-award">Best Paper</span>
+      <span class="about__pub-award">Best Paper Award</span>
     </div>
     <div class="about__pub-title">On the Average Information Leakage of Finite Blocklength Transmissions over Rayleigh Fading Channels</div>
-    <div class="about__pub-impact">IEEE ICC Best Paper Award — top 0.6% of 2,364 submissions. Introduces average information leakage as a tractable FBL security metric over fading channels.</div>
+    <div class="about__pub-impact">IEEE ICC Best Paper Award — top 0.6% of 2,364 submissions. Introduces average information leakage as a new FBL security metric over fading channels.</div>
   </div>
 
 </div>
