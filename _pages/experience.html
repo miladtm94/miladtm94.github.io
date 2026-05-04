@@ -8,6 +8,8 @@ redirect_from:
   - /service/
 ---
 
+<h1 class="page__title">Experience</h1>
+
 <!-- Sticky Section Navigation -->
 <nav class="sticky-quicknav" style="background:var(--global-bg-color); border:none; border-bottom:1px solid rgba(42,122,226,0.15); border-radius:0; box-shadow:none; padding:0.45em 0; margin-bottom:2em;">
   <div style="display:flex; flex-wrap:wrap; align-items:center; gap:0.4em 0.6em;">
@@ -21,7 +23,7 @@ redirect_from:
 </nav>
 
 <!-- ─── PROFESSIONAL EXPERIENCE ───────────────────────────────── -->
-<h1 id="professional-experience" style="scroll-margin-top:3.5em;">Professional Experience</h1>
+<h2 id="professional-experience" style="scroll-margin-top:3.5em;">Professional Experience</h2>
 
 <style>
   .experience-details {
@@ -56,6 +58,12 @@ redirect_from:
     white-space: nowrap;
   }
 
+  .experience-details .experience-date {
+    font-size: 0.85em;
+    opacity: 0.6;
+    white-space: nowrap;
+  }
+
   .experience-details .toggle-icon {
     width: 28px;
     height: 28px;
@@ -80,6 +88,24 @@ redirect_from:
     opacity: 0.85;
     line-height: 1.65;
   }
+
+  @media (max-width: 640px) {
+    .experience-details summary {
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: flex-start;
+    }
+
+    .experience-details .experience-date {
+      grid-column: 1 / -1;
+      grid-row: 2;
+      white-space: normal;
+    }
+
+    .experience-details .toggle-icon {
+      grid-column: 2;
+      grid-row: 1;
+    }
+  }
 </style>
 
 <div style="display:flex; flex-direction:column; gap:1.2em; margin:1em 0 2em;">
@@ -92,12 +118,12 @@ redirect_from:
         <span style="font-size:0.8em; font-weight:500; margin-left:0.4em; opacity:0.6;">(Contract)</span><br>
         <span style="font-size:0.9em; opacity:0.7;">Freelance/ Mercor / Scale AI &nbsp;&middot;&nbsp; Remote</span>
       </div>
-      <span style="font-size:0.85em; opacity:0.6; white-space:nowrap;">Jan 2025 &ndash; Present</span>
+      <span class="experience-date">Jan 2025 &ndash; Present</span>
       <span class="toggle-icon" aria-hidden="true">⌄</span>
     </summary>
     <ul>
-      <!-- <li>Evaluate AI-generated responses to advanced STEM problems, providing expert feedback on scientific accuracy, mathematical rigor, and logical reasoning quality.</li>
-      <li>Contribute to reinforcement learning from human feedback (RLHF) pipelines to improve large language model performance on graduate-level STEM tasks.</li> -->
+      <li>Evaluate AI-generated responses to advanced STEM problems, providing expert feedback on scientific accuracy, mathematical rigor, and logical reasoning quality.</li>
+      <li>Contribute to reinforcement learning from human feedback (RLHF) workflows that improve model performance on graduate-level STEM tasks.</li>
     </ul>
   </details>
 
@@ -109,7 +135,7 @@ redirect_from:
         <span style="font-size:0.8em; font-weight:500; margin-left:0.4em; opacity:0.6;">(Full-time)</span><br>
         <span style="font-size:0.9em; opacity:0.7;">The Australian National University &nbsp;&middot;&nbsp; Canberra, Australia</span>
       </div>
-      <span style="font-size:0.85em; opacity:0.6; white-space:nowrap;">Jan 2023 &ndash; Jan 2025</span>
+      <span class="experience-date">Jan 2023 &ndash; Jan 2025</span>
       <span class="toggle-icon" aria-hidden="true">⌄</span>
     </summary>
     <ul>
@@ -128,7 +154,7 @@ redirect_from:
         <span style="font-size:0.8em; font-weight:500; margin-left:0.4em; opacity:0.6;">(Contract)</span><br>
         <span style="font-size:0.9em; opacity:0.7;">Monash University, Office of the Deputy Vice-Chancellor &nbsp;&middot;&nbsp; Melbourne, Australia</span>
       </div>
-      <span style="font-size:0.85em; opacity:0.6; white-space:nowrap;">Oct 2022 &ndash; Jan 2023</span>
+      <span class="experience-date">Oct 2022 &ndash; Jan 2023</span>
       <span class="toggle-icon" aria-hidden="true">⌄</span>
     </summary>
     <ul>
@@ -145,7 +171,7 @@ redirect_from:
         <span style="font-size:0.8em; font-weight:500; margin-left:0.4em; opacity:0.6;">(Full-time)</span><br>
         <span style="font-size:0.9em; opacity:0.7;">Monash University &nbsp;&middot;&nbsp; Melbourne, Australia</span>
       </div>
-      <span style="font-size:0.85em; opacity:0.6; white-space:nowrap;">Jan 2019 &ndash; Dec 2022</span>
+      <span class="experience-date">Jan 2019 &ndash; Dec 2022</span>
       <span class="toggle-icon" aria-hidden="true">⌄</span>
     </summary>
     <ul>
@@ -163,7 +189,7 @@ redirect_from:
         <span style="font-size:0.8em; font-weight:500; margin-left:0.4em; opacity:0.6;">(Part-time)</span><br>
         <span style="font-size:0.9em; opacity:0.7;">Monash University, Faculty of Engineering &nbsp;&middot;&nbsp; Melbourne, Australia</span>
       </div>
-      <span style="font-size:0.85em; opacity:0.6; white-space:nowrap;">Feb 2019 &ndash; Dec 2022</span>
+      <span class="experience-date">Feb 2019 &ndash; Dec 2022</span>
       <span class="toggle-icon" aria-hidden="true">⌄</span>
     </summary>
     <ul>
@@ -182,7 +208,7 @@ redirect_from:
         <span style="font-size:0.8em; font-weight:500; margin-left:0.4em; opacity:0.6;">(Part-time)</span><br>
         <span style="font-size:0.9em; opacity:0.7;">Monash University, Online Assessment \& Integrity Services &nbsp;&middot;&nbsp; Melbourne, Australia</span>
       </div>
-      <span style="font-size:0.85em; opacity:0.6; white-space:nowrap;">Feb 2019 &ndash; Dec 2022</span>
+      <span class="experience-date">Feb 2019 &ndash; Dec 2022</span>
       <span class="toggle-icon" aria-hidden="true">⌄</span>
     </summary>
     <ul>
@@ -199,7 +225,7 @@ redirect_from:
         <span style="font-size:0.8em; font-weight:500; margin-left:0.4em; opacity:0.6;">(Part-time)</span><br>
         <span style="font-size:0.9em; opacity:0.7;">Amirkabir University of Technology (Tehran Polytechnic) &nbsp;&middot;&nbsp; Tehran, Iran</span>
       </div>
-      <span style="font-size:0.85em; opacity:0.6; white-space:nowrap;">Jan 2016 &ndash; Nov 2018</span>
+      <span class="experience-date">Jan 2016 &ndash; Nov 2018</span>
       <span class="toggle-icon" aria-hidden="true">⌄</span>
     </summary>
     <ul>
@@ -216,7 +242,7 @@ redirect_from:
         <span style="font-size:0.8em; font-weight:500; margin-left:0.4em; opacity:0.6;">(Internship)</span><br>
         <span style="font-size:0.9em; opacity:0.7;">Iran Telecommunication Research Center (ITRC) &nbsp;&middot;&nbsp; Tehran, Iran</span>
       </div>
-      <span style="font-size:0.85em; opacity:0.6; white-space:nowrap;">Jun 2016 &ndash; Sep 2016</span>
+      <span class="experience-date">Jun 2016 &ndash; Sep 2016</span>
       <span class="toggle-icon" aria-hidden="true">⌄</span>
     </summary>
     <ul>
@@ -230,7 +256,7 @@ redirect_from:
 <hr />
 
 <!-- ─── TEACHING ─────────────────────────────────────── -->
-<h1 id="teaching" style="scroll-margin-top:3.5em;">Teaching Experience</h1>
+<h2 id="teaching" style="scroll-margin-top:3.5em;">Teaching Experience</h2>
 
 <h3 style="margin-bottom:0.5em;">Monash University &mdash; Faculty of Engineering &nbsp;<span style="font-size:0.85em; opacity:0.72; font-weight:400;">Feb 2019 &ndash; Dec 2022</span></h3>
 
@@ -296,7 +322,7 @@ redirect_from:
 <hr />
 
 <!-- ─── STUDENT SUPERVISION ───────────────────────────── -->
-<h1 id="supervision" style="scroll-margin-top:3.5em;">Student Supervision</h1>
+<h2 id="supervision" style="scroll-margin-top:3.5em;">Student Supervision</h2>
 
 <h3>The Australian National University &nbsp;<span style="font-size:0.85em; opacity:0.72;">2023&ndash;2025</span></h3>
 
@@ -348,7 +374,7 @@ redirect_from:
 <hr />
 
 <!-- ─── ACADEMIC SERVICE ──────────────────────────────── -->
-<h1 id="service" style="scroll-margin-top:3.5em;">Academic Service</h1>
+<h2 id="service" style="scroll-margin-top:3.5em;">Academic Service</h2>
 
 <ul>
   <li><strong>Technical Program Committee Member</strong> &mdash; IEEE Vehicular Technology Conference, 2024</li>
@@ -361,7 +387,7 @@ redirect_from:
 <hr />
 
 <!-- ─── PEER REVIEW ───────────────────────────────────── -->
-<h1 id="peer-review" style="scroll-margin-top:3.5em;">Peer Review Contributions</h1>
+<h2 id="peer-review" style="scroll-margin-top:3.5em;">Peer Review Contributions</h2>
 
 <h3>Journals reviewed:</h3>
 
@@ -411,7 +437,7 @@ redirect_from:
 <hr />
 
 <!-- ─── MEMBERSHIPS ───────────────────────────────────── -->
-<h1 id="memberships" style="scroll-margin-top:3.5em;">Professional Memberships</h1>
+<h2 id="memberships" style="scroll-margin-top:3.5em;">Professional Memberships</h2>
 
 <ul>
   <li>IEEE Member (2022&ndash;2025)</li>

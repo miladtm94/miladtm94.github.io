@@ -10,7 +10,7 @@
     {% if author.avatar contains "://" %}
       <img src="{{ author.avatar }}" alt="{{ author.name }}" fetchpriority="high" />
     {% else %}
-      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" fetchpriority="high" />
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" width="175" height="175" fetchpriority="high" />
     {% endif %}
   </div>
 
@@ -20,8 +20,8 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Connect</button>
-    <ul class="author__urls social-icons">
+    <button class="btn btn--inverse" type="button" aria-controls="author-connect-links" aria-expanded="false">Connect</button>
+    <ul id="author-connect-links" class="author__urls social-icons">
 
       <!-- ── Biographic ───────────────────────────────────── -->
       {% if author.location %}

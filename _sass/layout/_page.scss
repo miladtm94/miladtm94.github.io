@@ -124,6 +124,25 @@
     flex-shrink: 0;
   }
 
+  .about__hero-lede {
+    max-width: 44rem;
+    margin-top: -0.45em;
+    color: var(--global-text-color-light);
+    font-size: $type-size-5;
+    line-height: 1.65;
+  }
+
+  .about__hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75em;
+    margin: 1em 0 1.4em;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
   .about__education {
     display: flex;
     flex-direction: column;
@@ -345,6 +364,10 @@
   opacity: 0.45;
   margin-top: 0.35em;
   margin-bottom: 1.4em;
+}
+
+.about__metrics--home {
+  margin-top: 0.8em;
 }
 
 .page__hero {

@@ -5,6 +5,8 @@ permalink: /contact/
 author_profile: true
 ---
 
+# Contact
+
 Whether you're exploring a research collaboration, considering me for an academic or industry position, or have a project inquiry — I'm happy to connect. Reach me via the form below, by email, or on LinkedIn. I typically respond within 48 hours.
 
 <div style="display:flex; flex-wrap:wrap; gap:0.75em; margin:1.2em 0 1.8em;">

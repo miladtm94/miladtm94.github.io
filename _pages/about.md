@@ -12,15 +12,39 @@ redirect_from:
   <span><strong>Open to academic and industry opportunities.</strong></span>
 </div>
 
+# Milad Tatar Mamaghani
+
+<p class="about__hero-lede">Research scientist and engineer working on secure, reliable, and AI-native wireless systems for 6G and beyond.</p>
+
+<div class="about__hero-actions">
+  <a class="btn btn--primary" href="/contact/">Get in touch</a>
+  <a class="btn btn--inverse" href="/files/CV_MiladTatarMamaghani.pdf">View CV</a>
+</div>
+
+<div class="about__metrics about__metrics--home">
+  <div class="about__metric-item">
+    <div class="about__metric-number">{{ site.data.metrics.citations }}</div>
+    <div class="about__metric-label">Citations</div>
+  </div>
+  <div class="about__metric-item">
+    <div class="about__metric-number">{{ site.data.metrics.h_index }}</div>
+    <div class="about__metric-label">h-index</div>
+  </div>
+  <div class="about__metric-item">
+    <div class="about__metric-number">{{ site.data.metrics.papers }}</div>
+    <div class="about__metric-label">Publications</div>
+  </div>
+  <div class="about__metric-item">
+    <div class="about__metric-number">{{ site.data.metrics.reviews }}</div>
+    <div class="about__metric-label">Peer Reviews</div>
+  </div>
+</div>
+<p class="about__metrics-source">Source: <a href="https://scholar.google.com/citations?user=aAbVeNwAAAAJ&hl=en">Google Scholar</a> &middot; updated {{ site.data.metrics.last_updated }}</p>
+
 ## About Me
 
 
 I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a town near Tabriz in northwestern Iran, and now based in Sydney, Australia. I completed my Ph.D. at Monash University under [A/Prof. Yi Hong](https://research.monash.edu/en/persons/yi-hong), where my thesis on wireless communications security with unmanned aerial vehicles (a.k.a. drones) received an exceptional rating (top 5% in the field). I later worked as a postdoctoral research fellow at the Australian National University with [A/Prof. Xiangyun Zhou](https://users.cecs.anu.edu.au/~xyzhou/), focusing on machine-type communications from the physical-layer perspective. My research sits at the intersection of wireless communications, signal processing, optimization, and machine learning/AI, with a focus on building the mathematical and algorithmic foundations for energy-efficient, reliable, and secure next-generation wireless networks. I have published 17+ papers in leading IEEE journals and flagship conferences, received two Best Paper Awards, and served as a technical reviewer and TPC member for numerous international venues. Outside work, I enjoy hiking, swimming, and overthinking my next chess moves.
-
-
-[**Get in touch** →](/contact/)
-
----
 
 
 ## Education
@@ -29,7 +53,8 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
 
   <div class="about__education-item">
     <div class="about__education-icon">
-      <img src="/images/monashuni_logo.png" alt="Monash University"
+      <img src="/images/monashuni_logo-small.png" alt="Monash University"
+           width="42" height="42" loading="lazy"
            style="width:42px; height:42px; object-fit:contain;" />
     </div>
     <div>
@@ -45,7 +70,8 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
 
   <div class="about__education-item">
     <div class="about__education-icon">
-      <img src="/images/amirkabiruni_logo.png" alt="Amirkabir University of Technology"
+      <img src="/images/amirkabiruni_logo-small.png" alt="Amirkabir University of Technology"
+           width="42" height="42" loading="lazy"
            style="width:42px; height:42px; object-fit:contain;" />
     </div>
     <div>

@@ -5,6 +5,8 @@ permalink: /portfolio/
 author_profile: true
 ---
 
+# Projects
+
 <nav id="portfolio-quicknav" class="sticky-quicknav" style="background:var(--global-bg-color); border:none; border-bottom:1px solid rgba(42,122,226,0.15); border-radius:0; box-shadow:none; padding:0.45em 0; margin-bottom:2em;">
   <div style="display:flex; flex-wrap:wrap; align-items:center; gap:0.4em 0.6em;">
     <a href="#github-repos" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🐙&nbsp;GitHub Repositories</a>
@@ -13,7 +15,7 @@ author_profile: true
 </nav>
 
 
-# Selected GitHub Repositories
+## Selected GitHub Repositories
 {: id="github-repos" style="scroll-margin-top:3.5em;" }
 
 <div id="gh-repo-loading" style="font-size:0.9em; opacity:0.6; padding:1em 0;">
@@ -36,7 +38,6 @@ author_profile: true
     'THz_UUR_MSEE',
     'FaceRecognition-FaceNet',
     'Investment-Portfolio-Tracker',
-    'AI-Trading-Engine',
     'LynkOo'
   ];
 
@@ -116,7 +117,7 @@ author_profile: true
 
 ---
 
-# Research Projects
+## Research Projects
 {: id="research-projects" style="scroll-margin-top:3.5em;" }
 
 {% assign research_projects = site.portfolio | where: "category", "research" | sort: "date" %}

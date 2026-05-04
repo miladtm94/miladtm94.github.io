@@ -1,39 +1,39 @@
 ---
 permalink: /terms/
 title: "Terms"
-modified: 2016-06-06
+modified: 2026-05-04
 ---
 
 {% include base_path %}
 {% include toc %}
 
+# Terms and Privacy
+
 ## Privacy Policy
 
-The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+The privacy of my visitors is important. This page outlines the limited types of information that may be processed when you use this website.
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+I will not sell or share your email address or any other personal information without your direct consent.
 
 ### Log Files
 
-Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
+This site is hosted on GitHub Pages. Like many web hosts, GitHub may process standard server logs to operate and secure the service. These logs may include:
 
 * Internet Protocol addresses (IP)
-* Types of browser
-* Internet Service Provider (ISP)
-* Date and time stamp
+* Browser and device information
+* Date and time stamps
 * Referring and exit pages
-* Number of clicks
 
-All of this information is not linked to anything that is personally identifiable.
+This website does not currently use Google Analytics.
 
-### Cookies and Web Beacons
+### Contact Form
 
-When you visit this site "convenience" cookies are stored on your computer when you submit a comment to help you log in faster to [Disqus](https://disqus.com) the next time you leave a comment.
+If you submit the contact form, the information you provide is sent through Formspree so I can respond to your message. Please avoid sending sensitive information through the form.
 
-Third-party advertisers may also place and read cookies on your browser and/or use web beacons to collect information. This site has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out.
+### Third-Party Services
 
-If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
+Pages may link to third-party profiles and services, including Google Scholar, ORCID, GitHub, LinkedIn, ResearchGate, and publisher websites. Those services have their own privacy policies.
 
-#### Google Analytics
+The footer includes a simple visitor counter badge served by hits.sh. The site does not display third-party advertising.
 
-Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](https://www.google.com/analytics/learn/privacy.html).
+You can disable cookies or site data through your browser settings.

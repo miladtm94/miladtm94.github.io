@@ -10,6 +10,8 @@ redirect_from:
 
 {% include base_path %}
 
+<h1 class="page__title">Research</h1>
+
 <!-- ── STICKY SECTION NAVIGATION ───────────────────────────────── -->
 {% assign talks_all = site.talks | sort: "date" %}
 {% assign talks_count = talks_all | size %}
@@ -57,7 +59,7 @@ redirect_from:
 
 
 <!-- ── RESEARCH VISION ─────────────────────────────────────────── -->
-<h1 id="research-vision" style="scroll-margin-top:3.5em;">Research Interests</h1>
+<h2 id="research-vision" style="scroll-margin-top:3.5em;">Research Interests</h2>
 <div style="border-left:4px solid var(--global-link-color); padding:1.1em 1.5em; margin-bottom:1.5em; background: var(--global-bg-color); border-radius:0 6px 6px 0;">
   <p style="margin:0; font-size:0.97em; line-height:1.8;">
   My research aims to develop AI-native wireless systems for 6G and beyond that are reliable, secure, energy-efficient, and capable of supporting future digital infrastructure with broad societal and economic impact. I work at the intersection of information theory, estimation theory, statistical signal processing, optimization, and machine learning to understand the fundamental trade-offs between reliability, latency, security, sensing, and environmental awareness in emerging networks. My goal is to bridge rigorous model-based design with data-driven intelligence, enabling wireless systems that can adapt to complex environments, resist adversarial disruption, and support high-impact applications such as autonomous systems, smart cities, critical infrastructure, remote connectivity, and next-generation mobile services. Current directions include integrated sensing and communications, reconfigurable intelligent surfaces, non-terrestrial networks, finite-blocklength secure communications, and learning-driven network control using reinforcement learning, generative models, and foundation-model-based approaches.
@@ -89,7 +91,7 @@ redirect_from:
     {% assign cat_count = cat_pubs | size %}
 
     {% if cat_count > 0 %}
-      <h1 id="{{ sec_anchor }}" style="scroll-margin-top:3.5em; margin-top:2em;">{{ category[1].title }}</h1><hr />
+      <h2 id="{{ sec_anchor }}" style="scroll-margin-top:3.5em; margin-top:2em;">{{ category[1].title }}</h2>
       {% for post in cat_pubs reversed %}
         {% if label_prefix != "" %}
           {% assign label_num = cat_count | minus: forloop.index0 %}
@@ -105,7 +107,7 @@ redirect_from:
 
 <!-- ── TALKS & PRESENTATIONS ───────────────────────────────────── -->
 {% if talks_count > 0 %}
-  <h1 id="talks" style="scroll-margin-top:3.5em; margin-top:2em;">Talks & Presentations</h1><hr />
+  <h2 id="talks" style="scroll-margin-top:3.5em; margin-top:2em;">Talks & Presentations</h2>
   {% for post in talks_all reversed %}
     {% assign label_num = talks_count | minus: forloop.index0 %}
     {% assign talk_label = "[T" | append: label_num | append: "]" %}

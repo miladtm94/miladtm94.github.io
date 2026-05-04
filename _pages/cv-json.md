@@ -8,7 +8,9 @@ redirect_from:
   - /cv/
 ---
 
-<!-- <div style="display:flex; flex-wrap:wrap; gap:0.75em; margin-bottom:2em;">
+# CV
+
+<div class="cv-actions">
   <a href="/files/CV_MiladTatarMamaghani.pdf" class="btn btn--primary" download>
     <i class="fas fa-download"></i>&nbsp; Download CV (PDF)
   </a>
@@ -16,7 +18,11 @@ redirect_from:
   <a href="https://www.linkedin.com/in/mtmamaghani" target="_blank" rel="noopener" class="btn btn--inverse">
     <i class="fab fa-linkedin"></i>&nbsp; LinkedIn
   </a>
-</div> -->
+</div>
+
+<p class="cv-mobile-note">
+  The PDF preview is hidden on smaller screens for readability. Use the download button above to open the full CV.
+</p>
 
 <div class="cv-pdf-preview">
   <object
