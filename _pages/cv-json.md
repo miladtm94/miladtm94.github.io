@@ -20,10 +20,6 @@ redirect_from:
   </a>
 </div>
 
-<p class="cv-mobile-note">
-  The PDF preview is hidden on smaller screens for readability. Use the download button above to open the full CV.
-</p>
-
 <div class="cv-pdf-preview">
   <object
     class="cv-pdf-object"
