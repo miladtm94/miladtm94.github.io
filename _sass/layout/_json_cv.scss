@@ -51,7 +51,17 @@
   }
 
   .cv-pdf-preview {
-    display: none;
+    /* display: none; */ /* Removed to show PDF on mobile */
+  }
+
+  .cv-pdf-object {
+    height: 50vh; /* Smaller height for mobile */
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 701px) {
+  .cv-pdf-object {
+    height: 70vh; /* Medium height for tablet */
   }
 }
 
