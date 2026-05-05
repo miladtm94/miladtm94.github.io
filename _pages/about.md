@@ -131,7 +131,7 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
     <div class="about__pub-meta">
       <span class="about__pub-venue">IEEE ICC</span>
       <span class="about__pub-year">Jun 2024</span>
-      <span class="about__pub-award">Best Paper Award</span>
+      <span class="about__pub-award">Best Paper</span>
     </div>
     <div class="about__pub-title">On the Average Information Leakage of Finite Blocklength Transmissions over Rayleigh Fading Channels</div>
     <div class="about__pub-impact">IEEE ICC Best Paper Award — top 0.6% of 2,364 submissions. Introduces average information leakage as a new FBL security metric over fading channels.</div>
@@ -147,13 +147,17 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
 <div class="about__grid">
 
   <div class="about__card">
-    <div class="about__card-title">Programming &amp; Software Dev</div>
+    <div class="about__card-title">Programming &amp; Eng. Tools</div>
     <div class="about__tags">
       <span class="about__tag">Python</span>
       <span class="about__tag">C/C++</span>
       <span class="about__tag">MATLAB</span>
+      <span class="about__tag">Simulink</span>
       <span class="about__tag">Git</span>
-      <span class="about__tag">GitHub</span>
+      <span class="about__tag">VHDL</span>
+      <span class="about__tag">LabVIEW</span>
+      <span class="about__tag">LaTeX</span>
+      
     </div>
   </div>
 
@@ -163,8 +167,8 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
       <span class="about__tag">NumPy</span>
       <span class="about__tag">Pandas</span>
       <span class="about__tag">SciPy</span>
-      <span class="about__tag">Excel</span>
-      <span class="about__tag">SPSS</span>
+      <span class="about__tag">Matplotlib</span>
+      <span class="about__tag">CVXPY</span>
     </div>
   </div>
 
@@ -175,6 +179,7 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
       <span class="about__tag">PyTorch</span>
       <span class="about__tag">Keras</span>
       <span class="about__tag">Scikit-learn</span>
+       <span class="about__tag">OpenAI Gymnasium</span>
     </div>
   </div>
 
@@ -188,21 +193,13 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
       <span class="about__tag">OFDM</span>
       <span class="about__tag">GNU Radio</span>
       <span class="about__tag">SDR</span>
+      <span class="about__tag">USRP</span>
       <span class="about__tag">TCP/IP</span>
     </div>
   </div>
 
-  <div class="about__card">
-    <div class="about__card-title">Embedded Systems &amp; Eng. Tools</div>
-    <div class="about__tags">
-      <span class="about__tag">FPGA</span>
-      <span class="about__tag">VHDL</span>
-      <span class="about__tag">Simulink</span>
-      <span class="about__tag">LabVIEW</span>
-    </div>
-  </div>
 
-  <div class="about__card">
+  <!-- <div class="about__card">
     <div class="about__card-title">Languages</div>
     <div class="about__tags">
       <span class="about__tag">English (Fluent)</span>
@@ -210,7 +207,7 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
       <span class="about__tag">Azeri (Native)</span>
       <span class="about__tag">Turkish (Intermediate)</span>
     </div>
-  </div>
+  </div> -->
 
 </div>
 
