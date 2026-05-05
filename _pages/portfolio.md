@@ -9,40 +9,62 @@ author_profile: true
 
 <nav id="portfolio-quicknav" class="sticky-quicknav" style="background:var(--global-bg-color); border:none; border-bottom:1px solid rgba(42,122,226,0.15); border-radius:0; box-shadow:none; padding:0.45em 0; margin-bottom:2em;">
   <div style="display:flex; flex-wrap:wrap; align-items:center; gap:0.4em 0.6em;">
-    <a href="#github-repos" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🐙&nbsp;GitHub Repositories</a>
-    <a href="#research-projects" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🔬&nbsp;Research Projects</a>
+    <a href="#research-code" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🔬&nbsp;Research Code</a>
+    <a href="#software-projects" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">💻&nbsp;Software Projects</a>
   </div>
 </nav>
 
 
-## Selected GitHub Repositories
-{: id="github-repos" style="scroll-margin-top:3.5em;" }
+## Research Code
+{: id="research-code" style="scroll-margin-top:3.5em;" }
 
-<div id="gh-repo-loading" style="font-size:0.9em; opacity:0.6; padding:1em 0;">
+<p style="font-size:0.9em; opacity:0.75; margin-top:-0.5em; margin-bottom:1.2em;">Code implementations and simulation frameworks for my research papers.</p>
+
+<div id="gh-repo-loading-research" style="font-size:0.9em; opacity:0.6; padding:1em 0;">
   <i class="fas fa-circle-notch fa-spin"></i>&nbsp; Loading repositories&hellip;
 </div>
 
-<div id="gh-repo-grid" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(290px, 1fr)); gap:1em;"></div>
+<div id="gh-repo-grid-research" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(290px, 1fr)); gap:1em;"></div>
+
+---
+
+## Software Projects
+{: id="software-projects" style="scroll-margin-top:3.5em;" }
+
+<p style="font-size:0.9em; opacity:0.75; margin-top:-0.5em; margin-bottom:1.2em;">Side projects spanning fintech, AI tooling, and consumer apps.</p>
+
+<div id="gh-repo-loading-software" style="font-size:0.9em; opacity:0.6; padding:1em 0;">
+  <i class="fas fa-circle-notch fa-spin"></i>&nbsp; Loading repositories&hellip;
+</div>
+
+<div id="gh-repo-grid-software" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(290px, 1fr)); gap:1em;"></div>
 
 <script>
 (function () {
   var USER = 'miladtm94';
 
-  /* ── Add or remove repo names here to control what is shown. ──
-     Order in this list = order of the cards displayed.           */
-  var SHOW = [
+  /* Research code repositories */
+  var RESEARCH = [
     'SecureISAC-UAV-DRL',
     'FBL-FadingChannels-AIL',
     'UIRS-THz-CovertComm',
     'SPC-UAV-Relay',
     'THz_UUR_MSEE',
-    'FaceRecognition-FaceNet',
-    'Investment-Portfolio-Tracker',
-    'LynkOo'
+    'UAV-PLS-SWIPT-Relay',
   ];
 
-  var grid    = document.getElementById('gh-repo-grid');
-  var loading = document.getElementById('gh-repo-loading');
+  /* Software / side projects */
+  var SOFTWARE = [
+    'Investment-Portfolio-Tracker',
+    'LynkOo',
+    'Job-Seeking-Mate',
+    'AI-Trading-Engine',
+  ];
+
+  var gridResearch  = document.getElementById('gh-repo-grid-research');
+  var gridSoftware  = document.getElementById('gh-repo-grid-software');
+  var loadResearch  = document.getElementById('gh-repo-loading-research');
+  var loadSoftware  = document.getElementById('gh-repo-loading-software');
 
   var langColors = {
     'Python': '#3572a5', 'JavaScript': '#f1e05a', 'TypeScript': '#2b7489',
@@ -90,40 +112,35 @@ author_profile: true
     return div;
   }
 
+  function renderGrid(repos, nameList, grid, loader) {
+    loader.style.display = 'none';
+    if (!Array.isArray(repos)) {
+      grid.innerHTML = '<p style="opacity:0.6; font-size:0.9em;">Could not load repositories (API rate limit may apply).</p>';
+      return;
+    }
+    var filtered = nameList.map(function (name) {
+      return repos.find(function (r) { return r.name === name; });
+    }).filter(Boolean);
+
+    if (filtered.length === 0) {
+      grid.innerHTML = '<p style="opacity:0.6; font-size:0.9em;">No matching repositories found.</p>';
+      return;
+    }
+    filtered.forEach(function (repo) { grid.appendChild(buildCard(repo)); });
+  }
+
   fetch('https://api.github.com/users/' + USER + '/repos?per_page=100&type=public')
     .then(function (r) { return r.json(); })
     .then(function (repos) {
-      loading.style.display = 'none';
-      if (!Array.isArray(repos)) {
-        grid.innerHTML = '<p style="opacity:0.6; font-size:0.9em;">Could not load repositories (API rate limit may apply).</p>';
-        return;
-      }
-      /* Keep only the listed repos, in the order specified in SHOW */
-      var show = SHOW.map(function (name) {
-        return repos.find(function (r) { return r.name === name; });
-      }).filter(Boolean);
-
-      if (show.length === 0) {
-        grid.innerHTML = '<p style="opacity:0.6; font-size:0.9em;">No matching repositories found.</p>';
-        return;
-      }
-      show.forEach(function (repo) { grid.appendChild(buildCard(repo)); });
+      renderGrid(repos, RESEARCH, gridResearch, loadResearch);
+      renderGrid(repos, SOFTWARE, gridSoftware, loadSoftware);
     })
     .catch(function () {
-      loading.innerHTML = '<p style="opacity:0.6; font-size:0.9em;">Could not load repositories.</p>';
+      loadResearch.innerHTML = '<p style="opacity:0.6; font-size:0.9em;">Could not load repositories.</p>';
+      loadSoftware.innerHTML = '<p style="opacity:0.6; font-size:0.9em;">Could not load repositories.</p>';
     });
 })();
 </script>
-
----
-
-## Research Projects
-{: id="research-projects" style="scroll-margin-top:3.5em;" }
-
-{% assign research_projects = site.portfolio | where: "category", "research" | sort: "date" %}
-{% for post in research_projects reversed %}
-  {% include archive-single.html %}
-{% endfor %}
 
 
 

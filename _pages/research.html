@@ -3,9 +3,6 @@ layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
-redirect_from:
-  - /publications/
-  - /talks/
 ---
 
 {% include base_path %}
@@ -13,49 +10,18 @@ redirect_from:
 <h1 class="page__title">Research</h1>
 
 <!-- ── STICKY SECTION NAVIGATION ───────────────────────────────── -->
-{% assign talks_all = site.talks | sort: "date" %}
-{% assign talks_count = talks_all | size %}
-{% assign manuscripts_count = site.publications | where: "category", "manuscripts" | size %}
-{% assign conferences_count = site.publications | where: "category", "conferences" | size %}
-{% assign submitted_count   = site.publications | where: "category", "submitted"   | size %}
+{% assign research_projects = site.portfolio | where: "category", "research" | sort: "date" %}
+{% assign research_projects_count = research_projects | size %}
 
 <nav id="research-quicknav" class="sticky-quicknav" style="background:var(--global-bg-color); border:none; border-bottom:1px solid rgba(42,122,226,0.15); border-radius:0; box-shadow:none; padding:0.45em 0; margin-bottom:2em;">
   <div style="display:flex; flex-wrap:wrap; align-items:center; gap:0.4em 0.6em;">
     <a href="#research-vision" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🔭&nbsp;Research Interests</a>
-    {% if manuscripts_count > 0 %}
-    <a href="#journal-articles" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">📄&nbsp;Journal Articles&nbsp;<span style="opacity:0.65;">({{ manuscripts_count }})</span></a>
+    {% if research_projects_count > 0 %}
+    <a href="#research-projects" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🔬&nbsp;Research Projects&nbsp;<span style="opacity:0.65;">({{ research_projects_count }})</span></a>
     {% endif %}
-    {% if conferences_count > 0 %}
-    <a href="#conference-papers" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🎤&nbsp;Conference Proceedings&nbsp;<span style="opacity:0.65;">({{ conferences_count }})</span></a>
-    {% endif %}
-    {% if talks_count > 0 %}
-    <a href="#talks" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🗣️&nbsp;Talks&nbsp;<span style="opacity:0.65;">({{ talks_count }})</span></a>
-    {% endif %}
-    {% if submitted_count > 0 %}
-    <a href="#under-review" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">📩&nbsp;Submitted&nbsp;<span style="opacity:0.65;">({{ submitted_count }})</span></a>
-    {% endif %}
+    <a href="#collaborators" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🤝&nbsp;Research Network</a>
   </div>
 </nav>
-
-<div class="about__metrics">
-  <div class="about__metric-item">
-    <div class="about__metric-number">{{ site.data.metrics.citations }}</div>
-    <div class="about__metric-label">Citations</div>
-  </div>
-  <div class="about__metric-item">
-    <div class="about__metric-number">{{ site.data.metrics.h_index }}</div>
-    <div class="about__metric-label">h-index</div>
-  </div>
-  <div class="about__metric-item">
-    <div class="about__metric-number">{{ site.data.metrics.papers }}</div>
-    <div class="about__metric-label">Publications</div>
-  </div>
-  <div class="about__metric-item">
-    <div class="about__metric-number">{{ site.data.metrics.reviews }}</div>
-    <div class="about__metric-label">Peer Reviews</div>
-  </div>
-</div>
-<p class="about__metrics-source">Source: <a href="https://scholar.google.com/citations?user=aAbVeNwAAAAJ&hl=en">Google Scholar</a> &middot; updated {{ site.data.metrics.last_updated }}</p>
 
 
 <!-- ── RESEARCH VISION ─────────────────────────────────────────── -->
@@ -63,7 +29,7 @@ redirect_from:
 <div style="border-left:4px solid var(--global-link-color); padding:1.1em 1.5em; margin-bottom:1.5em; background: var(--global-bg-color); border-radius:0 6px 6px 0;">
   <p style="margin:0; font-size:0.97em; line-height:1.8;">
   My research aims to develop AI-native wireless systems for 6G and beyond that are reliable, secure, energy-efficient, and capable of supporting future digital infrastructure with broad societal and economic impact. I work at the intersection of information theory, estimation theory, statistical signal processing, optimization, and machine learning to understand the fundamental trade-offs between reliability, latency, security, sensing, and environmental awareness in emerging networks. My goal is to bridge rigorous model-based design with data-driven intelligence, enabling wireless systems that can adapt to complex environments, resist adversarial disruption, and support high-impact applications such as autonomous systems, smart cities, critical infrastructure, remote connectivity, and next-generation mobile services. Current directions include integrated sensing and communications, reconfigurable intelligent surfaces, non-terrestrial networks, finite-blocklength secure communications, and learning-driven network control using reinforcement learning, generative models, and foundation-model-based approaches.
-</p> 
+</p>
 </div>
 
 <div style="display:flex; flex-wrap:wrap; gap:0.55em; margin-bottom:2.5em;">
@@ -78,42 +44,125 @@ redirect_from:
 </div>
 
 
-<!-- ── PUBLICATIONS ─────────────────────────────────────────────── -->
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign cat_key = category[0] %}
-    {% if cat_key == "manuscripts" %}{% assign label_prefix = "[J" %}{% assign sec_anchor = "journal-articles" %}
-    {% elsif cat_key == "submitted" %}{% assign label_prefix = "[S" %}{% assign sec_anchor = "under-review" %}
-    {% elsif cat_key == "conferences" %}{% assign label_prefix = "[C" %}{% assign sec_anchor = "conference-papers" %}
-    {% else %}{% assign label_prefix = "" %}{% assign sec_anchor = cat_key %}{% endif %}
-
-    {% assign cat_pubs = site.publications | where: "category", cat_key | sort: "date" %}
-    {% assign cat_count = cat_pubs | size %}
-
-    {% if cat_count > 0 %}
-      <h2 id="{{ sec_anchor }}" style="scroll-margin-top:3.5em; margin-top:2em;">{{ category[1].title }}</h2>
-      {% for post in cat_pubs reversed %}
-        {% if label_prefix != "" %}
-          {% assign label_num = cat_count | minus: forloop.index0 %}
-          {% assign pub_label = label_prefix | append: label_num | append: "]" %}
-          {% include archive-single.html label=pub_label %}
-        {% else %}
-          {% include archive-single.html %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
+<!-- ── RESEARCH PROJECTS ─────────────────────────────────────────── -->
+{% if research_projects_count > 0 %}
+<h2 id="research-projects" style="scroll-margin-top:3.5em; margin-top:2em;">Research Projects</h2>
+{% for post in research_projects reversed %}
+  {% include archive-single.html %}
+{% endfor %}
 {% endif %}
 
-<!-- ── TALKS & PRESENTATIONS ───────────────────────────────────── -->
-{% if talks_count > 0 %}
-  <h2 id="talks" style="scroll-margin-top:3.5em; margin-top:2em;">Talks & Presentations</h2>
-  {% for post in talks_all reversed %}
-    {% assign label_num = talks_count | minus: forloop.index0 %}
-    {% assign talk_label = "[T" | append: label_num | append: "]" %}
-    {% include archive-single-talk.html label=talk_label %}
-  {% endfor %}
-{% endif %}
+<!-- ── RESEARCH NETWORK ────────────────────────────────────────── -->
+<h2 id="collaborators" style="scroll-margin-top:3.5em; margin-top:2em;">Research Network</h2>
 
-<style>html { scroll-behavior: smooth; }</style>
+<div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:1em; margin-top:1em;">
+
+  <a href="https://scholar.google.com/citations?user=s4dIgfgAAAAJ" target="_blank" rel="noopener" style="text-decoration:none;">
+    <div class="collab-card">
+      <div class="collab-title">Associate Professor</div>
+      <div class="collab-name">Xiangyun (Sean) Zhou</div>
+      <div class="collab-inst">Australian National University · Australia</div>
+    </div>
+  </a>
+
+  <a href="https://scholar.google.com/citations?user=ibAcKWwAAAAJ" target="_blank" rel="noopener" style="text-decoration:none;">
+    <div class="collab-card">
+      <div class="collab-title">Distinguished Professor</div>
+      <div class="collab-name">A. Lee Swindlehurst</div>
+      <div class="collab-inst">University of California, Irvine · USA</div>
+    </div>
+  </a>
+
+  <a href="https://scholar.google.com/citations?user=hVytXZ8AAAAJ" target="_blank" rel="noopener" style="text-decoration:none;">
+    <div class="collab-card">
+      <div class="collab-title">Professor</div>
+      <div class="collab-name">Nan Yang</div>
+      <div class="collab-inst">Australian National University · Australia</div>
+    </div>
+  </a>
+
+  <a href="https://scholar.google.com/citations?user=vacIFQkAAAAJ" target="_blank" rel="noopener" style="text-decoration:none;">
+    <div class="collab-card">
+      <div class="collab-title">Associate Professor</div>
+      <div class="collab-name">Yi Hong</div>
+      <div class="collab-inst">Monash University · Australia</div>
+    </div>
+  </a>
+
+  <a href="https://scholar.google.com/citations?user=Dq93mOUAAAAJ" target="_blank" rel="noopener" style="text-decoration:none;">
+    <div class="collab-card">
+      <div class="collab-title">Professor</div>
+      <div class="collab-name">H. Vincent Poor</div>
+      <div class="collab-inst">Princeton University · USA</div>
+    </div>
+  </a>
+
+  <a href="https://scholar.google.com/citations?user=kVhcY0gAAAAJ" target="_blank" rel="noopener" style="text-decoration:none;">
+    <div class="collab-card">
+      <div class="collab-title">Professor</div>
+      <div class="collab-name">Kai-Kit Wong</div>
+      <div class="collab-inst">University College London · UK</div>
+    </div>
+  </a>
+
+  <a href="https://scholar.google.com/citations?user=rahfGagAAAAJ" target="_blank" rel="noopener" style="text-decoration:none;">
+    <div class="collab-card">
+      <div class="collab-title">Professor</div>
+      <div class="collab-name">Abbas Mohammadi</div>
+      <div class="collab-inst">Amirkabir University of Technology · Iran</div>
+    </div>
+  </a>
+
+  <a href="https://scholar.google.com/citations?user=OlNKv6sAAAAJ" target="_blank" rel="noopener" style="text-decoration:none;">
+    <div class="collab-card">
+      <div class="collab-title">Assistant Professor</div>
+      <div class="collab-name">Ali Kuhestani</div>
+      <div class="collab-inst">Qom University of Technology · Iran</div>
+    </div>
+  </a>
+
+  <a href="https://scholar.google.com/citations?user=ASs04wcAAAAJ" target="_blank" rel="noopener" style="text-decoration:none;">
+    <div class="collab-card">
+      <div class="collab-title">Senior Lecturer</div>
+      <div class="collab-name">Phil Yeoh</div>
+      <div class="collab-inst">University of the Sunshine Coast · Australia</div>
+    </div>
+  </a>
+
+</div>
+
+<style>
+html { scroll-behavior: smooth; }
+.collab-card {
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  padding: 0.9em 1.1em;
+  background: var(--global-bg-color);
+  transition: box-shadow 0.15s, border-color 0.15s;
+  height: 100%;
+}
+.collab-card:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  border-color: rgba(42,122,226,0.4);
+}
+.collab-title {
+  font-size: 0.72em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.5;
+  margin-bottom: 0.25em;
+}
+.collab-name {
+  font-weight: 700;
+  font-size: 0.92em;
+  color: var(--global-link-color);
+  margin-bottom: 0.3em;
+}
+.collab-inst {
+  font-size: 0.82em;
+  opacity: 0.68;
+  line-height: 1.4;
+}
+</style>
 {% include sticky-nav.html %}

@@ -139,7 +139,7 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
 
 </div>
 
-<p style="font-size:0.88em; margin-top:0.5em;"><a href="/research/">All publications →</a></p>
+<p style="font-size:0.88em; margin-top:0.5em;"><a href="/publications/">All publications →</a></p>
 
 
 ## Skills
