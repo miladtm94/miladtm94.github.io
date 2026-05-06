@@ -7,10 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-<div class="about__announcement">
+<!-- <div class="about__announcement">
   <span class="about__announcement-icon">🟢</span>
   <span><strong>Open to academic and industry opportunities.</strong></span>
-</div>
+</div> -->
 
 # Milad Tatar Mamaghani
 
