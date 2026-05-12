@@ -10,6 +10,8 @@ location: "Singapore"
 # paperurl: "https://ieeexplore.ieee.org/document/8253999/"
 # arxivurl: "https://arxiv.org/abs/1708.06562"
 slidesurl: "https://docs.google.com/presentation/d/1TPzJIkmGoDBU3p9AM7QKR5BoBER0rt6K/edit?usp=sharing&ouid=108246410055319529974&rtpof=true&sd=true"
+videourl: "https://youtu.be/3S5IjAvdF0s"
+
 
 ---
 
