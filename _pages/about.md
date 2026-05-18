@@ -181,20 +181,20 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
       <span class="about__tag">Keras</span>
       <span class="about__tag">Scikit-learn</span>
       <span class="about__tag">Deep Reinforcement Learning</span>
-      <span class="about__tag">Model Evaluation</span>
+      <span class="about__tag">RLHF Evaluation</span>
     </div>
   </div>
 
   <div class="about__card">
     <div class="about__card-title">Wireless Communications</div>
     <div class="about__tags">
-      <span class="about__tag">MIMO</span>
+      <span class="about__tag">5G/NR</span>
+      <span class="about__tag">3GPP</span>
+      <span class="about__tag">IEEE 802.11</span>
+      <span class="about__tag">MIMO/Beamforming</span>
       <span class="about__tag">OFDM</span>
-      <span class="about__tag">Beamforming</span>
-      <span class="about__tag">Channel Modelling</span>
-      <span class="about__tag">Physical-Layer Security</span>
-      <span class="about__tag">ISAC</span>
-      <span class="about__tag">UAV Communications</span>
+      <span class="about__tag">RF Propagation</span>
+      <span class="about__tag">Link-Budget Analysis</span>
     </div>
   </div>
 
@@ -203,6 +203,7 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
     <div class="about__tags">
       <span class="about__tag">DSP</span>
       <span class="about__tag">Spectral Analysis</span>
+      <span class="about__tag">Channel Estimation</span>
       <span class="about__tag">Detection Theory</span>
       <span class="about__tag">SDR</span>
       <span class="about__tag">GNU Radio</span>
