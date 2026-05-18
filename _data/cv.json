@@ -84,18 +84,91 @@
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Digital Signal Processing",
+      "keywords": [
+        "RF signal analysis",
+        "Spectral analysis",
+        "FFT/IFFT",
+        "Filtering",
+        "Detection theory",
+        "Statistical signal processing",
+        "Channel estimation",
+        "Stochastic modeling",
+        "Algorithm development"
+      ]
+    },
+    {
+      "name": "Wireless and RF Systems",
+      "keywords": [
+        "MIMO",
+        "OFDM",
+        "Beamforming",
+        "Precoding",
+        "RF propagation",
+        "Fading channels",
+        "Doppler modeling",
+        "Interference modeling",
+        "Path-loss modeling",
+        "Link-budget analysis",
+        "SDR workflows"
+      ]
+    },
+    {
+      "name": "Programming and Scientific Computing",
+      "keywords": [
+        "Python",
+        "MATLAB",
+        "C/C++",
+        "SQL",
+        "Bash/Linux",
+        "TypeScript/JavaScript",
+        "NumPy",
+        "SciPy",
+        "Pandas",
+        "PyTorch",
+        "CVX/CVXPY",
+        "Matplotlib",
+        "Jupyter"
+      ]
+    },
+    {
+      "name": "Prototyping and Engineering Tools",
+      "keywords": [
+        "GNU Radio",
+        "USRP B210",
+        "LabVIEW",
+        "Simulink",
+        "Git/GitHub",
+        "Docker",
+        "Linux",
+        "VHDL/FPGA exposure",
+        "Technical documentation"
+      ]
+    },
+    {
+      "name": "AI and ML",
+      "keywords": [
+        "Deep reinforcement learning",
+        "PyTorch",
+        "Model evaluation",
+        "RLHF evaluation",
+        "Adversarial prompt engineering"
+      ]
+    }
+  ],
   "languages": [
     {
       "language": "English",
       "fluency": "Fluent"
     },
     {
-      "language": "Persian",
+      "language": "Persian/Farsi",
       "fluency": "Native"
     },
     {
-      "language": "Azeri",
+      "language": "Azerbaijani/Azeri",
       "fluency": "Native"
     },
     {

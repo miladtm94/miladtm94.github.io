@@ -43,8 +43,10 @@ redirect_from:
 
 ## About Me
 
+ <!-- with [A/Prof. Xiangyun Zhou](https://users.cecs.anu.edu.au/~xyzhou/)
+  under [A/Prof. Yi Hong](https://research.monash.edu/en/persons/yi-hong) -->
 
-I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a town near Tabriz in northwestern Iran, and now based in Sydney, Australia. I completed my Ph.D. at Monash University under [A/Prof. Yi Hong](https://research.monash.edu/en/persons/yi-hong), where my thesis on wireless communications security with unmanned aerial vehicles (a.k.a. drones) received an exceptional rating (top 5% in the field). I later worked as a postdoctoral research fellow at the Australian National University with [A/Prof. Xiangyun Zhou](https://users.cecs.anu.edu.au/~xyzhou/), focusing on machine-type communications from the physical-layer perspective. My research sits at the intersection of wireless communications, signal processing, optimization, and machine learning/AI, with a focus on building the mathematical and algorithmic foundations for energy-efficient, reliable, and secure next-generation wireless networks. I have published 17+ papers in leading IEEE journals and flagship conferences, received two Best Paper Awards, and served as a technical reviewer and TPC member for numerous international venues. Outside work, I enjoy hiking, swimming, and overthinking my next chess moves.
+I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a town near Tabriz in northwestern Iran, and now based in Sydney, Australia. I completed my Ph.D. at Monash University, where my thesis on wireless communications security with unmanned aerial vehicles (a.k.a. drones) received an exceptional rating of top 5% in the field. I later worked as a postdoctoral research fellow at the Australian National University, focusing on machine-type communications from the physical-layer perspective. My research sits at the intersection of wireless communications, signal processing, optimization, and machine learning/AI, with a focus on building the mathematical and algorithmic foundations for energy-efficient, reliable, and secure next-generation wireless networks. I have published 17+ papers in leading IEEE journals and flagship conferences, received two Best Paper Awards, and served as a technical reviewer and TPC member for numerous international venues. Outside work, I enjoy hiking, swimming, and overthinking my next chess moves.
 
 <div class="about__hero-actions">
   <a class="btn btn--primary" href="/contact/">Get in touch</a>
@@ -142,64 +144,73 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
 <p style="font-size:0.88em; margin-top:0.5em;"><a href="/publications/">All publications →</a></p>
 
 
-## Technical Skills
+## Core Skills
 
 <div class="about__grid">
 
   <div class="about__card">
-    <div class="about__card-title">Programming &amp; Eng. Tools</div>
+    <div class="about__card-title">Programming &amp; Tools</div>
     <div class="about__tags">
       <span class="about__tag">Python</span>
-      <span class="about__tag">C/C++</span>
       <span class="about__tag">MATLAB</span>
-      <span class="about__tag">Simulink</span>
-      <span class="about__tag">Git</span>
-      <span class="about__tag">VHDL</span>
-      <span class="about__tag">LabVIEW</span>
+      <span class="about__tag">C/C++</span>
+      <span class="about__tag">Git/GitHub</span>
+      <span class="about__tag">Docker</span>
+      <span class="about__tag">Linux</span>
       <span class="about__tag">LaTeX</span>
-      
     </div>
   </div>
 
   <div class="about__card">
-    <div class="about__card-title">Data Science &amp; Analytics</div>
+    <div class="about__card-title">Scientific Computing &amp; Optimization</div>
     <div class="about__tags">
       <span class="about__tag">NumPy</span>
-      <span class="about__tag">Pandas</span>
       <span class="about__tag">SciPy</span>
+      <span class="about__tag">Pandas</span>
       <span class="about__tag">Matplotlib</span>
       <span class="about__tag">CVXPY</span>
+      <span class="about__tag">Simulation</span>
     </div>
   </div>
 
   <div class="about__card">
     <div class="about__card-title">Machine Learning &amp; AI</div>
     <div class="about__tags">
-      <span class="about__tag">TensorFlow</span>
       <span class="about__tag">PyTorch</span>
+      <span class="about__tag">TensorFlow</span>
       <span class="about__tag">Keras</span>
       <span class="about__tag">Scikit-learn</span>
-       <span class="about__tag">OpenAI Gymnasium</span>
+      <span class="about__tag">Deep Reinforcement Learning</span>
+      <span class="about__tag">Model Evaluation</span>
     </div>
   </div>
 
   <div class="about__card">
-    <div class="about__card-title">Wireless Comms &amp; Signal Processing</div>
+    <div class="about__card-title">Wireless Communications</div>
     <div class="about__tags">
-      <span class="about__tag">5G/NR</span>
-      <span class="about__tag">3GPP</span>
-      <span class="about__tag">IEEE 802.11</span>
       <span class="about__tag">MIMO</span>
       <span class="about__tag">OFDM</span>
-      <span class="about__tag">GNU Radio</span>
-      <span class="about__tag">SDR</span>
-      <span class="about__tag">USRP</span>
-      <span class="about__tag">TCP/IP</span>
+      <span class="about__tag">Beamforming</span>
+      <span class="about__tag">Channel Modelling</span>
+      <span class="about__tag">Physical-Layer Security</span>
+      <span class="about__tag">ISAC</span>
+      <span class="about__tag">UAV Communications</span>
     </div>
   </div>
 
+  <div class="about__card">
+    <div class="about__card-title">Signal Processing &amp; RF Systems</div>
+    <div class="about__tags">
+      <span class="about__tag">DSP</span>
+      <span class="about__tag">Spectral Analysis</span>
+      <span class="about__tag">Detection Theory</span>
+      <span class="about__tag">SDR</span>
+      <span class="about__tag">GNU Radio</span>
+      <span class="about__tag">USRP</span>
+    </div>
+  </div>
 
-  <!-- <div class="about__card">
+  <div class="about__card">
     <div class="about__card-title">Languages</div>
     <div class="about__tags">
       <span class="about__tag">English (Fluent)</span>
@@ -207,7 +218,7 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
       <span class="about__tag">Azeri (Native)</span>
       <span class="about__tag">Turkish (Intermediate)</span>
     </div>
-  </div> -->
+  </div>
 
 </div>
 

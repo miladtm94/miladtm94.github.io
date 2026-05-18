@@ -28,7 +28,7 @@ author:
   name             : "Milad Tatar Mamaghani"
   bio              : "Research Scientist & Engineer"
   location         : "Sydney, NSW, Australia"
-  employer         : "Independent Researcher"
+  employer         : #"Independent Researcher"
   uri              : # URL
   email            : "milad.tatarmamaghani@gmail.com" 
 
