@@ -235,6 +235,9 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
 <p class="about__news-item"><span class="about__news-date">Mar 2026</span><br>
 New paper submitted &mdash; <em>Symbol-Aware Precoder Design for Physical-Layer Anonymous Communications</em>, IEEE Trans. Commun.</p>
 
+<p class="about__news-item"><span class="about__news-date">2025</span><br>
+📚 Featured in <a href="https://www.comsoc.org/publications/best-readings/covert-communication-and-networking"><strong>IEEE ComSoc Best Readings in Covert Communication and Networking</strong></a> for landmark work on covert communications: <a href="/publication/aerial-irs-thz-covert"><em>Aerial IRS-Enabled THz Covert Communications</em></a>.</p>
+
 <p class="about__news-item"><span class="about__news-date">Sep 2025</span><br>
 Paper published in <strong>IEEE JSAC</strong> &mdash; <em>Securing ISAC Against a Mobile Adversary: A Stackelberg Game with DRL</em></p>
 
