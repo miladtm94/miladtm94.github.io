@@ -57,8 +57,9 @@ author_profile: true
   var SOFTWARE = [
     'Investment-Portfolio-Tracker',
     'LynkOo',
+    'Healthmate-app',
     'Job-Seeking-Mate',
-    'AI-Trading-Engine',
+    'Algorithmic-Trading-Engine ',
   ];
 
   var gridResearch  = document.getElementById('gh-repo-grid-research');
