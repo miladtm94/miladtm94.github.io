@@ -38,21 +38,31 @@
   "work": [
     {
       "name": "Independent Consultant",
-      "position": "Research and AI Evaluation Consultant",
+      "position": "Subject Matter Expert Consultant",
       "url": "",
       "startDate": "2025-01-01",
       "endDate": "",
       "summary": "Remote consulting and expert evaluation work for advanced STEM and AI tasks.",
-      "highlights": []
+      "highlights": [
+        "Drive research-based projects through technical evaluation and domain-specific model reasoning for top-tier AI labs.",
+        "Benchmark AI models for complex algorithmic reasoning and mathematical accuracy in STEM contexts.",
+        "Curate high-fidelity training datasets to improve AI alignment, factual precision, and reasoning.",
+        "Formulate advanced prompting strategies and evaluation guidelines for next-generation AI models."
+      ]
     },
     {
       "name": "The Australian National University",
-      "position": "Research Fellow",
+      "position": "Postdoctoral Research Fellow (Level B)",
       "url": "",
       "startDate": "2023-01-01",
       "endDate": "2025-01-01",
       "summary": "Research in physical-layer security, UAV communications, and next-generation wireless networks.",
-      "highlights": []
+      "highlights": [
+        "Conducted research on physical-layer security, short-packet communications, and integrated sensing and communications.",
+        "Published 3 first-author papers in Q1 IEEE transactions: 1 IEEE JSAC paper (IF 17.2) and 2 IEEE TWC papers (IF 10.4).",
+        "Presented 2 papers at flagship conferences: IEEE ICC 2024 and IEEE GLOBECOM 2023.",
+        "Received 2 best-paper awards: IEEE SPCC-TC Best Paper Award 2024 and IEEE ICC Best Paper Award 2024 (top 0.6% of 2,364 submissions)."
+      ]
     },
     {
       "name": "Monash University",
@@ -61,7 +71,12 @@
       "startDate": "2019-01-01",
       "endDate": "2022-12-01",
       "summary": "Doctoral research on physical-layer security for beyond-5G wireless networks using UAVs.",
-      "highlights": []
+      "highlights": [
+        "Conducted research on wireless communications security, resource allocation, signal processing, and IoT network design.",
+        "Designed reinforcement learning and mathematical optimization frameworks for energy-efficient airborne communications.",
+        "Developed aerial MIMO beamforming and energy-efficient trajectory planning architectures to secure UAV networks.",
+        "Published 7 peer-reviewed articles in leading journals and received 5+ awards, grants, and accolades for research excellence."
+      ]
     }
   ],
   "education": [
