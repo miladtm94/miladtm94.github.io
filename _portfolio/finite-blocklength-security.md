@@ -12,8 +12,8 @@ portfolio_details:
 #     value: "The Australian National University (ANU)"
   - label: "Role"
     value: "Postdoctoral Research Fellow"
-  - label: "Mentors"
-    value: "A/Prof. Xiangyun (Sean) Zhou (CI), Prof. Lee Swindlehurst (PI)"
+  - label: "Supervisor"
+    value: "A/Prof. Xiangyun (Sean) Zhou"
 keywords:
   - Physical-Layer Security
   - Information-Theoretic Security
