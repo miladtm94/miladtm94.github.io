@@ -230,16 +230,16 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
 <div class="about__news">
 
 <p class="about__news-item"><span class="about__news-date">Apr 2026</span><br>
-🚀 Personal website relaunched with a new design.</p>
+🚀 Personal website relaunched.</p>
 
 <p class="about__news-item"><span class="about__news-date">Mar 2026</span><br>
-📚 New paper submitted to <strong>IEEE TCOM</strong>.</p>
+📚 Our new work submitted to <strong>IEEE TCOM</strong>.</p>
 
 <p class="about__news-item"><span class="about__news-date">Oct 2025</span><br>
-📚 Paper Featured in <a href="https://www.comsoc.org/publications/best-readings/covert-communication-and-networking">IEEE ComSoc Best Readings in Covert Communication and Networking</a></em></a>.</p>
+📚 Our IoT-J paper featured in <a href="https://www.comsoc.org/publications/best-readings/covert-communication-and-networking">IEEE ComSoc Best Readings</a></p>
 
 <p class="about__news-item"><span class="about__news-date">Sep 2025</span><br>
-📚 Paper published in <strong>IEEE JSAC</strong> — Recent Advances in Integrated Sensing and Communications</p>
+📚 Our paper published in <strong>IEEE JSAC</strong></p>
 
 <p class="about__news-item"><span class="about__news-date">2024</span><br>
 🇦🇺 Received  <strong>Australian Global Talent</strong>.</p>
@@ -247,10 +247,8 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
 <p class="about__news-item"><span class="about__news-date">Jun 2024</span><br>
 &#127942; Received  <strong>Best Paper Award</strong> at IEEE ICC 2024.</p>
 
-<p class="about__news-item"><span class="about__news-date">2024</span><br>
+<p class="about__news-item"><span class="about__news-date">Sep 2024</span><br>
 &#127942; Received <strong>Best Paper Award</strong> by IEEE ComSoc SPCC Technical Committee.</p>
 
-<p class="about__news-item"><span class="about__news-date">Dec 2023</span><br>
-📚 Paper published in <strong>IEEE TWC.</strong></p>
 
 </div>
