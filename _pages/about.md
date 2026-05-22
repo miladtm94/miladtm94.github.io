@@ -230,27 +230,27 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
 <div class="about__news">
 
 <p class="about__news-item"><span class="about__news-date">Apr 2026</span><br>
-🚀 Personal website relaunched with a new design and domain.</p>
+🚀 Personal website relaunched with a new design.</p>
 
 <p class="about__news-item"><span class="about__news-date">Mar 2026</span><br>
-New paper submitted &mdash; <em>Symbol-Aware Precoder Design for Physical-Layer Anonymous Communications</em>, IEEE Trans. Commun.</p>
+📚 New paper submitted to <strong>IEEE TCOM</strong>.</p>
 
-<p class="about__news-item"><span class="about__news-date">2025</span><br>
-📚 Featured in <a href="https://www.comsoc.org/publications/best-readings/covert-communication-and-networking"><strong>IEEE ComSoc Best Readings in Covert Communication and Networking</strong></a> for landmark work on covert communications: <a href="/publication/aerial-irs-thz-covert"><em>Aerial IRS-Enabled THz Covert Communications</em></a>.</p>
+<p class="about__news-item"><span class="about__news-date">Oct 2025</span><br>
+📚 Paper Featured in <a href="https://www.comsoc.org/publications/best-readings/covert-communication-and-networking">IEEE ComSoc Best Readings in Covert Communication and Networking</a></em></a>.</p>
 
 <p class="about__news-item"><span class="about__news-date">Sep 2025</span><br>
-Paper published in <strong>IEEE JSAC</strong> &mdash; <em>Securing ISAC Against a Mobile Adversary: A Stackelberg Game with DRL</em></p>
+📚 Paper published in <strong>IEEE JSAC</strong> — Recent Advances in Integrated Sensing and Communications</p>
 
 <p class="about__news-item"><span class="about__news-date">2024</span><br>
-Awarded <strong>Australian Global Talent Visa</strong> &mdash; recognized as nationally significant talent.</p>
+🇦🇺 Received  <strong>Australian Global Talent</strong>.</p>
 
 <p class="about__news-item"><span class="about__news-date">Jun 2024</span><br>
-&#127942; <strong>Best Paper Award</strong> at IEEE ICC 2024, Denver, CO &mdash; top 0.6% of 2,364 submissions.</p>
+&#127942; Received  <strong>Best Paper Award</strong> at IEEE ICC 2024.</p>
 
 <p class="about__news-item"><span class="about__news-date">2024</span><br>
-&#127942; <strong>Best Paper Award</strong> from IEEE ComSoc SPCC Technical Committee &mdash; one paper selected per year.</p>
+&#127942; Received <strong>Best Paper Award</strong> by IEEE ComSoc SPCC Technical Committee.</p>
 
 <p class="about__news-item"><span class="about__news-date">Dec 2023</span><br>
-Paper published in <strong>IEEE Trans. Wireless Commun.</strong> &mdash; <em>Secure Short-Packet Communications via UAV-Enabled Mobile Relaying</em></p>
+📚 Paper published in <strong>IEEE TWC.</strong></p>
 
 </div>
