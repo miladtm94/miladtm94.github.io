@@ -28,7 +28,7 @@ author_profile: true
 
 ---
 
-## Software Projects
+## DS & Software Projects
 {: id="software-projects" style="scroll-margin-top:3.5em;" }
 
 <p style="font-size:0.9em; opacity:0.75; margin-top:-0.5em; margin-bottom:1.2em;">Side projects spanning fintech, AI tooling, and consumer apps.</p>
@@ -58,8 +58,8 @@ author_profile: true
     'Investment-Portfolio-Tracker',
     'LynkOo',
     'Healthmate-app',
-    'Job-Seeking-Mate',
-    'Algorithmic-Trading-Engine ',
+    'Algorithmic-Trading-Engine',
+    'FaceRecognition-FaceNet'
   ];
 
   var gridResearch  = document.getElementById('gh-repo-grid-research');
