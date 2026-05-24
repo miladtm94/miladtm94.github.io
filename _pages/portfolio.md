@@ -59,6 +59,7 @@ author_profile: true
     'LynkOo',
     'Healthmate-app',
     'Algorithmic-Trading-Engine',
+    'CNN-Image-Clasification',
     'FaceRecognition-FaceNet'
   ];
 
