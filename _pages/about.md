@@ -50,7 +50,7 @@ I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a to
 
 My work sits at the intersection of wireless communications, signal processing, optimization, machine learning, and applied AI. I have worked on physical-layer security, non-terrestrial networks, integrated sensing and communications, MIMO beamforming, reconfigurable intelligent surfaces, and data-driven resource allocation for beyond-5G and 6G networks. More broadly, I am interested in AI-native systems, data science and analytics, simulation engineering, and software development that turns complex technical ideas into practical, testable, and impactful solutions.
 
-My work has led to 18 peer-reviewed IEEE publications, 600+ citations, two IEEE Best Paper Awards, competitive scholarships, awards, grants, and international recognition for contributions to secure and intelligent wireless technologies. I have also served the research community as a volunteer reviewer, TPC member, and conference session chair for leading international venues. Outside work, I enjoy hiking, swimming, and overthinking my next chess moves.
+My work has led to 17+ peer-reviewed  publications, 600+ citations, two IEEE Best Paper Awards, competitive scholarships, awards, grants, and international recognition for contributions to secure and intelligent wireless technologies. I have also served the research community as a volunteer reviewer, TPC member, and conference session chair for leading international venues. Outside work, I enjoy hiking, swimming, and overthinking my next chess moves.
 
 <div class="about__hero-actions">
   <a class="btn btn--primary" href="/contact/">Get in touch</a>
