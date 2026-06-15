@@ -1,16 +1,16 @@
 ---
 layout: archive
-title: "Projects"
+title: "Repos"
 permalink: /portfolio/
 author_profile: true
 ---
 
-# Projects
+# Repos
 
 <nav id="portfolio-quicknav" class="sticky-quicknav" style="background:var(--global-bg-color); border:none; border-bottom:1px solid rgba(42,122,226,0.15); border-radius:0; box-shadow:none; padding:0.45em 0; margin-bottom:2em;">
   <div style="display:flex; flex-wrap:wrap; align-items:center; gap:0.4em 0.6em;">
     <a href="#research-code" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🔬&nbsp;Research Code</a>
-    <a href="#software-projects" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">💻&nbsp;Software Projects</a>
+    <a href="#software-repos" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">💻&nbsp;Software Repos</a>
   </div>
 </nav>
 
@@ -28,10 +28,10 @@ author_profile: true
 
 ---
 
-## DS & Software Projects
-{: id="software-projects" style="scroll-margin-top:3.5em;" }
+## DS & Software Repos
+{: id="software-repos" style="scroll-margin-top:3.5em;" }
 
-<p style="font-size:0.9em; opacity:0.75; margin-top:-0.5em; margin-bottom:1.2em;">Side projects spanning fintech, AI tooling, and consumer apps.</p>
+<p style="font-size:0.9em; opacity:0.75; margin-top:-0.5em; margin-bottom:1.2em;">Repositories spanning fintech, AI tooling, and consumer apps.</p>
 
 <div id="gh-repo-loading-software" style="font-size:0.9em; opacity:0.6; padding:1em 0;">
   <i class="fas fa-circle-notch fa-spin"></i>&nbsp; Loading repositories&hellip;
@@ -53,7 +53,7 @@ author_profile: true
     'UAV-PLS-SWIPT-Relay',
   ];
 
-  /* Software / side projects */
+  /* Software repositories */
   var SOFTWARE = [
     'Investment-Portfolio-Tracker',
     'LynkOo',
