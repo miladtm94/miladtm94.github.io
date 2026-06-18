@@ -7,5 +7,5 @@ excerpt: "A precoder design framework ensuring physical-layer anonymity by preve
 date: 2026-03-01
 venue: "IEEE Transactions on Communications"
 arxivurl: "https://arxiv.org/abs/2602.20874"
-citation: 'Y. Li, <strong>M. Tatar Mamaghani</strong>, X. Zhou, and N. Yang, "Symbol-aware precoder design for physical-layer anonymous communications," submitted to <em>IEEE Trans. Commun.</em>, Mar. 2026.'
+citation: 'Y. Li, <strong>M. Tatar Mamaghani</strong>, X. Zhou, and N. Yang, "Symbol-aware precoder design for physical-layer anonymous communications," arXiv preprint arXiv:2602.20874, Mar. 2026.'
 ---
