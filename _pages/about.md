@@ -232,6 +232,8 @@ My work has led to 17+ peer-reviewed  publications, 600+ citations, two IEEE Bes
 ## News
 
 <div class="about__news">
+<p class="about__news-item"><span class="about__news-date">Jun 2026</span><br>
+📚 Our new work on ISAC submitted to <strong>IEEE TWC</strong>.</p>
 
 <p class="about__news-item"><span class="about__news-date">Apr 2026</span><br>
 🚀 Personal website relaunched.</p>
