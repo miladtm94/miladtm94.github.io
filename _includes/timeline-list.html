@@ -1,3 +1,63 @@
+<style>
+  .timeline-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 2em;
+  }
+
+  .timeline-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    padding: 1em 1.2em;
+    border: 1px solid var(--global-border-color);
+    border-left: 4px solid var(--global-link-color);
+    border-radius: 4px;
+  }
+
+  .timeline-card__marker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35em;
+    min-width: 3.2em;
+    padding: 0.45em;
+    border: 1px solid var(--global-border-color);
+    border-radius: 0.85em;
+    background: var(--global-bg-color);
+  }
+
+  .timeline-card__icon {
+    font-size: 1.75em;
+    line-height: 1;
+  }
+
+  .timeline-card__year {
+    font-size: 1.05em;
+    font-weight: 800;
+    opacity: 0.9;
+    letter-spacing: 0.02em;
+  }
+
+  .timeline-card__body {
+    flex: 1;
+  }
+
+  .timeline-card__detail {
+    margin: 0.4em 0 0;
+    font-size: 0.9em;
+    opacity: 0.85;
+  }
+
+  .timeline-card__source {
+    margin: 0.4em 0 0;
+    font-size: 0.85em;
+    opacity: 0.65;
+  }
+</style>
+
 <div class="timeline-list">
   {% for item in include.items %}
     {% include timeline-card.html item=item %}

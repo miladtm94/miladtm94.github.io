@@ -30,3 +30,23 @@ For another page, create a data file with the same fields, then render it with:
 ```
 
 The shared styling lives in `_sass/layout/_page.scss` under `timeline-card`.
+
+## Professional Experience
+
+Edit `_data/experience.yml`. Add future roles under `professional`:
+
+```yml
+- title: "Role Title"
+  type: "Full-time"
+  organization: "Institution or Company"
+  location: "City, Country"
+  date: "Jan 2026 &ndash; Present"
+  highlights:
+    - "Impact-focused bullet."
+```
+
+The experience page renders these entries through:
+
+```liquid
+{% include experience-list.html items=site.data.experience.professional %}
+```
