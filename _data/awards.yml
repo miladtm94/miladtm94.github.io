@@ -17,13 +17,13 @@ honours:
 
   - icon: "🏆"
     year: "2024"
-    title: "IEEE ICC Best Paper Award"
+    title: "<a href='https://drive.google.com/file/d/1RagcAujNacqVvJUZQzD-3FsWMmMWI4Ly/view?usp=drive_link'>IEEE ICC Best Paper Award</a>"
     detail: "Communication Theory Symposium — top 0.6% of 2,364 submissions"
     source: "IEEE International Conference on Communications"
 
   - icon: "🏆"
     year: "2024"
-    title: "IEEE SPCC-TC Best Paper Award"
+    title: "<a href='https://drive.google.com/file/d/1GK5IQ30KwY_FcZUAjdoiEUUjCnx7-r6B/view?usp=drive_link'>IEEE SPCC-TC Best Paper Award</a>"
     detail: "Only one paper is selected annually across all IEEE ComSoc publications"
     source: "The Signal Processing and Computing for Communications Technical Committee"
 
@@ -77,7 +77,7 @@ honours:
 
   - icon: "⭐"
     year: "2014"
-    title: "Exceptional Talent Recognition"
+    title: "Exceptional Talent Award"
     detail: "Recognized for exceptional academic excellence"
     source: "Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran"
 
