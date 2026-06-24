@@ -1,0 +1,113 @@
+# Add future items by copying one block below into the relevant section.
+#
+# - icon: "🏅"
+#   year: "2026"
+#   title: "Recognition Title"
+#   detail: "One concise sentence explaining why it matters"
+#   source: "Institution, Location"
+#
+# Optional: titles and details may include inline HTML links.
+
+honours:
+  - icon: "📚"
+    year: "2025"
+    title: '<a href="https://www.comsoc.org/publications/best-readings/covert-communication-and-networking">IEEE ComSoc Best Readings in Covert Communication and Networking</a>'
+    detail: 'Recognizes impactful and landmark technical contributions in the field; featured paper: <a href="/publication/aerial-irs-thz-covert"><em>Aerial Intelligent Reflecting Surface-Enabled Terahertz Covert Communications in Beyond-5G Internet of Things</em></a>'
+    source: "IEEE Communications Society"
+
+  - icon: "🏆"
+    year: "2024"
+    title: "IEEE ICC Best Paper Award"
+    detail: "Communication Theory Symposium — top 0.6% of 2,364 submissions"
+    source: "IEEE International Conference on Communications"
+
+  - icon: "🏆"
+    year: "2024"
+    title: "IEEE SPCC-TC Best Paper Award"
+    detail: "Only one paper is selected annually across all IEEE ComSoc publications"
+    source: "The Signal Processing and Computing for Communications Technical Committee"
+
+  - icon: "🌏"
+    year: "2024"
+    title: "Australian Global Talent"
+    detail: "Recognition under the national innovation program for exceptional achievement in technology"
+    source: "Australian Government, Department of Home Affairs"
+
+  - icon: "✈️"
+    year: "2023"
+    title: "ECR International Travel Grant"
+    detail: "Competitive early-career researcher grant for presenting research at international conferences"
+    source: "The Australian National University, Canberra, Australia"
+
+  - icon: "🎓"
+    year: "2022"
+    title: "Exceptional PhD Thesis"
+    detail: "Recognized among the top 5% in the field by independent examiners"
+    source: "Monash University, Melbourne, Australia"
+
+  - icon: "🎓"
+    year: "2022"
+    title: "Graduate Research Completion Award"
+    detail: "Awarded for successful and timely completion of doctoral research"
+    source: "Monash University, Melbourne, Australia"
+
+  - icon: "📘"
+    year: "2022"
+    title: "Postgraduate Publications Award"
+    detail: "Recognition for outstanding research publications during doctoral candidature — AUD $5,000"
+    source: "Monash University, Melbourne, Australia"
+
+  - icon: "📜"
+    year: "2019"
+    title: "Vice-Chancellor's Congratulatory Letter"
+    detail: "Teaching and learning excellence based on student unit evaluation results"
+    source: "Monash University, Melbourne, Australia"
+
+  - icon: "🏛️"
+    year: "2019"
+    title: "Monash Graduate Scholarship"
+    detail: "Full doctoral scholarship for living stipend (AUD ~$120,000)"
+    source: "Monash University, Melbourne, Australia"
+
+  - icon: "🎓"
+    year: "2019"
+    title: "Monash International Tuition Scholarship"
+    detail: "Full tuition waiver over the PhD program (~AUD $200,000)"
+    source: "Monash University, Melbourne, Australia"
+
+  - icon: "⭐"
+    year: "2014"
+    title: "Exceptional Talent Recognition"
+    detail: "Recognized for exceptional academic excellence"
+    source: "Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran"
+
+  - icon: "🏅"
+    year: "2012"
+    title: "Top 0.2% — National University Entrance Exam (Konkour)"
+    detail: "Ranked in the top 0.2% among nearly 300,000 applicants nationwide"
+    source: "Iran's Nationwide University Entrance Examination"
+
+  - icon: "🧠"
+    year: "2011"
+    title: "Semifinalist — Math &amp; Chemistry Olympiads"
+    detail: "Selected among top performers in both national mathematics and chemistry competitions"
+    source: "National Science Olympiad Program, Iran"
+
+recognitions:
+  - icon: "🏫"
+    year: "2026"
+    title: "Shortlisted Faculty Candidate"
+    detail: "Selected and interviewed for tenure-track faculty recruitment; NTU EEE is ranked 4th globally in QS World University Rankings by Subject"
+    source: "School of Electrical &amp; Electronic Engineering, Nanyang Technological University (NTU), Singapore"
+
+  - icon: "🔬"
+    year: "2022/2025"
+    title: "Research Fellowship Offers"
+    detail: "Selected from 60+ international applicants for research fellowship opportunities; declined due to personal and career-alignment considerations"
+    source: "KTH Royal Institute of Technology, Stockholm, Sweden"
+
+  - icon: "🎓"
+    year: "2018/2019"
+    title: "Full Scholarship Offers"
+    detail: "Offered Melbourne Research Scholarship, Macquarie Research Excellence Scholarship, and Silver Scholarship; declined for the Monash doctoral opportunity"
+    source: "University of Melbourne; Macquarie University; Politecnico di Milano"
