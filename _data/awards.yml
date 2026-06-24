@@ -12,7 +12,7 @@ honours:
   - icon: "📚"
     year: "2025"
     title: '<a href="https://www.comsoc.org/publications/best-readings/covert-communication-and-networking">IEEE ComSoc Best Readings in Covert Communication and Networking</a>'
-    detail: 'Recognizes impactful and landmark technical contributions in the field; featured paper: <a href="/publication/aerial-irs-thz-covert"><em>Aerial Intelligent Reflecting Surface-Enabled Terahertz Covert Communications in Beyond-5G Internet of Things</em></a>'
+    detail: 'Recognizes impactful and landmark technical contributions in the field'
     source: "IEEE Communications Society"
 
   - icon: "🏆"
@@ -109,5 +109,5 @@ recognitions:
   - icon: "🎓"
     year: "2019"
     title: "Full Scholarship Offers"
-    detail: "Offered Melbourne Research Scholarship, Macquarie Research Excellence Scholarship, and Silver Scholarship; declined for the Monash doctoral opportunity"
+    detail: "Offered Melbourne Research Scholarship, Macquarie Research Excellence Scholarship, and Polimi's Silver Scholarship; declined for the Monash doctoral opportunity"
     source: "University of Melbourne; Macquarie University; Politecnico di Milano"

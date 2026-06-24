@@ -1,16 +1,26 @@
 ---
 layout: single
-title: "Awards"
+title: "Honors and Awards"
 permalink: /awards/
 author_profile: true
 ---
 
+<h1 class="page__title">Honors and Awards</h1>
+
+<!-- Sticky Section Navigation -->
+<nav class="sticky-quicknav" style="background:var(--global-bg-color); border:none; border-bottom:1px solid rgba(42,122,226,0.15); border-radius:0; box-shadow:none; padding:0.45em 0; margin-bottom:2em;">
+  <div style="display:flex; flex-wrap:wrap; align-items:center; gap:0.4em 0.6em;">
+    <a href="#honours-awards" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🏆&nbsp;Honors &amp; Awards</a>
+    <a href="#recognitions" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">⭐&nbsp;Recognitions</a>
+  </div>
+</nav>
+
 <!-- ── AWARDS & SCHOLARSHIPS ──────────────────────────────── -->
-<h1 id="honours-awards" class="anchored-heading">Honors, Awards & Grants</h1>
+<h2 id="honours-awards" class="anchored-heading" style="scroll-margin-top:3.5em;">Honors, Awards & Grants</h2>
 {% include timeline-list.html items=site.data.awards.honours %}
 
 <!-- ── OTHER RECOGNITIONS ─────────────────────────────────── -->
-<h1 id="other-recognitions" class="anchored-heading">Other Recognitions</h1>
+<h2 id="recognitions" class="anchored-heading" style="scroll-margin-top:3.5em;">Recognitions</h2>
 {% include timeline-list.html items=site.data.awards.recognitions %}
 
 <style>html { scroll-behavior: smooth; }</style>
