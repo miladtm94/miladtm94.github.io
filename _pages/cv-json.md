@@ -24,7 +24,8 @@ d/cv.pdf" class="btn btn--primary" download>
 <div class="cv-pdf-preview">
   <object
     class="cv-pdf-object"
-    data="/files/CV_MiladTatarMamaghani.pdf#page=1&zoom=fitw&pagemode=none&navpanes=0"
+    data="/Users/mtmamaghani/myResume/buil
+d/cv.pdf#page=1&zoom=fitw&pagemode=none&navpanes=0"
     type="application/pdf"
     aria-label="Milad Tatar Mamaghani CV PDF preview">
     <div class="cv-pdf-fallback">
