@@ -11,7 +11,8 @@ redirect_from:
 # CV
 
 <div class="cv-actions">
-  <a href="/files/CV_MiladTatarMamaghani.pdf" class="btn btn--primary" download>
+  <a href="/Users/mtmamaghani/myResume/buil
+d/cv.pdf" class="btn btn--primary" download>
     <i class="fas fa-download"></i>&nbsp; Download CV (PDF)
   </a>
 
