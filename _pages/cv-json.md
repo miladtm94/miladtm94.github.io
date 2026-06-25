@@ -11,8 +11,7 @@ redirect_from:
 # CV
 
 <div class="cv-actions">
-  <a href="/Users/mtmamaghani/myResume/buil
-d/cv.pdf" class="btn btn--primary" download>
+  <a href="/files/CV_MiladTatarMamaghani.pdf" class="btn btn--primary" download>
     <i class="fas fa-download"></i>&nbsp; Download CV (PDF)
   </a>
 
@@ -24,8 +23,7 @@ d/cv.pdf" class="btn btn--primary" download>
 <div class="cv-pdf-preview">
   <object
     class="cv-pdf-object"
-    data="/Users/mtmamaghani/myResume/buil
-d/cv.pdf#page=1&zoom=fitw&pagemode=none&navpanes=0"
+    data="/files/CV_MiladTatarMamaghani.pdf#page=1&zoom=fitw&pagemode=none&navpanes=0"
     type="application/pdf"
     aria-label="Milad Tatar Mamaghani CV PDF preview">
     <div class="cv-pdf-fallback">
