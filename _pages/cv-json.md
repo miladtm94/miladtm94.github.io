@@ -12,7 +12,7 @@ redirect_from:
 
 <div class="cv-actions">
   <a href="/files/CV_MiladTatarMamaghani.pdf" class="btn btn--primary" download>
-    <i class="fas fa-download"></i>&nbsp; Download CV (PDF)
+    <i class="fas fa-download"></i>&nbsp; Download Full CV (PDF)
   </a>
 
   <a href="https://www.linkedin.com/in/mtmamaghani" target="_blank" rel="noopener" class="btn btn--inverse">
