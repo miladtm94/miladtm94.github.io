@@ -31,118 +31,48 @@ redirect_from:
 <!-- ─── TEACHING ─────────────────────────────────────── -->
 <h2 id="teaching" style="scroll-margin-top:3.5em;">Teaching Experience</h2>
 
-<h3 style="margin-bottom:0.5em;">Monash University &mdash; Faculty of Engineering &nbsp;<span style="font-size:0.85em; opacity:0.72; font-weight:400;">Feb 2019 &ndash; Dec 2022</span></h3>
+{% for teaching_group in site.data.experience.teaching %}
+  <h3 style="margin-bottom:0.5em;">{{ teaching_group.organization }}{% if teaching_group.unit %} &mdash; {{ teaching_group.unit }}{% endif %} &nbsp;<span style="font-size:0.85em; opacity:0.72; font-weight:400;">{{ teaching_group.date }}</span></h3>
 
-<ul class="teaching-subjects">
-  <li>
-    <strong>ECE5179</strong> &mdash; Neural Networks and Deep Learning<br>
-    <span style="font-size:0.88em; opacity:0.72;">Tutor &amp; Lab Demonstrator &mdash; Semester 2, 2022</span>
-  </li>
-  <li>
-    <strong>ECE5883</strong> &mdash; Advanced Signal Processing<br>
-    <span style="font-size:0.88em; opacity:0.72;">Lab Designer &amp; Demonstrator &mdash; Semester 1, 2022</span>
-  </li>
-  <li>
-    <strong>ENG5001</strong> &mdash; Advanced Engineering Data Analysis<br>
-    <span style="font-size:0.88em; opacity:0.72;">Tutor &mdash; Semester 1, 2022</span>
-  </li>
-  <li>
-    <strong>FIT1048</strong> &mdash; Fundamentals of C++<br>
-    <span style="font-size:0.88em; opacity:0.72;">Tutor &amp; Lab Demonstrator &mdash; Semester 1, 2022</span>
-  </li>
-  <li>
-    <strong>ECE5884</strong> &mdash; Wireless Communications<br>
-    <span style="font-size:0.88em; opacity:0.72;">Lab Demonstrator &mdash; Semester 2, 2021</span>
-  </li>
-  <li>
-    <strong>ECE4191</strong> &mdash; Engineering Design<br>
-    <span style="font-size:0.88em; opacity:0.72;">Lab Demonstrator &amp; Supervisor &mdash; Semester 2, 2020&ndash;2022</span>
-  </li>
-  <li>
-    <strong>ENG5105</strong> &mdash; Integrated Design<br>
-    <span style="font-size:0.88em; opacity:0.72;">Coordinator &amp; Project Mentor &mdash; Semester 2, 2020&ndash;2022</span>
-  </li>
-  <li>
-    <strong>ECE4146</strong> &mdash; Multimedia Technologies<br>
-    <span style="font-size:0.88em; opacity:0.72;">Lab Demonstrator &mdash; Semester 2, 2020&ndash;2022</span>
-  </li>
-  <li>
-    <strong>ECE3141</strong> &mdash; Information and Networks<br>
-    <span style="font-size:0.88em; opacity:0.72;">Lab Demonstrator &mdash; Semester 1, 2020&ndash;2022</span>
-  </li>
-  <li>
-    <strong>ECE4044</strong> &mdash; Telecommunications Protocols<br>
-    <span style="font-size:0.88em; opacity:0.72;">Lab Demonstrator &mdash; Semester 1, 2020</span>
-  </li>
-  <li>
-    <strong>ECE2072</strong> &mdash; Digital Systems<br>
-    <span style="font-size:0.88em; opacity:0.72;">Tutor &amp; Lab Demonstrator &mdash; Semester 1, 2020&ndash;2022</span>
-  </li>
-  <li>
-    <strong>ECE4042</strong> &mdash; Communications Theory<br>
-    <span style="font-size:0.88em; opacity:0.72;">Tutor &amp; Lab Demonstrator &mdash; Semester 1, 2019&ndash;2022</span>
-  </li>
-  <li>
-    <strong>ECE4076</strong> &mdash; Computer Vision<br>
-    <span style="font-size:0.88em; opacity:0.72;">Tutor, Lab Demonstrator &amp; Exam Coordinator &mdash; Semester 1, 2019&ndash;2022</span>
-  </li>
-  <li>
-    <strong>ECE2071</strong> &mdash; Computer Organisation &amp; Programming<br>
-    <span style="font-size:0.88em; opacity:0.72;">Tutor &amp; Lab Demonstrator &mdash; Semester 1, 2019&ndash;2022</span>
-  </li>
-</ul>
+  <ul class="teaching-subjects">
+    {% for course in teaching_group.courses %}
+      <li>
+        <strong>{{ course.code }}</strong> &mdash; {{ course.title }}<br>
+        <span style="font-size:0.88em; opacity:0.72;">{{ course.role }} &mdash; {{ course.term }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
 
 <hr />
 
 <!-- ─── STUDENT SUPERVISION ───────────────────────────── -->
 <h2 id="supervision" style="scroll-margin-top:3.5em;">Student Supervision</h2>
 
-<h3>The Australian National University &nbsp;<span style="font-size:0.85em; opacity:0.72;">2023&ndash;2025</span></h3>
+{% for supervision_group in site.data.experience.supervision %}
+  <h3>{{ supervision_group.organization }} &nbsp;<span style="font-size:0.85em; opacity:0.72;">{{ supervision_group.date }}</span></h3>
 
-<div style="display:flex; flex-direction:column; gap:1em; margin-bottom:1.2em;">
+  {% if supervision_group.intro %}
+    <p>{{ supervision_group.intro }}</p>
+  {% endif %}
 
-  <div style="border-left:3px solid #2a7ae2; padding-left:1em;">
-    <p style="margin:0 0 0.15em;"><strong>Yu Li</strong> &nbsp;&middot;&nbsp; <span style="font-size:0.88em; opacity:0.72;">Ph.D. Candidate</span></p>
-    <p style="margin:0 0 0.15em; font-style:italic;">Physical-Layer Anonymous Communications</p>
-    <p style="margin:0; font-size:0.88em; opacity:0.72;">Co-supervised with A/Prof. Xiangyun Zhou &nbsp;&middot;&nbsp; Ongoing</p>
+  <div style="display:flex; flex-direction:column; gap:1em; margin-bottom:1.2em;">
+    {% for person in supervision_group.people %}
+      <div style="border-left:3px solid #2a7ae2; padding-left:1em;">
+        <p style="margin:0 0 0.15em;"><strong>{{ person.name }}</strong> &nbsp;&middot;&nbsp; <span style="font-size:0.88em; opacity:0.72;">{{ person.role }}</span></p>
+        <p style="margin:0 0 0.15em; font-style:italic;">{{ person.topic }}</p>
+        <p style="margin:0; font-size:0.88em; opacity:0.72;">{{ person.note }}</p>
+      </div>
+    {% endfor %}
+
+    {% for project in supervision_group.projects %}
+      <div style="border-left:3px solid #2a7ae2; padding-left:1em;">
+        <p style="margin:0 0 0.1em;"><strong>{{ project.title }}</strong> &nbsp;&middot;&nbsp; <span style="font-size:0.88em; opacity:0.72;">{{ project.date }}</span></p>
+        <p style="margin:0; font-size:0.9em;">{{ project.description }}</p>
+      </div>
+    {% endfor %}
   </div>
-
-  <div style="border-left:3px solid #2a7ae2; padding-left:1em;">
-    <p style="margin:0 0 0.15em;"><strong>Mac Gilligan</strong> &nbsp;&middot;&nbsp; <span style="font-size:0.88em; opacity:0.72;">Engineering R&amp;D (Honours)</span></p>
-    <p style="margin:0 0 0.15em; font-style:italic;">SDR Implementation for Over-the-Air Secure File Transmission with GNU Radio</p>
-    <p style="margin:0; font-size:0.88em; opacity:0.72;">Nominated for the ANU University Medal &nbsp;&middot;&nbsp; 2024</p>
-  </div>
-
-  <div style="border-left:3px solid #2a7ae2; padding-left:1em;">
-    <p style="margin:0 0 0.15em;"><strong>Reetika</strong> &nbsp;&middot;&nbsp; <span style="font-size:0.88em; opacity:0.72;">Visiting Bachelor Student &mdash; Indian Institute of Space Science and Technology</span></p>
-    <p style="margin:0 0 0.15em; font-style:italic;">Physical-Layer Security for Terahertz Communications</p>
-    <p style="margin:0; font-size:0.88em; opacity:0.72;">Co-supervised with Prof. Nan Yang &nbsp;&middot;&nbsp; 2024</p>
-  </div>
-
-</div>
-
-<h3>Monash University &nbsp;<span style="font-size:0.85em; opacity:0.72;">2020&ndash;2022</span></h3>
-
-<p>Supervised undergraduate and postgraduate capstone engineering design projects:</p>
-
-<div style="display:flex; flex-direction:column; gap:0.8em; margin-bottom:1.5em;">
-
-  <div style="border-left:3px solid #2a7ae2; padding-left:1em;">
-    <p style="margin:0 0 0.1em;"><strong>Automated Robotic Arm</strong> &nbsp;&middot;&nbsp; <span style="font-size:0.88em; opacity:0.72;">2021</span></p>
-    <p style="margin:0; font-size:0.9em;">Color-cube sorting robotic arm with microprocessor-based controller.</p>
-  </div>
-
-  <div style="border-left:3px solid #2a7ae2; padding-left:1em;">
-    <p style="margin:0 0 0.1em;"><strong>Autonomous Mobile Robot</strong> &nbsp;&middot;&nbsp; <span style="font-size:0.88em; opacity:0.72;">2022</span></p>
-    <p style="margin:0; font-size:0.9em;">Smart mobile robot with odometric sensing for high-level navigation and autonomous ball collection.</p>
-  </div>
-
-  <div style="border-left:3px solid #2a7ae2; padding-left:1em;">
-    <p style="margin:0 0 0.1em;"><strong>Intelligent Baby Monitor</strong> &nbsp;&middot;&nbsp; <span style="font-size:0.88em; opacity:0.72;">2022</span></p>
-    <p style="margin:0; font-size:0.9em;">Sustainable baby monitor with voice and image recognition and real-time parent alert system.</p>
-  </div>
-
-</div>
+{% endfor %}
 
 <hr />
 
@@ -150,10 +80,11 @@ redirect_from:
 <h2 id="service" style="scroll-margin-top:3.5em;">Leadership &amp; Service</h2>
 
 <ul>
-  <li><strong>Technical Program Committee Member</strong> &mdash; IEEE Vehicular Technology Conference, 2024</li>
-  <li><strong><a href="https://globecom2023.ieee-globecom.org/program/technical-program-day-3">Session Chair</a></strong> (<em>Physical Layer Security Symposium</em>) &mdash; IEEE Global Communications Conference, 2023</li>
-  <li><strong>Selection Committee Member</strong> &mdash; ANU Summer Research Scholarship Program, 2023</li>
-  <li><strong><a href="https://www.webofscience.com/wos/author/record/D-3932-2019">Volunteer Reviewer</a></strong> &mdash; 25+ international leading journals and conferences with 140+ peer reviews (2018&ndash;)</li>
+  {% for item in site.data.experience.service %}
+    <li>
+      <strong>{% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</strong>{% if item.detail %} (<em>{{ item.detail }}</em>){% endif %} &mdash; {{ item.organization }}{% if item.date %}, {{ item.date }}{% endif %}
+    </li>
+  {% endfor %}
 </ul>
 
 <hr />
@@ -163,45 +94,24 @@ redirect_from:
 
 <h3 style="font-size:0.95em; margin-bottom:0.6em;">Journals</h3>
 <ul style="font-size:0.88em; line-height:1.7;">
-  <li>IEEE Journal on Selected Areas in Communications</li>
-  <li>IEEE Communications Magazine</li>
-  <li>IEEE Transactions on Wireless Communications</li>
-  <li>IEEE Wireless Communications Magazine</li>
-  <li>IEEE Internet of Things Journal</li>
-  <li>IEEE Network Magazine</li>
-  <li>IEEE Transactions on Communications</li>
-  <li>IEEE Transactions on Mobile Computing</li>
-  <li>IEEE Transactions on Cognitive Communications and Networking</li>
-  <li>IEEE Transactions on Information Forensics and Security</li>
-  <li>IEEE Transactions on Network Science and Engineering</li>
-  <li>IEEE Transactions on Vehicular Technology</li>
-  <li>Vehicular Communications</li>
-  <li>IEEE Transactions on Signal Processing</li>
-  <li>IEEE Transactions on Green Communications and Networking</li>
-  <li>IEEE Systems Journal</li>
-  <li>IEEE Wireless Communications Letters</li>
-  <li>IEEE Access</li>
-  <li>IEEE Communications Letters</li>
-  <li>IET Communications</li>
-  <li>Physical Communication (Elsevier)</li>
-  <li>Security and Communication Networks (Wiley)</li>
-  <li>Engineering Computations</li>
-  <li>Electronics Letters</li>
+  {% for journal in site.data.experience.peer_review.journals %}
+    <li>{{ journal }}</li>
+  {% endfor %}
 </ul>
 
-<h3 style="font-size:0.95em; margin-bottom:0.6em;">Conferences</h3>
+{% assign conference_review_count = 0 %}
+{% for conference in site.data.experience.peer_review.conferences %}
+  {% if conference.reviewed_papers %}
+    {% assign conference_review_count = conference_review_count | plus: conference.reviewed_papers %}
+  {% endif %}
+{% endfor %}
+<h3 style="font-size:0.95em; margin-bottom:0.6em;">Conferences <span style="font-weight:400;">({{ conference_review_count }} reviewed papers listed)</span></h3>
 <ul style="font-size:0.88em; line-height:1.7;">
-  <li>2024 IEEE Global Communications Conference</li>
-  <li>2024 IEEE Vehicular Technology Conference</li>
-  <li>2023 IEEE International Conference on Communications</li>
-  <li>2023 International Symposium on Modeling and Optimization in Wireless Networks</li>
-  <li>2023 International Conference on Wireless Communications and Signal Processing</li>
-  <li>2022 IEEE International Conference on Communications</li>
-  <li>2021 IEEE International Conference on Communications</li>
-  <li>2020 IEEE International Conference on Communications</li>
-  <li>2020 International Conference on Cyber-Enabled Distributed Computing</li>
-  <li>2020 IEEE ICC Workshop on Integrating UAVs into 5G and Beyond</li>
-  <li>2017 IEEE Global Communications Conference</li>
+  {% for conference in site.data.experience.peer_review.conferences %}
+    <li>
+      {{ conference.name }}{% if conference.reviewed_papers %} &mdash; {{ conference.reviewed_papers }} reviewed {% if conference.reviewed_papers == 1 %}paper{% else %}papers{% endif %}{% endif %}
+    </li>
+  {% endfor %}
 </ul>
 
 <hr />
@@ -210,15 +120,9 @@ redirect_from:
 <h2 id="memberships" style="scroll-margin-top:3.5em;">Professional Memberships</h2>
 
 <ul>
-  <li>IEEE Member (2022&ndash;2025)</li>
-  <li>IEEE Communications Society (2020&ndash;2025)</li>
-  <li>IEEE Young Professionals (2020&ndash;2025)</li>
-  <li>IEEE Consultants Network (2020&ndash;2025)</li>
-  <li>IEEE Graduate Student Member (2020&ndash;2022)</li>
-  <li>IEEE Signal Processing Society (2020&ndash;2021)</li>
-  <li>IEEE Quantum Community (2020&ndash;2022)</li>
-  <li>IEEE Computer Society (2020)</li>
-  <li>IEEE Big Data Community (2020)</li>
+  {% for membership in site.data.experience.memberships %}
+    <li>{{ membership }}</li>
+  {% endfor %}
 </ul>
 
 <style>html { scroll-behavior: smooth; }</style>
