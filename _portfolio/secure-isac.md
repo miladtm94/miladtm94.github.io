@@ -31,6 +31,6 @@ The work spans game-theoretic modeling, joint resource optimization, and learnin
 ### Technical Contributions
 
 1. **Milad Tatar Mamaghani**, Xiangyun Zhou, Nan Yang, and A. Lee Swindlehurst, "[Securing Integrated Sensing and Communication Against a Mobile Adversary: A Stackelberg Game with Deep Reinforcement Learning](https://doi.org/10.1109/JSAC.2025.3611404)," *IEEE Journal on Selected Areas in Communications*, vol. 44, pp. 942–958, Sept. 2025.
-2. A. Tabeshnezhad, **M. Tatar Mamaghani**, A. L. Swindlehurst, T. Svensson, and E. Ström, "[Robust Beamforming Design for Secure Uplink NOMA-ISAC](https://arxiv.org/abs/2606.17306)," submitted to *IEEE Transactions on Wireless Communications*, Jun. 2026.
+2. Azadeh Tabeshnezhad, **Milad Tatar Mamaghani**, A. Lee Swindlehurst, Tommy Svensson, and Erik Ström, "[Robust Beamforming Design for Secure Uplink NOMA-ISAC](https://arxiv.org/abs/2606.17306)," submitted to *IEEE Transactions on Wireless Communications*, Jun. 2026.
 
 {: .portfolio-publications}
