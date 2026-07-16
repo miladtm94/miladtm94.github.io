@@ -225,30 +225,19 @@ peer_review:
     - "Engineering Computations"
     - "Electronics Letters"
   conferences:
-    - name: "2020 IEEE International Conference on Communications (ICC): Communication Theory Symposium"
-      reviewed_papers: 1
-    - name: "IEEE ICC 2020 Workshop on Integrating UAVs into 5G and Beyond"
-      reviewed_papers: 1
-    - name: "2020 The 12th International Conference on Cyber-Enabled Distributed Computing and Knowledge Discovery"
-      reviewed_papers: 5
-    - name: "2021 IEEE International Conference on Communications (ICC): Signal Processing for Communications Symposium"
-      reviewed_papers: 1
-    - name: "2022 IEEE International Conference on Communications (ICC): Signal Processing for Communications Symposium"
-      reviewed_papers: 2
-    - name: "2023 IEEE International Conference on Communications (ICC): SAC Machine Learning for Communications and Networking Track"
-      reviewed_papers: 1
-    - name: "2023 21st International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks (WiOpt)"
-      reviewed_papers: 1
-    - name: "5G/6G Precise Positioning on Cooperative Intelligent Transportation Systems (C-ITS) and Connected Automated Vehicles (CAV) (2023)"
-      reviewed_papers: 2
-    - name: "2023 International Conference on Wireless Communications and Signal Processing (WCSP)"
-      reviewed_papers: 1
+    - name: "2026 IEEE Global Communications Conference: Signal Processing for Communications"
     - name: "2024 IEEE Global Communications Conference: Signal Processing for Communications"
-      reviewed_papers: 1
     - name: "2024 IEEE Global Communications Conference: Communication Theory"
-      reviewed_papers: 1
+    - name: "2023 IEEE International Conference on Communications (ICC): SAC Machine Learning for Communications and Networking Track"
+    - name: "2023 21st International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks (WiOpt)"
+    - name: "2023 International Conference on Wireless Communications and Signal Processing (WCSP)"
+    - name: "2023 5G/6G Precise Positioning on Cooperative Intelligent Transportation Systems (C-ITS) and Connected Automated Vehicles (CAV) Workshop"
+    - name: "2022 IEEE International Conference on Communications (ICC): Signal Processing for Communications Symposium"
+    - name: "2021 IEEE International Conference on Communications (ICC): Signal Processing for Communications Symposium"
+    - name: "2020 IEEE International Conference on Communications (ICC): Communication Theory Symposium"
+    - name: "2020 IEEE ICC Workshop on Integrating UAVs into 5G and Beyond"
+    - name: "2020 The 12th International Conference on Cyber-Enabled Distributed Computing and Knowledge Discovery"
     - name: "2017 IEEE Global Communications Conference: Communication Theory"
-      reviewed_papers: 1
 
 memberships:
   - "IEEE Member (2022&ndash;2025)"
