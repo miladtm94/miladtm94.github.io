@@ -99,18 +99,10 @@ redirect_from:
   {% endfor %}
 </ul>
 
-{% assign conference_review_count = 0 %}
-{% for conference in site.data.experience.peer_review.conferences %}
-  {% if conference.reviewed_papers %}
-    {% assign conference_review_count = conference_review_count | plus: conference.reviewed_papers %}
-  {% endif %}
-{% endfor %}
-<h3 style="font-size:0.95em; margin-bottom:0.6em;">Conferences <span style="font-weight:400;">({{ conference_review_count }} reviewed papers listed)</span></h3>
+<h3 style="font-size:0.95em; margin-bottom:0.6em;">Conferences</h3>
 <ul style="font-size:0.88em; line-height:1.7;">
   {% for conference in site.data.experience.peer_review.conferences %}
-    <li>
-      {{ conference.name }}{% if conference.reviewed_papers %} &mdash; {{ conference.reviewed_papers }} reviewed {% if conference.reviewed_papers == 1 %}paper{% else %}papers{% endif %}{% endif %}
-    </li>
+    <li>{{ conference.name }}</li>
   {% endfor %}
 </ul>
 
