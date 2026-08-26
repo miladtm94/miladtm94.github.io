@@ -28,7 +28,7 @@ author_profile: true
 
 ---
 
-## DS & Software Repos
+## Software Repos
 {: id="software-repos" style="scroll-margin-top:3.5em;" }
 
 <p style="font-size:0.9em; opacity:0.75; margin-top:-0.5em; margin-bottom:1.2em;">Repositories spanning fintech, AI tooling, and consumer apps.</p>
@@ -58,9 +58,11 @@ author_profile: true
     'Investment-Portfolio-Tracker',
     'LynkOo',
     'Healthmate-app',
-    'Algorithmic-Trading-Engine',
+    'TradingAgents',
+    'Job-Seeking-Mate',
     'CNN-Image-Clasification',
-    'FaceRecognition-FaceNet'
+    'FaceRecognition-FaceNet',
+    'Job-Seeking-Mate'
   ];
 
   var gridResearch  = document.getElementById('gh-repo-grid-research');
