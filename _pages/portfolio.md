@@ -59,11 +59,11 @@ author_profile: true
     'LynkOo',
     'Healthmate-app',
     'TradingAgents',
+    'Algorithmic-Trading-Engine',
     'Job-Seeking-Mate',
     'CNN-Image-Clasification',
-    'FaceRecognition-FaceNet',
-    'Job-Seeking-Mate'
-  ];
+    'FaceRecognition-FaceNet'
+     ];
 
   var gridResearch  = document.getElementById('gh-repo-grid-research');
   var gridSoftware  = document.getElementById('gh-repo-grid-software');
