@@ -60,7 +60,6 @@ author_profile: true
     'Healthmate-app',
     'TradingAgents',
     'Algorithmic-Trading-Engine',
-    'Job-Seeking-Mate',
     'CNN-Image-Clasification',
     'FaceRecognition-FaceNet'
      ];

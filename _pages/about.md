@@ -120,7 +120,7 @@ My work has led to 17+ peer-reviewed  publications, 600+ citations, two IEEE Bes
 
 </div>
 
-<p style="font-size:0.88em; margin-top:0.5em;"><a href="/publications/">All publications →</a></p>
+<p style="font-size:0.88em; margin-top:0.5em;"><a href="/research/#publications">All publications →</a></p>
 
 
 ## Core Skills
