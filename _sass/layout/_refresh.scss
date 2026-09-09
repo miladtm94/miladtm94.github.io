@@ -159,3 +159,10 @@ a { text-underline-offset: .2em; }
 
 #main { animation: none; }
 .archive__item { margin-bottom: 1rem; }
+
+/* Keep the full surname together visually without crowding narrow screens. */
+.home-hero h1 .home-hero__surname { font-size: clamp(2.2rem, 3.9vw, 3.35rem); letter-spacing: -.035em; word-spacing: .05em; }
+.page__content > h1 { font-size: 2.5rem; line-height: 1.15; margin-bottom: 1.3rem; }
+@media (max-width: 640px) {
+  .page__content > h1 { font-size: 2rem; }
+}
