@@ -9,21 +9,25 @@ redirect_from:
 
 <div class="about__announcement">
   <span class="about__announcement-icon">🟢</span>
-  <span><strong>Open to academic and industry opportunities.</strong></span>
+  <span><strong>Open to new opportunities and collaborations.</strong></span>
 </div>
 
 # Milad Tatar Mamaghani
 
-<p class="about__hero-lede">Research scientist and engineer working on secure, reliable, and energy-efficient AI-native wireless communication systems in 6G and beyond.</p>
+<p class="about__hero-lede">Research scientist and engineer working across wireless systems, data science, applied AI, and software development.</p>
 
 ## About Me
 
  <!-- with [A/Prof. Xiangyun Zhou](https://users.cecs.anu.edu.au/~xyzhou/)
   under [A/Prof. Yi Hong](https://research.monash.edu/en/persons/yi-hong) -->
 
-I'm Milad, a Sydney-based research scientist and engineer originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), Iran. I hold a Ph.D. in Electrical Engineering from Monash University and previously worked as a Postdoctoral Research Fellow at the Australian National University. I combine wireless communications, signal processing, optimization, and machine learning to build secure and intelligent systems.
+I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a town near Tabriz in northwestern Iran, and now based in Sydney, Australia. I completed my Ph.D. in Electrical Engineering at Monash University and later worked as a Postdoctoral Research Fellow at the Australian National University.
 
-My work spans AI-native 6G networks, integrated sensing and communications, and practical research software, with {{ site.data.metrics.papers }} publications, {{ site.data.metrics.citations }} citations, and two IEEE Best Paper Awards. I welcome research collaborations and academic or industry opportunities. Outside work, I enjoy hiking, swimming, and chess.
+My work sits at the intersection of research, engineering, data science, and software development. In wireless communications, I have worked on physical-layer security, non-terrestrial networks, integrated sensing and communications, MIMO beamforming, reconfigurable intelligent surfaces, and resource allocation for beyond-5G and 6G networks. I draw on signal processing, optimization, and simulation to understand complex systems, evaluate design trade-offs, and develop practical solutions.
+
+I also work with data analytics, machine learning, and applied AI, with interests spanning reinforcement learning, computer vision, and intelligent automation. I use Python, MATLAB, and scientific computing tools to explore data, build models, and test ideas. My software interests extend from research code and simulation frameworks to AI tools, fintech projects, and consumer applications. I enjoy turning complex technical ideas into software that is useful, testable, and clear to work with.
+
+Alongside technical work, I have taught engineering and computing subjects, supervised student projects, and contributed as a reviewer, technical program committee member, and conference session chair. I value collaboration across disciplines and enjoy connecting analytical thinking with hands-on development. Outside work, I enjoy hiking, swimming, and overthinking my next chess moves.
 
 <div class="about__hero-actions">
   <a class="btn btn--primary" href="/contact/">Get in touch</a>
