@@ -67,7 +67,7 @@ Alongside technical work, I have taught engineering and computing subjects, supe
         </a>
       </div>
       <div class="about__education-thesis">
-        <em>Double degree: B.Sc. in Control Engineering with extra course credits (Feb. 2018).</em>
+        Double degree: B.Sc. in Control Engineering with extra course credits (Feb. 2018).
       </div>
     </div>
   </div>
