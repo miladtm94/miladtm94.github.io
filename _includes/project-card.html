@@ -1,0 +1,6 @@
+<article class="project-card">
+  <div class="project-card__meta"><span>{{ include.project.category | capitalize }}</span><span>{{ include.project.language }}</span></div>
+  <h3><a href="{{ include.project.url }}" target="_blank" rel="noopener">{{ include.project.name | replace: '-', ' ' | replace: '_', ' ' }}</a></h3>
+  <p>{{ include.project.description | escape }}</p>
+  <a class="text-link" href="{{ include.project.url }}" target="_blank" rel="noopener">Explore code <span aria-hidden="true">↗</span><span class="sr-only"> for {{ include.project.name }}</span></a>
+</article>

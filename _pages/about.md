@@ -1,20 +1,15 @@
 ---
 permalink: /
-title: "About"
-author_profile: true
+title: "Research, Engineering, Data & AI, Software"
+layout: home
+home: true
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<div class="about__announcement">
-  <span class="about__announcement-icon">🟢</span>
-  <span><strong>Open to new opportunities and collaborations.</strong></span>
-</div>
-
-# Milad Tatar Mamaghani
-
-<p class="about__hero-lede">Research scientist and engineer working across wireless systems, data science, applied AI, and software development.</p>
+{% include home-opening.html %}
 
 ## About Me
 
@@ -47,12 +42,13 @@ Alongside technical work, I have taught engineering and computing subjects, supe
     </div>
     <div>
       <div><strong>Ph.D. in Engineering</strong></div>
-      <div class="about__education-meta">Monash University, Melbourne, Australia · Jan. 2019–Dec. 2022</div>
+      <div class="about__education-meta">Monash University, Melbourne, Australia · Jan. 2020–Dec. 2022</div>
       <div class="about__education-thesis">
         Thesis: <a href="/portfolio/uav-physical-layer-security/">
           <em>Safeguarding Beyond-5G Wireless UAV Communications: Design and Optimization</em>
         </a>
       </div>
+      <div class="about__education-thesis">• <strong>Master of Engineering Science (Research)</strong> (Jan. 2019–Dec. 2020) — <em>Transferred to PhD program</em></div>
     </div>
   </div>
 
@@ -71,7 +67,7 @@ Alongside technical work, I have taught engineering and computing subjects, supe
         </a>
       </div>
       <div class="about__education-thesis">
-        <em>Also awarded B.Sc. in Control Engineering with extra course credits (Feb. 2018).</em>
+        <em>Double degree: B.Sc. in Control Engineering with extra course credits (Feb. 2018).</em>
       </div>
     </div>
   </div>
