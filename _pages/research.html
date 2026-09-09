@@ -15,15 +15,15 @@ author_profile: true
 
 <nav id="research-quicknav" class="sticky-quicknav" style="background:var(--global-bg-color); border:none; border-bottom:1px solid rgba(42,122,226,0.15); border-radius:0; box-shadow:none; padding:0.45em 0; margin-bottom:2em;">
   <div style="display:flex; flex-wrap:wrap; align-items:center; gap:0.4em 0.6em;">
-    <a href="#research-vision" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🔭&nbsp;Research Interests</a>
+    <a href="#research-vision" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🔭&nbsp;Interests</a>
     {% if research_projects_count > 0 %}
-    <a href="#research-projects" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🔬&nbsp;Research Projects&nbsp;<span style="opacity:0.65;">({{ research_projects_count }})</span></a>
+    <a href="#research-projects" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🔬&nbsp;Projects</a>
     {% endif %}
     <a href="#publications" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">📚&nbsp;Publications</a>
     {% if site.talks.size > 0 %}
     <a href="#talks" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🗣️&nbsp;Talks</a>
     {% endif %}
-    <a href="#collaborators" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🤝&nbsp;Research Network</a>
+    <a href="#collaborators" style="text-decoration:none; font-size:0.85em; padding:0.25em 0.65em; border-radius:4px; border:1px solid rgba(42,122,226,0.3); color:#2a7ae2; white-space:nowrap; background:var(--global-bg-color);">🤝&nbsp;Network</a>
   </div>
 </nav>
 
@@ -58,6 +58,18 @@ author_profile: true
 
 <h2 id="publications" style="scroll-margin-top:3.5em; margin-top:2em;">Publications</h2>
 {% include research-publications.html %}
+
+{% assign talks_all = site.talks | sort: "date" %}
+{% assign talks_count = talks_all | size %}
+<!-- ── TALKS & PRESENTATIONS ───────────────────────────────────── -->
+{% if talks_count > 0 %}
+  <h2 id="talks" style="scroll-margin-top:3.5em; margin-top:2em;">Talks & Presentations</h2>
+  {% for post in talks_all reversed %}
+    {% assign label_num = talks_count | minus: forloop.index0 %}
+    {% assign talk_label = "[T" | append: label_num | append: "]" %}
+    {% include archive-single-talk.html label=talk_label %}
+  {% endfor %}
+{% endif %}
 
 <!-- ── RESEARCH NETWORK ────────────────────────────────────────── -->
 <h2 id="collaborators" style="scroll-margin-top:3.5em; margin-top:2em;">Research Network</h2>
