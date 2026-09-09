@@ -21,14 +21,14 @@ redirect_from:
  <!-- with [A/Prof. Xiangyun Zhou](https://users.cecs.anu.edu.au/~xyzhou/)
   under [A/Prof. Yi Hong](https://research.monash.edu/en/persons/yi-hong) -->
 
-I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a town near Tabriz in northwestern Iran, and now based in Sydney, Australia. I completed my Ph.D. in Electrical Engineering at Monash University and later worked as a Postdoctoral Research Fellow at the Australian National University.
+I'm Milad, a Sydney-based research scientist and engineer originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), Iran. I hold a Ph.D. in Electrical Engineering from Monash University and previously worked as a Postdoctoral Research Fellow at the Australian National University. I combine wireless communications, signal processing, optimization, and machine learning to build secure and intelligent systems.
 
-My work sits at the intersection of wireless communications, signal processing, optimization, machine learning, and applied AI. I have worked on physical-layer security, non-terrestrial networks, integrated sensing and communications, MIMO beamforming, reconfigurable intelligent surfaces, and data-driven resource allocation for beyond-5G and 6G networks. More broadly, I am interested in AI-native systems, data science and analytics, simulation engineering, and software development that turns complex technical ideas into practical, testable, and impactful solutions.
-
-My work has led to 17+ peer-reviewed  publications, 600+ citations, two IEEE Best Paper Awards, competitive scholarships, awards, grants, and international recognition for contributions to secure and intelligent wireless technologies. I have also served the research community as a volunteer reviewer, TPC member, and conference session chair for leading international venues. Outside work, I enjoy hiking, swimming, and overthinking my next chess moves.
+My work spans AI-native 6G networks, integrated sensing and communications, and practical research software, with {{ site.data.metrics.papers }} publications, {{ site.data.metrics.citations }} citations, and two IEEE Best Paper Awards. I welcome research collaborations and academic or industry opportunities. Outside work, I enjoy hiking, swimming, and chess.
 
 <div class="about__hero-actions">
   <a class="btn btn--primary" href="/contact/">Get in touch</a>
+  <a class="btn btn--inverse" href="{{ '/research/' | relative_url }}">View Research</a>
+  <a class="btn btn--inverse" href="{{ '/files/CV_MiladTatarMamaghani.pdf' | relative_url }}" download>Download CV</a>
 </div>
 
 ## Education
@@ -86,7 +86,7 @@ My work has led to 17+ peer-reviewed  publications, 600+ citations, two IEEE Bes
       <span class="about__pub-venue">IEEE JSAC</span>
       <span class="about__pub-year">Sep 2025</span>
     </div>
-    <div class="about__pub-title">Securing Integrated Sensing and Communication Against a Mobile Adversary: A Stackelberg Game with Deep Reinforcement Learning</div>
+    <div class="about__pub-title"><a href="{{ '/publication/isac-uav-drl' | relative_url }}">Securing Integrated Sensing and Communication Against a Mobile Adversary: A Stackelberg Game with Deep Reinforcement Learning</a></div>
     <div class="about__pub-impact">Models ISAC security as a Stackelberg game, tackling via a hybrid SCA-DRL optimisation approach; published in the highest-impact communications journal (IF 17.2).</div>
   </div>
 
@@ -104,7 +104,7 @@ My work has led to 17+ peer-reviewed  publications, 600+ citations, two IEEE Bes
       <span class="about__pub-venue">IEEE TWC</span>
       <span class="about__pub-year">Jul 2024</span>
     </div>
-    <div class="about__pub-title">Secure Short-Packet Communications via UAV-Enabled Mobile Relaying: Joint Resource Optimization and 3D Trajectory Design</div>
+    <div class="about__pub-title"><a href="{{ '/publication/secure-spc-uav-relay' | relative_url }}">Secure Short-Packet Communications via UAV-Enabled Mobile Relaying: Joint Resource Optimization and 3D Trajectory Design</a></div>
     <div class="about__pub-impact">Jointly optimizes UAV 3D trajectory and power usage with low-complexity algorithm for MTC-constrained networks.</div>
   </div>
 
@@ -114,7 +114,7 @@ My work has led to 17+ peer-reviewed  publications, 600+ citations, two IEEE Bes
       <span class="about__pub-year">Jun 2024</span>
       <span class="about__pub-award">Best Paper</span>
     </div>
-    <div class="about__pub-title">On the Average Information Leakage of Finite Blocklength Transmissions over Rayleigh Fading Channels</div>
+    <div class="about__pub-title"><a href="{{ '/publication/icc-fbl-rayleigh' | relative_url }}">On the Average Information Leakage of Finite Blocklength Transmissions over Rayleigh Fading Channels</a></div>
     <div class="about__pub-impact">IEEE ICC Best Paper Award — top 0.6% of 2,364 submissions. Introduces average information leakage as a new FBL security metric over fading channels.</div>
   </div>
 

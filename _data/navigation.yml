@@ -7,14 +7,11 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Repos"
+  - title: "Projects"
     url: /portfolio/
 
   - title: "Experience"
     url: /experience/
-
-  - title: "Awards"
-    url: /awards/
 
   - title: "CV"
     url: /cv-json/

@@ -10,9 +10,9 @@ author_profile: true
 Whether you're exploring a research collaboration, considering me for an academic or industry position, or have a project inquiry — I'm happy to connect. Reach me via the form below, by email, or on LinkedIn. I typically respond within 48 hours.
 
 <div style="display:flex; flex-wrap:wrap; gap:0.75em; margin:1.2em 0 1.8em;">
-  <span style="display:inline-flex; align-items:center; gap:0.45em; padding:0.45em 1em; border-radius:6px; border:1px solid var(--global-border-color); font-size:0.9em; font-weight:500;">
+  <a href="mailto:milad.tatarmamaghani@gmail.com" style="color:inherit; text-decoration:none; display:inline-flex; align-items:center; gap:0.45em; padding:0.45em 1em; border-radius:6px; border:1px solid var(--global-border-color); font-size:0.9em; font-weight:500;">
     <i class="fas fa-envelope" style="color:#2a7ae2;"></i> milad.tatarmamaghani@gmail.com
-  </span>
+  </a>
   <a href="https://linkedin.com/in/mtmamaghani" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:0.45em; padding:0.45em 1em; border-radius:6px; border:1px solid var(--global-border-color); text-decoration:none; font-size:0.9em; font-weight:500; color:inherit;">
     <i class="fab fa-linkedin" style="color:#0a66c2;"></i> LinkedIn
   </a>
