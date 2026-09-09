@@ -4,90 +4,103 @@
     "url": "https://github.com/miladtm94/SecureISAC-UAV-DRL",
     "description": "MATLAB simulation code for \"Securing ISAC Against a Mobile Adversary: A Stackelberg Game With DRL\" \u2014 IEEE JSAC 2026",
     "language": "MATLAB",
-    "category": "research"
+    "category": "research",
+    "title": "Secure ISAC with Deep Reinforcement Learning"
   },
   {
     "name": "FBL-FadingChannels-AIL",
     "url": "https://github.com/miladtm94/FBL-FadingChannels-AIL",
     "description": "MATLAB simulation code for \"Performance Analysis of Finite Blocklength Transmissions Over Wiretap Fading Channels: An Average Information Leakage Perspective\" \u2014 IEEE TWC 2024",
     "language": "MATLAB",
-    "category": "research"
+    "category": "research",
+    "title": "FBL FadingChannels AIL"
   },
   {
     "name": "UIRS-THz-CovertComm",
     "url": "https://github.com/miladtm94/UIRS-THz-CovertComm",
     "description": "MATLAB simulation code for \"Aerial IRS-Enabled THz Covert Communications in B5G IoT\" \u2014 IEEE IOT-J 2022",
     "language": "MATLAB",
-    "category": "research"
+    "category": "research",
+    "title": "UIRS THz CovertComm"
   },
   {
     "name": "SPC-UAV-Relay",
     "url": "https://github.com/miladtm94/SPC-UAV-Relay",
     "description": "MATLAB simulation code for \"Secure Short-Packet Communications via UAV-Enabled Mobile Relaying: Joint Resource Optimization and 3D Trajectory Design\"  \u2014 IEEE TWC 2024",
     "language": "MATLAB",
-    "category": "research"
+    "category": "research",
+    "title": "SPC UAV Relay"
   },
   {
     "name": "THz_UUR_MSEE",
     "url": "https://github.com/miladtm94/THz_UUR_MSEE",
     "description": "Companion simulation code for \"Terahertz meets untrusted UAV-relaying: Minimum secrecy energy efficiency maximization via trajectory and communication co-design\" \u2014 IEEE TVT 2022",
     "language": "MATLAB",
-    "category": "research"
+    "category": "research",
+    "title": "THz UUR MSEE"
   },
   {
     "name": "UAV-PLS-SWIPT-Relay",
     "url": "https://github.com/miladtm94/UAV-PLS-SWIPT-Relay",
     "description": "MATLAB simulation code for UAV-enabled secure amplify-and-forward relaying with cooperative jamming and SWIPT \u2014 IEEE Access 2019",
     "language": "MATLAB",
-    "category": "research"
+    "category": "research",
+    "title": "UAV PLS SWIPT Relay"
   },
   {
     "name": "Investment-Portfolio-Tracker",
     "url": "https://github.com/miladtm94/Investment-Portfolio-Tracker",
     "description": "InvestIQ: Self-hosted investment portfolio tracker with broker/crypto imports, AUD/USD reporting, tax-aware analytics, live market data, and AI-assisted portfolio insights.",
     "language": "Python",
-    "category": "software"
+    "category": "software",
+    "title": "InvestIQ Portfolio Tracker"
   },
   {
     "name": "LynkOo",
     "url": "https://github.com/miladtm94/LynkOo",
     "description": "LynkOo is a local media manager for Spotify music workflows, X, Instagram, Youtube, direct media files, and yt-dlp-supported public video downloads.",
     "language": "Python",
-    "category": "software"
+    "category": "software",
+    "title": "LynkOo"
   },
   {
     "name": "Healthmate-app",
     "url": "https://github.com/miladtm94/Healthmate-app",
     "description": "Mobile-first wellness PWA for Mediterranean-style meal planning, grocery lists, habit tracking, trends, and safe coaching.",
     "language": "TypeScript",
-    "category": "software"
+    "category": "software",
+    "title": "Healthmate app"
   },
   {
     "name": "TradingAgents",
     "url": "https://github.com/miladtm94/TradingAgents",
     "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
     "language": "Python",
-    "category": "software"
+    "category": "software",
+    "title": "TradingAgents"
   },
   {
     "name": "Algorithmic-Trading-Engine",
     "url": "https://github.com/miladtm94/Algorithmic-Trading-Engine",
     "description": "Algorithmic trading engine for generating statistically grounded signals with quant models, portfolio risk controls, execution filters, and optional LLM validation.",
     "language": "Python",
-    "category": "software"
+    "category": "software",
+    "title": "Algorithmic Trading Engine"
   },
   {
     "name": "CNN-Image-Clasification",
     "url": "https://github.com/miladtm94/CNN-Image-Clasification",
     "description": "This project implements and benchmarks convolutional neural networks for two image-classification tasks using TensorFlow/Keras.",
     "language": "Python",
-    "category": "software"
+    "category": "software",
+    "title": "CNN Image Classification"
   },
   {
     "name": "FaceRecognition-FaceNet",
     "url": "https://github.com/miladtm94/FaceRecognition-FaceNet",
     "description": "A well\u2011structured implementation of face verification and recognition using a pretrained FaceNet model",
     "language": "Python",
-    "category": "software"
+    "category": "software",
+    "title": "FaceRecognition FaceNet"
   }
 ]
