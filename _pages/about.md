@@ -25,9 +25,8 @@ I also work with data analytics, machine learning, and applied AI, with interest
 Alongside technical work, I have taught engineering and computing subjects, supervised student projects, and contributed as a reviewer, technical program committee member, and conference session chair. I value collaboration across disciplines and enjoy connecting analytical thinking with hands-on development. Outside work, I enjoy hiking, swimming, and overthinking my next chess moves.
 
 <div class="about__hero-actions">
-  <a class="btn btn--primary" href="{{ '/portfolio/' | relative_url }}">Explore projects <span aria-hidden="true">↗</span></a>
-  <a class="btn btn--inverse" href="{{ '/contact/' | relative_url }}">Get in touch</a>
-  <a class="text-link" href="{{ '/files/CV_MiladTatarMamaghani.pdf' | relative_url }}" download>Download CV <span aria-hidden="true">↓</span></a>
+  <a class="btn btn--primary" href="{{ '/contact/' | relative_url }}">Get in touch</a>
+  <a class="btn btn--inverse" href="{{ '/cv-json/' | relative_url }}">View CV</a>
 </div>
 
 ## Education
