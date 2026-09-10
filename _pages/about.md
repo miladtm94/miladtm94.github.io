@@ -41,14 +41,14 @@ Alongside technical work, I have taught engineering and computing subjects, supe
            style="width:42px; height:42px; object-fit:contain;" />
     </div>
     <div>
-      <div><strong>Ph.D. in Engineering</strong></div>
+      <div><strong>Doctor of Philosophy (PhD) in Engineering</strong></div>
       <div class="about__education-meta">Monash University, Melbourne, Australia · Jan. 2020–Dec. 2022</div>
       <div class="about__education-thesis">
         Thesis: <a href="/portfolio/uav-physical-layer-security/">
           <em>Safeguarding Beyond-5G Wireless UAV Communications: Design and Optimization</em>
         </a>
       </div>
-      <div class="about__education-thesis">• <strong>Master of Engineering Science (Research)</strong> (Jan. 2019–Dec. 2020) — <em>Transferred to PhD program</em></div>
+      <div class="about__education-thesis"> Pathway: Transferred from Master of Engineering Science (Research) to PhD (Jan. 2019–Dec. 2020) </div>
     </div>
   </div>
 
@@ -59,7 +59,7 @@ Alongside technical work, I have taught engineering and computing subjects, supe
            style="width:42px; height:42px; object-fit:contain;" />
     </div>
     <div>
-      <div><strong>B.Sc. in Electrical — Communications Engineering</strong></div>
+      <div><strong> Bachelor of Science (BSc) in Electrical — Communications Engineering</strong></div>
       <div class="about__education-meta">Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran · Sep. 2012–Oct. 2016</div>
       <div class="about__education-thesis">
         Thesis: <a href="/portfolio/untrusted-relaying-security/">
