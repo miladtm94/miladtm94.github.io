@@ -7,7 +7,8 @@ author_profile: true
 
 # Contact
 
-Whether you're exploring a research collaboration, considering me for an academic or industry position, or have a project inquiry — I'm happy to connect. Reach me via the form below, by email, or on LinkedIn. I typically respond within 48 hours.
+Whether you're interested in research collaboration, exploring potential opportunities, seeking technical consulting, or discussing a project or idea, I'd be happy to connect. Fill out the form below or reach out via email or LinkedIn. I typically reply within 1–2 business days.
+
 
 <div style="display:flex; flex-wrap:wrap; gap:0.75em; margin:1.2em 0 1.8em;">
   <a href="mailto:milad.tatarmamaghani@gmail.com" style="color:inherit; text-decoration:none; display:inline-flex; align-items:center; gap:0.45em; padding:0.45em 1em; border-radius:6px; border:1px solid var(--global-border-color); font-size:0.9em; font-weight:500;">
@@ -37,13 +38,13 @@ Whether you're exploring a research collaboration, considering me for an academi
     <label for="subject" style="display:block; font-size:0.88em; font-weight:600; margin-bottom:0.3em;">Subject <span style="color: var(--global-link-color);">*</span></label>
     <select id="subject" name="subject" required
       style="width:100%; padding:0.55em 0.75em; border:1px solid var(--global-border-color); border-radius:4px; font-size:0.95em; background:transparent; color:inherit; box-sizing:border-box;">
-      <option value="" disabled selected>Select a topic…</option>
-      <option value="Research Collaboration">Research Collaboration</option>
-      <option value="Academic Position">Position / Opportunity</option>
-      <option value="Project Inquiry">Project Inquiry</option>
-      <option value="Student Supervision">Student Supervision</option>
-      <option value="Speaking / Seminar">Talk / Seminar Invitation</option>
-      <option value="General Inquiry">General Inquiry</option>
+      <option value="" disabled selected>💬 Select a topic…</option>
+      <option value="Research Collaboration">🤝 Research Collaboration</option>
+      <option value="Academic Position">💼 Academic / Industry Opportunity</option>
+      <option value="Project Inquiry">🛠️ Project or Consulting Inquiry</option>
+      <option value="Student Supervision">🎓 Student Supervision</option>
+      <option value="Speaking / Seminar">🎤 Talk / Seminar Invitation</option>
+      <option value="General Inquiry">📩 General Inquiry</option>
     </select>
   </div>
 
@@ -62,4 +63,4 @@ Whether you're exploring a research collaboration, considering me for an academi
 
 </form>
 
-<p style="margin-top:2em; font-size:0.88em; opacity:0.6; text-align:center;">Looking forward to connecting &nbsp;🤝</p>
+<!-- <p style="margin-top:2em; font-size:0.88em; opacity:0.6; text-align:center;">Looking forward to connecting &nbsp;🤝</p> -->

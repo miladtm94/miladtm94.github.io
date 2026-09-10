@@ -8,22 +8,18 @@ redirect_from:
   - /cv/
 ---
 
-# Full CV
+<!-- # Full CV -->
 
-<p>
+<!-- <p>
   This is my comprehensive academic and industry CV, covering research, engineering,
   AI/data work, teaching, supervision, professional service, awards, and publications.
   It is intentionally a full professional record rather than a role-specific résumé.
   <strong>Updated September 2026.</strong>
-</p>
+</p> -->
 
 <div class="cv-actions">
   <a href="/files/CV_MiladTatarMamaghani.pdf" target="_blank" rel="noopener" class="btn btn--primary">
-    <i class="fas fa-file-pdf"></i>&nbsp; Open Full CV (PDF)
-  </a>
-
-  <a href="/files/CV_MiladTatarMamaghani.pdf" class="btn btn--inverse" download>
-    <i class="fas fa-download"></i>&nbsp; Download PDF
+    <i class="fas fa-file-pdf"></i>&nbsp; Download Full CV (PDF)
   </a>
 
   <a href="https://www.linkedin.com/in/mtmamaghani" target="_blank" rel="noopener" class="btn btn--inverse">
