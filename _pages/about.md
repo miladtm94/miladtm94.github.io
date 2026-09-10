@@ -61,11 +61,11 @@ Alongside technical work, I have taught engineering and computing subjects, supe
     <div>
       <div><strong> Bachelor of Science (BSc) in Electrical — Communications Engineering</strong></div>
       <div class="about__education-meta">Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran · Sep. 2012–Oct. 2016</div>
-      <div class="about__education-thesis">
+      <!-- <div class="about__education-thesis">
         Thesis: <a href="/portfolio/untrusted-relaying-security/">
           <em>Secure Communications with Untrusted Relaying and Wireless Energy Harvesting</em>
         </a>
-      </div>
+      </div> -->
       <div class="about__education-thesis">
         Double degree: B.Sc. in Control Engineering with extra course credits (Feb. 2018).
       </div>
