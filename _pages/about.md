@@ -13,9 +13,6 @@ redirect_from:
 
 ## About Me
 
- <!-- with [A/Prof. Xiangyun Zhou](https://users.cecs.anu.edu.au/~xyzhou/)
-  under [A/Prof. Yi Hong](https://research.monash.edu/en/persons/yi-hong) -->
-
 I'm Milad, originally from [Mamaqan](https://en.wikipedia.org/wiki/Mamqan), a town near Tabriz in northwestern Iran, and now based in Sydney, Australia. I completed my Ph.D. in Electrical Engineering at Monash University and later worked as a Postdoctoral Research Fellow at the Australian National University.
 
 My work sits at the intersection of research, engineering, data science, and software development. In wireless communications, I have worked on physical-layer security, non-terrestrial networks, integrated sensing and communications, MIMO beamforming, reconfigurable intelligent surfaces, and resource allocation for beyond-5G and 6G networks. I draw on signal processing, optimization, and simulation to understand complex systems, evaluate design trade-offs, and develop practical solutions.
@@ -25,8 +22,14 @@ I also work with data analytics, machine learning, and applied AI, with interest
 Alongside technical work, I have taught engineering and computing subjects, supervised student projects, and contributed as a reviewer, technical program committee member, and conference session chair. I value collaboration across disciplines and enjoy connecting analytical thinking with hands-on development. Outside work, I enjoy hiking, swimming, and overthinking my next chess moves.
 
 <div class="about__hero-actions">
-  <a class="btn btn--primary" href="{{ '/contact/' | relative_url }}">Get in touch</a>
-  <a class="btn btn--inverse" href="{{ '/cv-json/' | relative_url }}">View CV</a>
+  <a class="btn btn--primary" href="/contact/">Get in touch</a>
+
+   <!-- <a href="/files/CV_MiladTatarMamaghani.pdf" target="_blank" rel="noopener" class="btn btn--primary">
+    <i class="fas fa-file-pdf"></i>&nbsp; Download Full CV (PDF)
+  </a> -->
+
+  <!-- <a class="btn btn--inverse" href="{{ '/research/' | relative_url }}">View Research</a> -->
+  <a class="btn btn--inverse" href="{{ '/files/CV_MiladTatarMamaghani.pdf' | relative_url }}" download>View CV</a>
 </div>
 
 ## Education
