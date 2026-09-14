@@ -29,7 +29,7 @@ Alongside technical work, I have taught engineering and computing subjects, supe
   </a> -->
 
   <!-- <a class="btn btn--inverse" href="{{ '/research/' | relative_url }}">View Research</a> -->
-  <a class="btn btn--inverse" href="{{ '/files/CV_MiladTatarMamaghani.pdf' | relative_url }}" download>View CV</a>
+  <a class="btn btn--inverse" href="/cv-json/">View CV</a>
 </div>
 
 ## Education
