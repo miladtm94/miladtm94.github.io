@@ -1,20 +1,16 @@
 ---
-layout: null
+layout: single
+title: "Awards"
 permalink: /awards/
-sitemap: false
+author_profile: true
 ---
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Honors and Awards — Experience</title>
-  <link rel="canonical" href="{{ '/experience/' | absolute_url }}#honours-awards">
-  <meta http-equiv="refresh" content="0; url={{ '/experience/' | relative_url }}#honours-awards">
-  <script>
-    window.location.replace({{ '/experience/' | relative_url | jsonify }} + (window.location.hash || '#honours-awards'));
-  </script>
-</head>
-<body>
-  <p>Honors and Awards have moved to <a href="{{ '/experience/' | relative_url }}#honours-awards">Experience</a>.</p>
-</body>
-</html>
+
+<h1 class="page__title">Awards</h1>
+
+<!-- ── AWARDS & SCHOLARSHIPS ──────────────────────────────── -->
+<h2 id="honours-awards" class="anchored-heading" style="scroll-margin-top:3.5em;">Honors &amp; Awards</h2>
+{% include timeline-list.html items=site.data.awards.honours %}
+
+<!-- ── OTHER RECOGNITIONS ─────────────────────────────────── -->
+<h2 id="recognitions" class="anchored-heading" style="scroll-margin-top:3.5em;">Recognitions</h2>
+{% include timeline-list.html items=site.data.awards.recognitions %}
