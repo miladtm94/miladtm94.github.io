@@ -29,7 +29,7 @@
     "description": "MATLAB simulation code for \"Secure Short-Packet Communications via UAV-Enabled Mobile Relaying: Joint Resource Optimization and 3D Trajectory Design\"  \u2014 IEEE TWC 2024",
     "language": "MATLAB",
     "category": "research",
-    "title": "5G UAV Relaying"
+    "title": "5G Mobile Relaying"
   },
   {
     "name": "THz_UUR_MSEE",
@@ -37,7 +37,7 @@
     "description": "Companion simulation code for \"Terahertz meets untrusted UAV-relaying: Minimum secrecy energy efficiency maximization via trajectory and communication co-design\" \u2014 IEEE TVT 2022",
     "language": "MATLAB",
     "category": "research",
-    "title": "Secure THz Communications via Untrusted UAV Relaying"
+    "title": "Terahertz Untrusted Relaying"
   },
   {
     "name": "UAV-PLS-SWIPT-Relay",
