@@ -1,6 +1,6 @@
 [
   {
-    "name":  "Secure ISAC with Deep Reinforcement Learning",
+    "name": "SecureISAC-UAV-DRL",
     "url": "https://github.com/miladtm94/SecureISAC-UAV-DRL",
     "description": "MATLAB simulation code for \"Securing ISAC Against a Mobile Adversary: A Stackelberg Game With DRL\" \u2014 IEEE JSAC 2026",
     "language": "MATLAB",
