@@ -5,7 +5,7 @@
     "description": "MATLAB simulation code for \"Securing ISAC Against a Mobile Adversary: A Stackelberg Game With DRL\" \u2014 IEEE JSAC 2026",
     "language": "MATLAB",
     "category": "research",
-    "title": "Secure ISAC with Deep Reinforcement Learning"
+    "title": "Integrated Sensing and Communications"
   },
   {
     "name": "FBL-FadingChannels-AIL",
@@ -13,7 +13,7 @@
     "description": "MATLAB simulation code for \"Performance Analysis of Finite Blocklength Transmissions Over Wiretap Fading Channels: An Average Information Leakage Perspective\" \u2014 IEEE TWC 2024",
     "language": "MATLAB",
     "category": "research",
-    "title": "Finite-Blocklength Security over Fading Channels"
+    "title": "Short-Packet Communications"
   },
   {
     "name": "UIRS-THz-CovertComm",
@@ -21,7 +21,7 @@
     "description": "MATLAB simulation code for \"Aerial IRS-Enabled THz Covert Communications in B5G IoT\" \u2014 IEEE IOT-J 2022",
     "language": "MATLAB",
     "category": "research",
-    "title": "Aerial IRS-Enabled THz Covert Communications"
+    "title": "Aerial Covert Communications"
   },
   {
     "name": "SPC-UAV-Relay",
@@ -29,7 +29,7 @@
     "description": "MATLAB simulation code for \"Secure Short-Packet Communications via UAV-Enabled Mobile Relaying: Joint Resource Optimization and 3D Trajectory Design\"  \u2014 IEEE TWC 2024",
     "language": "MATLAB",
     "category": "research",
-    "title": "Secure Short-Packet Communications via UAV Relaying"
+    "title": "5G UAV Relaying"
   },
   {
     "name": "THz_UUR_MSEE",
@@ -45,7 +45,7 @@
     "description": "MATLAB simulation code for UAV-enabled secure amplify-and-forward relaying with cooperative jamming and SWIPT \u2014 IEEE Access 2019",
     "language": "MATLAB",
     "category": "research",
-    "title": "Secure UAV Relaying with SWIPT & Cooperative Jamming"
+    "title": "Wireless-Powered Airborne Communications"
   },
   {
     "name": "Investment-Portfolio-Tracker",
@@ -53,7 +53,7 @@
     "description": "InvestIQ: Self-hosted investment portfolio tracker with broker/crypto imports, AUD/USD reporting, tax-aware analytics, live market data, and AI-assisted portfolio insights.",
     "language": "Python",
     "category": "software",
-    "title": "InvestIQ — Portfolio Tracker"
+    "title": "InvestIQ — AI Portfolio Tracker"
   },
   {
     "name": "LynkOo",
@@ -61,7 +61,7 @@
     "description": "LynkOo is a local media manager for Spotify music workflows, X, Instagram, Youtube, direct media files, and yt-dlp-supported public video downloads.",
     "language": "Python",
     "category": "software",
-    "title": "LynkOo — Media Manager"
+    "title": "LynkOo — Local Media Manager"
   },
   {
     "name": "Healthmate-app",
@@ -77,7 +77,7 @@
     "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
     "language": "Python",
     "category": "software",
-    "title": "TradingAgents"
+    "title": "Agentic Trading Framework"
   },
   {
     "name": "Algorithmic-Trading-Engine",
@@ -93,7 +93,7 @@
     "description": "This project implements and benchmarks convolutional neural networks for two image-classification tasks using TensorFlow/Keras.",
     "language": "Python",
     "category": "software",
-    "title": "CNN-Based Image Classification"
+    "title": "Image Classification"
   },
   {
     "name": "FaceRecognition-FaceNet",
@@ -101,6 +101,6 @@
     "description": "A well\u2011structured implementation of face verification and recognition using a pretrained FaceNet model",
     "language": "Python",
     "category": "software",
-    "title": "Face Recognition with FaceNet"
+    "title": "Face Recognition"
   }
 ]
