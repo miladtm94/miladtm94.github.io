@@ -8,7 +8,7 @@
 #   highlights:
 #     - "Impact-focused bullet."
 
-# professional:
+professional:
 #   - title: "Independent Researcher"
 #     type: "Self-employed"
 #     organization: "Mercor AI"
@@ -16,7 +16,6 @@
 #     date: "Jan 2025 &ndash; Present"
 #     highlights:
 #       - "Co‑authored 2+ journal papers on NOMA‑ISAC, physical‑layer anonymous communications, and delay‑Doppler signal processing for ISAC."
-#       - "Developed structured review and evaluation workflows to improve model reasoning capability; achieved quality scores above 95%."
 
 
   - title: "Technical Subject Matter Expert"
