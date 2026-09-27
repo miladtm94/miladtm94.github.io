@@ -20,8 +20,8 @@ professional:
 
   - title: "Technical Subject Matter Expert"
     type: "Contract"
-    organization: "Mercor AI"
-    location: "Sydney, Australia (Remote)"
+    organization: "Mercor AI (Remote)"
+    location: "Sydney, Australia"
     date: "Jan 2025 &ndash; Present"
     highlights:
       - "Designed domain-specific LLM training and evaluation datasets across mathematics, coding, and engineering for frontier AI labs."
@@ -253,10 +253,10 @@ peer_review:
     - name: "2017 IEEE Global Communications Conference: Communication Theory"
 
 memberships:
-  - "IEEE Member (2022&ndash;2025)"
-  - "IEEE Communications Society (2020&ndash;2025)"
-  - "IEEE Young Professionals (2020&ndash;2025)"
-  - "IEEE Consultants Network (2020&ndash;2025)"
+  - "IEEE Member (2023&ndash;2026)"
+  - "IEEE Communications Society (2020&ndash;2026)"
+  - "IEEE Young Professionals (2020&ndash;2026)"
+  - "IEEE Consultants Network (2020&ndash;2026)"
   - "IEEE Graduate Student Member (2020&ndash;2022)"
   - "IEEE Signal Processing Society (2020&ndash;2021)"
   - "IEEE Quantum Community (2020&ndash;2022)"
