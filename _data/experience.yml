@@ -8,98 +8,98 @@
 #   highlights:
 #     - "Impact-focused bullet."
 
-# professional:
-# #   - title: "Independent Researcher"
-# #     type: "Self-employed"
-# #     organization: "Mercor AI"
-# #     location: "Sydney, Australia (Remote)"
-# #     date: "Jan 2025 &ndash; Present"
-# #     highlights:
-# #       - "Co‑authored 2+ journal papers on NOMA‑ISAC, physical‑layer anonymous communications, and delay‑Doppler signal processing for ISAC."
-
-
-#   - title: "Technical Subject Matter Expert"
-#     type: "Contract"
-#     organization: "Mercor AI (Remote)"
-#     location: "Sydney, Australia"
+professional:
+#   - title: "Independent Researcher"
+#     type: "Self-employed"
+#     organization: "Mercor AI"
+#     location: "Sydney, Australia (Remote)"
 #     date: "Jan 2025 &ndash; Present"
 #     highlights:
-#       - "Designed domain-specific LLM training and evaluation datasets across mathematics, coding, and engineering for frontier AI labs."
-#       - "Developed structured review and evaluation workflows to improve model reasoning capability; achieved quality scores above 95%."
+#       - "Co‑authored 2+ journal papers on NOMA‑ISAC, physical‑layer anonymous communications, and delay‑Doppler signal processing for ISAC."
 
 
-#   - title: "ARC Postdoctoral Research Fellow"
-#     type: "Full-time"
-#     organization: "The Australian National University"
-#     location: "Canberra, Australia"
-#     date: "Jan 2023 &ndash; Jan 2025"
-#     highlights:
-#       - "Researched on machine-type communications, physical-layer security, and integrated radar sensing and communications."
-#       - "Proposed novel information‑theoretic performance metrics for information leakage in finite‑blocklength wiretap fading channels."
-#       - "Designed joint resource allocation and 3D UAV‑trajectory algorithms for secure short‑packet aerial relaying systems under propulsion limits."
-#       - "Formulated a game model for ISAC under mobile eavesdropping and developed DRL agents for adaptive trajectory and beamforming control."
-#       - "Published 3 first‑author Q1 IEEE journal articles (1x JSAC, 2x TWC) and 2 conference papers (IEEE ICC 2024, IEEE GLOBECOM 2023)."
-#       - "Received 2 IEEE best‑paper awards (IEEE SPCC‑TC BPA 2024; IEEE ICC BPA 2024 — top 0.6% of 2,364 submissions)."
-
-#   - title: "Doctoral Researcher"
-#     type: "Full-time"
-#     organization: "Monash University"
-#     location: "Melbourne, Australia"
-#     date: "Jan 2019 &ndash; Dec 2022"
-#     highlights:
-#       - "Designed reinforcement learning and mathematical optimisation frameworks for energy‑efficient, secure airborne communications."
-#       - "Formulated and solved problems on aerial beamforming, spatial jamming, and trajectory planning to secure UAV network architectures."
-#       - "Proposed learning‑based system designs for secure MIMO‑UAV relaying, achieving significant performance improvements over baselines."
-#       - "Developed reproducible MATLAB/Python simulations to validate analytical secrecy and reliability models under practical constraints."
-#       - "Published 7 peer-reviewed articles in leading IEEE journals; received 5+ awards, grants, and accolades for research excellence."
-
-#   - title: "Data Quality &amp; Automation Analyst"
-#     type: "Contract"
-#     organization: "Monash University, Office of the Deputy Vice-Chancellor"
-#     location: "Melbourne, Australia"
-#     date: "Oct 2022 &ndash; Dec 2022"
-#     highlights:
-#       - "Audited and validated institutional research data to ensure accuracy, consistency, and compliance with reporting standards."
-#       - "Built Python ETL pipelines integrating a large number of research records from heterogeneous data sources into a unified schema."
-#       - "Developed reusable data‑quality and reporting tools for automated validation and reconciliation checks to support strategic decision making."
-
-#   - title: "Teaching Associate"
-#     type: "Part-time"
-#     organization: "Monash University, Faculty of Engineering"
-#     location: "Melbourne, Australia"
-#     date: "Feb 2019 &ndash; Dec 2022"
-#     highlights:
-#       - "Delivered tutorials and labs across 14 university courses, supporting cohorts of 500+ students each semester."
-#       - "Contributed to curriculum, designed course materials and assessments, coordinated examinations, and mentored students."
-#       - "Supervised engineering design capstone projects for undergraduate and postgraduate students and evaluated presentations."
-#       - "Recognised for teaching excellence; achieved a student satisfaction score of 4.73/5.0, ranking within the top 7.3% of Monash units."
-
-#   - title: "eAssessment Supervisor"
-#     type: "Part-time"
-#     organization: "Monash University, eAssessment &amp; Integrity Services"
-#     location: "Melbourne, Australia"
-#     date: "Feb 2019 &ndash; Dec 2022"
-#     highlights:
-#       - "Supported exam integrity, compliance, and student-facing assessment operations."
-
-#   - title: "Research Assistant"
-#     type: "Part-time"
-#     organization: "Amirkabir University of Technology (Tehran Polytechnic)"
-#     location: "Tehran, Iran"
-#     date: "Jan 2016 &ndash; Nov 2018"
-#     highlights:
-#       - "Derived secrecy outage probability and ergodic rate for wireless‑powered amplify‑and‑forward untrusted relay networks."
-#       - "Designed cooperative‑jamming and wireless‑energy‑harvesting schemes for secure multi‑hop relaying scenarios with sensitivity analysis."
-#       - "Produced two journal articles and one conference paper on secure IoT networks with simultaneous wireless information and power transfer."
+  - title: "Technical Subject Matter Expert"
+    type: "Contract"
+    organization: "Mercor AI (Remote)"
+    location: "Sydney, Australia"
+    date: "Jan 2025 &ndash; Present"
+    highlights:
+      - "Designed domain-specific LLM training and evaluation datasets across mathematics, coding, and engineering for frontier AI labs."
+      - "Developed structured review and evaluation workflows to improve model reasoning capability; achieved quality scores above 95%."
 
 
-#   - title: "Summer Research Intern"
-#     type: "Internship"
-#     organization: "Iran Telecommunication Research Center (ITRC)"
-#     location: "Tehran, Iran"
-#     date: "Jun 2016 &ndash; Sep 2016"
-#     highlights:
-#       - "Worked on healthcare IoT networks; gained hands‑on experience in applied telecommunications and network infrastructure."
+  - title: "ARC Postdoctoral Research Fellow"
+    type: "Full-time"
+    organization: "The Australian National University"
+    location: "Canberra, Australia"
+    date: "Jan 2023 &ndash; Jan 2025"
+    highlights:
+      - "Researched on machine-type communications, physical-layer security, and integrated radar sensing and communications."
+      - "Proposed novel information‑theoretic performance metrics for information leakage in finite‑blocklength wiretap fading channels."
+      - "Designed joint resource allocation and 3D UAV‑trajectory algorithms for secure short‑packet aerial relaying systems under propulsion limits."
+      - "Formulated a game model for ISAC under mobile eavesdropping and developed DRL agents for adaptive trajectory and beamforming control."
+      - "Published 3 first‑author Q1 IEEE journal articles (1x JSAC, 2x TWC) and 2 conference papers (IEEE ICC 2024, IEEE GLOBECOM 2023)."
+      - "Received 2 IEEE best‑paper awards (IEEE SPCC‑TC BPA 2024; IEEE ICC BPA 2024 — top 0.6% of 2,364 submissions)."
+
+  - title: "Doctoral Researcher"
+    type: "Full-time"
+    organization: "Monash University"
+    location: "Melbourne, Australia"
+    date: "Jan 2019 &ndash; Dec 2022"
+    highlights:
+      - "Designed reinforcement learning and mathematical optimisation frameworks for energy‑efficient, secure airborne communications."
+      - "Formulated and solved problems on aerial beamforming, spatial jamming, and trajectory planning to secure UAV network architectures."
+      - "Proposed learning‑based system designs for secure MIMO‑UAV relaying, achieving significant performance improvements over baselines."
+      - "Developed reproducible MATLAB/Python simulations to validate analytical secrecy and reliability models under practical constraints."
+      - "Published 7 peer-reviewed articles in leading IEEE journals; received 5+ awards, grants, and accolades for research excellence."
+
+  - title: "Data Quality &amp; Automation Analyst"
+    type: "Contract"
+    organization: "Monash University, Office of the Deputy Vice-Chancellor"
+    location: "Melbourne, Australia"
+    date: "Oct 2022 &ndash; Dec 2022"
+    highlights:
+      - "Audited and validated institutional research data to ensure accuracy, consistency, and compliance with reporting standards."
+      - "Built Python ETL pipelines integrating a large number of research records from heterogeneous data sources into a unified schema."
+      - "Developed reusable data‑quality and reporting tools for automated validation and reconciliation checks to support strategic decision making."
+
+  - title: "Teaching Associate"
+    type: "Part-time"
+    organization: "Monash University, Faculty of Engineering"
+    location: "Melbourne, Australia"
+    date: "Feb 2019 &ndash; Dec 2022"
+    highlights:
+      - "Delivered tutorials and labs across 14 university courses, supporting cohorts of 500+ students each semester."
+      - "Contributed to curriculum, designed course materials and assessments, coordinated examinations, and mentored students."
+      - "Supervised engineering design capstone projects for undergraduate and postgraduate students and evaluated presentations."
+      - "Recognised for teaching excellence; achieved a student satisfaction score of 4.73/5.0, ranking within the top 7.3% of Monash units."
+
+  - title: "eAssessment Supervisor"
+    type: "Part-time"
+    organization: "Monash University, eAssessment &amp; Integrity Services"
+    location: "Melbourne, Australia"
+    date: "Feb 2019 &ndash; Dec 2022"
+    highlights:
+      - "Supported exam integrity, compliance, and student-facing assessment operations."
+
+  - title: "Research Assistant"
+    type: "Part-time"
+    organization: "Amirkabir University of Technology (Tehran Polytechnic)"
+    location: "Tehran, Iran"
+    date: "Jan 2016 &ndash; Nov 2018"
+    highlights:
+      - "Derived secrecy outage probability and ergodic rate for wireless‑powered amplify‑and‑forward untrusted relay networks."
+      - "Designed cooperative‑jamming and wireless‑energy‑harvesting schemes for secure multi‑hop relaying scenarios with sensitivity analysis."
+      - "Produced two journal articles and one conference paper on secure IoT networks with simultaneous wireless information and power transfer."
+
+
+  - title: "Summer Research Intern"
+    type: "Internship"
+    organization: "Iran Telecommunication Research Center (ITRC)"
+    location: "Tehran, Iran"
+    date: "Jun 2016 &ndash; Sep 2016"
+    highlights:
+      - "Worked on healthcare IoT networks; gained hands‑on experience in applied telecommunications and network infrastructure."
 
 teaching:
   - organization: "Monash University"
