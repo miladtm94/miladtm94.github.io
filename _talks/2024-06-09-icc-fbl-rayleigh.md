@@ -1,5 +1,5 @@
 ---
-title: "On the Average Information Leakage of Finite Blocklength Transmissions over Rayleigh Fading Channels"
+title: "On the Information Leakage Performance of Secure Finite Blocklength Transmissions over Rayleigh Fading Channels"
 collection: talks
 type: "Conference presentation"
 permalink: /talks/2024-icc-fbl-rayleigh

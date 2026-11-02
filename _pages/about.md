@@ -116,7 +116,7 @@ Alongside technical work, I have taught engineering and computing subjects, supe
       <span class="about__pub-year">Jun 2024</span>
       <span class="about__pub-award">Best Paper</span>
     </div>
-    <div class="about__pub-title"><a href="{{ '/publication/icc-fbl-rayleigh' | relative_url }}">On the Average Information Leakage of Finite Blocklength Transmissions over Rayleigh Fading Channels</a></div>
+    <div class="about__pub-title"><a href="{{ '/publication/icc-fbl-rayleigh' | relative_url }}">On the Information Leakage Performance of Secure Finite Blocklength Transmissions over Rayleigh Fading Channels</a></div>
     <div class="about__pub-impact">IEEE ICC Best Paper Award — top 0.6% of 2,364 submissions. Introduces average information leakage as a new FBL security metric over fading channels.</div>
   </div>
 
@@ -209,6 +209,9 @@ Alongside technical work, I have taught engineering and computing subjects, supe
 ## News
 
 <div class="about__news">
+<p class="about__news-item"><span class="about__news-date">Nov 2026</span><br>
+🎉 Our paper on physical-layer anonymous communications accepted to <strong>IEEE TCOM</strong>.</p>
+
 <p class="about__news-item"><span class="about__news-date">Jun 2026</span><br>
 📚 Our new work on ISAC submitted to <strong>IEEE TWC</strong>.</p>
 

@@ -33,6 +33,10 @@ push:
 		exit 1; \
 	fi
 	git -C "$(SITE_DIR)" pull --rebase
+	@if git -C "$(SITE_DIR)" grep -nE '^(<<<<<<<|>>>>>>>) ' -- . ':(exclude)_site' ':(exclude)_data/comments'; then \
+		echo "Unresolved merge conflict markers found above — fix them before pushing."; \
+		exit 1; \
+	fi
 	git -C "$(SITE_DIR)" add -A
 	git -C "$(SITE_DIR)" commit -m "$(MSG)" || echo "Nothing new to commit."
 	git -C "$(SITE_DIR)" push
