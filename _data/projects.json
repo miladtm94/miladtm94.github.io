@@ -74,10 +74,10 @@
   {
     "name": "TradingAgents",
     "url": "https://github.com/miladtm94/TradingAgents",
-    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+    "description": "Local research console I built on the open-source TradingAgents multi-agent LLM framework: configure analyst teams and models, stream agent reports live with cost tracking, resume interrupted runs, backtest decisions over ticker/date grids, decide against your own holdings, and run on a Claude plan via Claude Code.",
     "language": "Python",
     "category": "software",
-    "title": "Agentic Trading Framework"
+    "title": "SignalDesk — Agentic Trading Research Console"
   },
   {
     "name": "Algorithmic-Trading-Engine",
