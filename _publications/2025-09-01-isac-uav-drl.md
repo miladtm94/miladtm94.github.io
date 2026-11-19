@@ -10,6 +10,7 @@ doiurl: "https://doi.org/10.1109/JSAC.2025.3611404"
 paperurl: "https://drive.google.com/file/d/1f0Ulx9UEFze76dstoLLHwutyX1IaEOwk/view?usp=drive_link"
 arxivurl: "https://arxiv.org/abs/2501.02271"
 codeurl: "https://github.com/miladtm94/SecureISAC-UAV-DRL"
+slidesurl: "https://drive.google.com/file/d/1YnwQ0B8GFMVNEh6UyvEsAq6HPdJfEUl1/view?usp=drive_link"
 citation: '<strong>M. Tatar Mamaghani</strong>, X. Zhou, N. Yang, and A. L. Swindlehurst, "Securing integrated sensing and communication against a mobile adversary: A Stackelberg game with deep reinforcement learning," <em>IEEE J. Sel. Areas Commun.</em>, vol. 44, pp. 942&ndash;958, Sep. 2025.'
 ---
 
